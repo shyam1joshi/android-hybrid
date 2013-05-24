@@ -1,0 +1,11 @@
+/**
+ Exposes methods to GET table name as per in POJO Class Annotation by application.
+ */
+public @interface Table {
+
+	/**
+	 Get table name.
+	*/
+	public String tableName();
+
+}

@@ -1,0 +1,93 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\chapter {\Large{Event Notifiers}}
+
+Siminov framework provides few event notifiers which gets triggered based on particular action. Application have to provide implementation for these event notifiers and register them with Siminov.
+
+\section{ISiminov Events} It provide API's related to life cycle of Siminov framework
+
+		\par
+		\textbf{Example:} ISiminov Events Notifier
+			\lstinputlisting[language=Java]{Resources/isiminov_events_notifier.txt}
+
+
+		\begin{enumerate}
+
+			\item \small \textbf{First Time Siminov Initialized - firstTimSiminovInitialized()}: It is triggered when Siminov is initialized for first time. In this you can perform tasks which are related to initialization of things only first time of application starts.
+
+					\par
+					\textbf{Example:}
+	
+					\par
+					 Preparing initial data for application, which is required by application in its life time, Since it is to be done only once, therefore we will use firstTimeSiminovInitialized API.
+					\lstinputlisting[language=Java]{Resources/siminov_template_application_first_time_siminov_initialized_event_notifier_example.txt}	
+		
+			
+					\begin{center}
+						\colorbox{grey}{
+						\parbox[t]{.8\linewidth}{
+							\fontsize{11pt}{11pt}\selectfont % The first argument for fontsize is the font size of the text and the second is the line spacing - you may need to play with these for your particular title
+							\vspace*{0.1cm} % Space between the start of the title and the top of the grey box
+		
+							\hfill \textbf{Note} \\
+							This API will be triggered only once when Siminov is initialized first time.
+				
+							\vspace*{0.0cm} % Space between the end of the title and the bottom of the grey box
+						}
+					}
+
+					\end{center}
+
+
+			\item \small \textbf{Siminov Initialized - siminovInitialized()}: It is triggered whenever Siminov is initialized. 
+
+					\begin{center}
+						\colorbox{grey}{
+						\parbox[t]{.8\linewidth}{
+							\fontsize{11pt}{11pt}\selectfont % The first argument for fontsize is the font size of the text and the second is the line spacing - you may need to play with these for your particular title
+							\vspace*{0.1cm} % Space between the start of the title and the top of the grey box
+		
+							\hfill \textbf{Note} \\
+								This doesnot gets triggered when Siminov is first time initialized, instead of this firstTimeSiminovInitialized APIwill be triggered.
+
+							\vspace*{0.0cm} % Space between the end of the title and the bottom of the grey box
+						}
+					}
+
+					\end{center}
+
+		
+			\item \small \textbf{Siminov Stopped - siminovStopped()}: It is triggered when Siminov is shutdown.
+
+
+		\end{enumerate}
+
+
+
+\section{IDatabaseEvents} It provide API's related to database operations.
+
+
+		\par
+		\textbf{Example:} IDatabaseEvents Notifier
+			\lstinputlisting[language=Java]{Resources/idatabase_events_notifier.txt}
+
+
+		\begin{enumerate}
+
+			\item \small \textbf{Database Created - databaseCreated(DatabaseDescriptor)}: It is triggered when database is created based on schema defined in DatabaseDescriptor.si.xml file. This API provides DatabaseDescriptor object for which database is created.
+
+			\item \small \textbf{Database Dropped - databaseDropped(DatabaseDescriptor)}: It is triggered when database is dropped. This API provides DatabaseDescriptor object for which database is dropped.
+
+
+			\item \small \textbf{Table Created - tableCreated(DatabaseMappingDescriptor)}: It is triggered when a table is created in database. This API provides DatabaseMappingDescriptor object which describes table structure.
+
+
+			\item \small \textbf{Table Dropped - tableDropped(DatabaseMappingDescriptor)}: It is triggered when a table is deleted from database. This API provides DatabaseMappingDescriptor object for which table is dropped.
+
+
+			\item \small \textbf{Index Created - indexCreated(DatabaseMappingDescriptor, Index)}: It is triggered when a index is created on table. This API provides DatabaseMappingDescriptor and Index object which defines table and index structure.
+
+			
+			\item \small \textbf{Index Dropped - indexDropped(DatabaseMappingDescriptor, Index)}: It is triggered when a index is dropped from table. This API provides DatabaseMappingDescriptor and Index object which defines table and index for which index is dropped.
+
+		\end{enumerate}

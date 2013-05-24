@@ -1,0 +1,7 @@
+	DatabaseMapping databaseMapping = new Liquor().getDatabaseMapping();
+	
+	try {
+		Database.dropTable(databaseMapping);
+	} catch(DatabaseException databaseException) {
+		//Log It.
+	}

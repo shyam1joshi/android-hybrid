@@ -1,0 +1,37 @@
+				<!-- Design Of ApplicationDescriptor.si.xml -->
+
+<siminov>
+    
+	<!-- General Application Description Properties -->	
+		<!-- Mandatory Field -->
+	<property name="name">application_name</property>	
+	
+		<!-- Optional Field -->
+	<property name="description">application_description</property>
+	
+		<!-- Mandatory Field (Default is 0.0) -->
+	<property name="version">application_version</property>
+
+
+
+	<!-- Siminov Framework Performance Properties -->	
+		<!-- Optional Field (Default is true)-->
+	<property name="load_initially">true/false</property>
+
+
+
+	<!-- Database Descriptors Used By Application (zero-to-many) -->	
+		<!-- Optional Field's -->
+	<database-descriptors>
+		<database-descriptor>full_path_of_database_descriptor_file</database-descriptor>
+	</database-descriptors>
+	
+
+
+	<!-- Event Handlers Implemented By Application (zero-to-many) -->	
+		<!-- Optional Field's -->
+	<event-handlers>
+		<event-handler>full_class_path_of_event_handler_(ICoreHandler/IDatabaseHandler)</event-handler>
+	</event-handlers>
+
+</siminov>

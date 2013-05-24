@@ -1,0 +1,9 @@
+public interface ISiminovEvents {
+
+	public void firstTimeSiminovInitialized();
+
+	public void siminovInitialized();
+
+	public void siminovStopped();
+	
+}

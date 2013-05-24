@@ -1,0 +1,1 @@
+	public static final void dropDatabase(final DatabaseDescriptor databaseDescriptor) throws DatabaseException;

@@ -1,0 +1,21 @@
+		<!-- Design Of LibraryDescriptor.si.xml -->
+
+<library>
+
+    <!-- General Library Properties -->
+    		<!-- Mandatory Field -->
+	<property name="name">name_of_library</property>
+	
+		<!-- Optional Field -->
+	<property name="description">description_of_library</property>
+
+	
+	
+	<!-- Database Mapping Descriptor Paths Needed Under This Library Descriptor -->	
+		<!-- Optional Field -->
+	<database-mappings>
+		<database-mapping path="full_path_of_database_mapping_descriptor_file" />
+	</database-mappings>
+	 
+</library>
+

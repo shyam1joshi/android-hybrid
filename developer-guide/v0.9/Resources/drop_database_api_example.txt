@@ -1,0 +1,8 @@
+	DatabaseDescriptor databaseDescriptor = new Liquor().getDatabaseDescriptor();
+	
+	try {
+		Database.dropDatabase(databaseDescriptor);
+	} catch(DatabaseException databaseException) {
+		//Log It.
+	}
+

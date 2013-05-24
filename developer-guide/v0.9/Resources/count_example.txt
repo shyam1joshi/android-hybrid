@@ -1,0 +1,10 @@
+	int count = 0;
+	
+	try {
+		count = new Liquor().count().
+					.where(Liquor.LIQUOR_TYPE).equalTo("RUM")
+					.execute();
+		
+	} catch(DatabaseException de) {
+		//Log it.
+	}

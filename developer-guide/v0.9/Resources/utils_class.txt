@@ -1,0 +1,37 @@
+/**
+ Exposes utility methods which can be used by both SIMINOV/Application. 
+ */
+public class Utils {
+
+	/**
+	 Get string from input stream.
+	*/
+	public static final String getString(final InputStream inputStream) throws SiminovException;
+
+
+	/**
+	 Get input stream from string.
+	*/
+	public static final InputStream getInputStream(final String string) throws SiminovException;
+
+	/**
+	 Get input stream from string.
+	*/
+	public static final InputStream getInputStream(final byte[] bytes) throws SiminovException;
+
+	/**
+	 Get generated unique id.	
+	*/
+	public static final Long generateUniqueId();
+
+	/**
+	 Check weather application is running on emulator or not.
+	*/
+	public static boolean isEmulator();
+
+	/**
+	 Check weather device have network coverage or not.
+	*/
+	public static boolean hasCoverage();
+
+}

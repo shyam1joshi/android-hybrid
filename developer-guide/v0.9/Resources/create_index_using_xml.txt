@@ -1,0 +1,12 @@
+<database-mapping>
+
+	<table table_name="LIQUOR" class_name="siminov.orm.template.model.Liquor">
+
+		<index name="LIQUOR_INDEX_BASED_ON_LINK" unique="true">
+			<column>HISTORY</column>
+		</index>
+									
+	</table>
+
+</database-mapping>		
+			

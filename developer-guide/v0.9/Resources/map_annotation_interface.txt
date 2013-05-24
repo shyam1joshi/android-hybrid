@@ -1,0 +1,16 @@
+/**
+ Exposes methods to GET Map properties as per in POJO Class Annotation by application.
+ */
+public @interface Map {
+
+	/**
+	 Get map to name.
+	*/
+	public String mapTo();
+
+	/**
+	 Get properties.
+	*/
+	public Property[] properties() default;
+
+}

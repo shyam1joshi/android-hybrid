@@ -1,0 +1,12 @@
+	int maximum = 0;
+	
+	try {
+		maximum = new Liquor().max()
+					.column(Liquor.COLUMN_NAME_WHICH_CONTAIN_NUMBRIC_VALUE)
+					.where(Liquor.LIQUOR_TYPE).equalTo("RUM")
+					.execute();
+		
+	} catch(DatabaseException de) {
+		//Log it.
+	}
+	

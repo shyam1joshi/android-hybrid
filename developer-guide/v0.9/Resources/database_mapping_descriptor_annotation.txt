@@ -1,0 +1,35 @@
+@Table(tableName="name_of_table")
+@Indexes({
+	@Index(name="name_of_index", unique="true/false", value={
+		@IndexColumn(column="column_name_needs_to_add")
+	}), 
+})
+public class DatabaseMappingDescriptor {
+
+	@Column(columnName="column_name_of_table",
+			properties={
+				@Property(name="primary_key", value="true/false"),
+				@Property(name="not_null", value="true/false"), 
+				@Property(name="unique", value="true/false")
+				@Property(name="check", value="condition_to_be_checked (Eg: variable_name 'condition' value; variable_name > 0)")
+				@Property(name="default", value="default_value_of_column (Eg: 0.1)")
+				})
+	@OneToOne(onUpdate="cascade/restrict/no_action/set_null/set_default", onDelete="cascade/restrict/no_action/set_null/set_default", 
+	properties={
+		@RelationshipProperty(name=RelationshipProperty.LOAD, value="true")
+		})
+	@OneToMany(onUpdate="cascade/restrict/no_action/set_null/set_default", onDelete="cascade/restrict/no_action/set_null/set_default", 
+	properties={
+		@RelationshipProperty(name=RelationshipProperty.LOAD, value="true")
+		})
+	@ManyToOne(onUpdate="cascade/restrict/no_action/set_null/set_default", onDelete="cascade/restrict/no_action/set_null/set_default", 
+	properties={
+		@RelationshipProperty(name=RelationshipProperty.LOAD, value="true")
+		})
+	@ManyToMany(onUpdate="cascade/restrict/no_action/set_null/set_default", onDelete="cascade/restrict/no_action/set_null/set_default", 
+	properties={
+		@RelationshipProperty(name=RelationshipProperty.LOAD, value="true")
+		})
+	private String variableName = null;
+	
+}

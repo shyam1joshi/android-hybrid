@@ -1,0 +1,67 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\chapter {\Large{Database Layer}}
+
+Database is the most important part of Siminov ORM. It provides an easy way to implement your own database layer, all you have to do is provide implementation for below interface's. 
+
+\section{IDatabase Interface}
+Exposes methods to deal with actual database object. It has methods to open, create, close, and execute query's. 
+
+\lstinputlisting[language=Java]{Resources/idatabase_interface.txt}
+
+
+\begin{enumerate}
+
+	\item \small \textbf{Open Or Create - openOrCreate(Path)}: Open/Create the database through Database Descriptor. By default add CREATE\_IF\_NECESSARY flag so that if database does not exist it will create.
+
+		\textbf{Example}: 
+			\lstinputlisting[language=Java]{Resources/idatabase_open_or_create_api_example.txt}
+
+
+	\item \small \textbf{Close - close()}: Close the existing opened database through Database Descriptor.
+
+		\textbf{Example}: 
+			\lstinputlisting[language=Java]{Resources/idatabase_close_api_example.txt}
+
+	\item \small \textbf{Execute Query - executeQuery(Query)}: Execute a single SQL statement that is NOT a SELECT or any other SQL statement that returns data. It has no means to return any data (such as the number of affected rows). Instead, you're encouraged to use insert, update, delete, when possible. 
+	
+		\textbf{Example}: 
+			\lstinputlisting[language=Java]{Resources/idatabase_execute_query_api_example.txt}
+
+	\item \small \textbf{Execute Bind Query - executeBindQuery(Query, Column Values)}: A pre-compiled statement that can be reused. The statement cannot return multiple rows, but 1x1 result sets are allowed.
+ 
+		\textbf{Example}: 
+			\lstinputlisting[language=Java]{Resources/idatabase_execute_bind_query_api_example.txt}
+
+	\item \small \textbf{Execute Fetch Query - executeFetchQuery(Query)}: Query the given table, returning a Cursor over the result set.
+
+		\textbf{Example}: 
+			\lstinputlisting[language=Java]{Resources/idatabase_execute_fetch_query_api_example.txt}
+
+	\item \small \textbf{Execute Method - executeMethod(Method Name, Parameters)}: Executes the method on database object.
+
+		\textbf{Example}: 
+			\lstinputlisting[language=Java]{Resources/idatabase_execute_method_api_example.txt}
+
+\end{enumerate}
+
+
+\section{IDataTypeHandler}
+Exposes convert API which is responsible to provide column data type based on java variable data type.
+
+\lstinputlisting[language=Java]{Resources/idatatypehandler_interface.txt}
+
+
+\begin{enumerate}
+	
+	\item \small \textbf{Convert Data Type - convert()}: Converts java variable data type to database column data type.
+
+\end{enumerate}
+
+
+\section{IQueryBuilder}
+Exposes API's to build database queries.
+
+\lstinputlisting[language=Java]{Resources/iquerybuilder_interface.txt}
+
+

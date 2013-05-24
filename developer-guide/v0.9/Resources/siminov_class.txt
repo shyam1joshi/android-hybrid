@@ -1,0 +1,36 @@
+/**
+ Exposes methods to deal with SIMINOV FRAMEWORK.
+ Such As
+ 	1. Initialize: Entry point to the SIMINOV.
+ 	2. Shutdown: Exit point from the SIMINOV.
+ */
+public class Siminov {
+
+	/**
+	 It is used to check weather SIMINOV FRAMEWORK is active or not.
+	 SIMINOV become active only when deployment of application is successful.
+	 */
+public static final void validateCore();
+
+
+	/**
+	 It is the entry point to the SIMINOV FRAMEWORK. 
+When application starts it should call this method to activate SIMINOV-FRAMEWORK, by providing ApplicationContext as the parameter.
+
+Siminov will read all descriptor defined by application, and do necessary processing. 
+	 	
+There are two ways to make a call.
+	 		1. Call it from Application class.
+2. Call it from LAUNCHER Activity.
+	 */
+	public static final void initialize(final Context context);
+
+	/**
+	 It is used to stop all service started by SIMINOV.
+	 When application shutdown they should call this. It do following services: 
+	 Close all database's opened by SIMINOV.
+	 Deallocate all resources held by SIMINOV.
+	*/
+	public static final void shutdown() throws CoreException;
+
+}

@@ -1,0 +1,26 @@
+/**
+ Exposes methods to GET Reference properties as per in POJO Class Annotation by application.
+ */
+public @interface Reference {
+
+	/**
+	 Get map to.
+	*/
+	public String mapTo();
+
+	/**
+	 Get refer to.
+	*/
+	public String referTo();
+
+	/**
+	 Get on update.	
+	*/
+	public String onUpdate();
+
+	/**
+	 Get on delete.
+	*/
+	public String onDelete();
+
+}

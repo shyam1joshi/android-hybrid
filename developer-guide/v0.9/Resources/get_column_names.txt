@@ -1,0 +1,1 @@
+	public final Iterator<String> getColumnNames() throws DatabaseException;

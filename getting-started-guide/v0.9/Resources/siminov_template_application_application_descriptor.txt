@@ -1,0 +1,21 @@
+<siminov>
+
+	<property name="name">SIMINOV TEMPLATE</property>	
+	<property name="description">Siminov Template Application</property>
+	<property name="version">0.9</property>
+
+	<property name="load_initially">true</property>
+
+	<!-- DATABASE-DESCRIPTORS -->
+	<database-descriptors>
+		<database-descriptor>DatabaseDescriptor.si.xml</database-descriptor>
+	</database-descriptors>
+
+	
+	<!-- SIMINOV EVENTS -->
+	<event-handlers>
+	    <event-handler>siminov.orm.template.events.SiminovEventHandler</event-handler>
+	    <event-handler>siminov.orm.template.events.DatabaseEventHandler</event-handler>
+	</event-handlers>
+		
+</siminov>

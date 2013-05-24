@@ -1,0 +1,103 @@
+\BOOKMARK [0][-]{chapter*.1}{Preface}{}% 1
+\BOOKMARK [1][-]{section.0.1}{Get Involved}{chapter*.1}% 2
+\BOOKMARK [1][-]{section.0.2}{Getting Started Guide}{chapter*.1}% 3
+\BOOKMARK [0][-]{chapter.1}{Overview}{}% 4
+\BOOKMARK [1][-]{section.1.1}{Features}{chapter.1}% 5
+\BOOKMARK [0][-]{chapter.2}{Configuration}{}% 6
+\BOOKMARK [1][-]{section.2.1}{Application Descriptor \(ApplicationDescriptor.si.xml\) Configuration}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.2}{Database Descriptor \(DatabaseDescriptor.si.xml\) Configuration}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.3}{Library Descriptor \(LibraryDescriptor.si.xml\) Configuration}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.4}{Database Mapping Descriptor \(DatabaseMappingDescriptor.si.xml\) Configuration}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.5}{Database Mapping Descriptor Through Annotation}{chapter.2}% 11
+\BOOKMARK [0][-]{chapter.3}{Siminov Initialization}{}% 12
+\BOOKMARK [1][-]{section.3.1}{Initializating Siminov}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.2}{Lazy Initialization VS Initial Initialization}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.3}{Handling Multiple Schema's}{chapter.3}% 15
+\BOOKMARK [0][-]{chapter.4}{Event Notifiers}{}% 16
+\BOOKMARK [1][-]{section.4.1}{ISiminov Events}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.2}{IDatabaseEvents}{chapter.4}% 18
+\BOOKMARK [0][-]{chapter.5}{Database API's}{}% 19
+\BOOKMARK [1][-]{section.5.1}{Data Types}{chapter.5}% 20
+\BOOKMARK [1][-]{section.5.2}{Database API's}{chapter.5}% 21
+\BOOKMARK [2][-]{subsection.5.2.1}{Create Database}{section.5.2}% 22
+\BOOKMARK [2][-]{subsection.5.2.2}{Drop Database}{section.5.2}% 23
+\BOOKMARK [2][-]{subsection.5.2.3}{Create Table}{section.5.2}% 24
+\BOOKMARK [2][-]{subsection.5.2.4}{Drop Table}{section.5.2}% 25
+\BOOKMARK [2][-]{subsection.5.2.5}{Create Index}{section.5.2}% 26
+\BOOKMARK [2][-]{subsection.5.2.6}{Drop Index}{section.5.2}% 27
+\BOOKMARK [2][-]{subsection.5.2.7}{Select}{section.5.2}% 28
+\BOOKMARK [2][-]{subsection.5.2.8}{Save}{section.5.2}% 29
+\BOOKMARK [2][-]{subsection.5.2.9}{Update}{section.5.2}% 30
+\BOOKMARK [2][-]{subsection.5.2.10}{Save Or Update}{section.5.2}% 31
+\BOOKMARK [2][-]{subsection.5.2.11}{Delete}{section.5.2}% 32
+\BOOKMARK [1][-]{section.5.3}{Database Siminov API's}{chapter.5}% 33
+\BOOKMARK [2][-]{subsection.5.3.1}{Get Database Descriptor}{section.5.3}% 34
+\BOOKMARK [2][-]{subsection.5.3.2}{Get Database Mapping Descriptor}{section.5.3}% 35
+\BOOKMARK [2][-]{subsection.5.3.3}{Get Table Name}{section.5.3}% 36
+\BOOKMARK [2][-]{subsection.5.3.4}{Get Column Names}{section.5.3}% 37
+\BOOKMARK [2][-]{subsection.5.3.5}{Get Column Values}{section.5.3}% 38
+\BOOKMARK [2][-]{subsection.5.3.6}{Get Column Types}{section.5.3}% 39
+\BOOKMARK [2][-]{subsection.5.3.7}{Get Primary Keys}{section.5.3}% 40
+\BOOKMARK [2][-]{subsection.5.3.8}{Get Mandatory Fields}{section.5.3}% 41
+\BOOKMARK [2][-]{subsection.5.3.9}{Get Unique Fields}{section.5.3}% 42
+\BOOKMARK [2][-]{subsection.5.3.10}{Get Foreign Keys}{section.5.3}% 43
+\BOOKMARK [1][-]{section.5.4}{Database Aggregation API's}{chapter.5}% 44
+\BOOKMARK [2][-]{subsection.5.4.1}{Count}{section.5.4}% 45
+\BOOKMARK [2][-]{subsection.5.4.2}{Average}{section.5.4}% 46
+\BOOKMARK [2][-]{subsection.5.4.3}{Sum}{section.5.4}% 47
+\BOOKMARK [2][-]{subsection.5.4.4}{Total}{section.5.4}% 48
+\BOOKMARK [2][-]{subsection.5.4.5}{Minimum}{section.5.4}% 49
+\BOOKMARK [2][-]{subsection.5.4.6}{Maximum}{section.5.4}% 50
+\BOOKMARK [2][-]{subsection.5.4.7}{Group Concat}{section.5.4}% 51
+\BOOKMARK [1][-]{section.5.5}{Database Transaction API's}{chapter.5}% 52
+\BOOKMARK [2][-]{subsection.5.5.1}{Begin Transaction}{section.5.5}% 53
+\BOOKMARK [2][-]{subsection.5.5.2}{Commit Transaction}{section.5.5}% 54
+\BOOKMARK [2][-]{subsection.5.5.3}{End Transaction}{section.5.5}% 55
+\BOOKMARK [1][-]{section.5.6}{Making Transaction Thread Safe}{chapter.5}% 56
+\BOOKMARK [1][-]{section.5.7}{Preparing Where Clause}{chapter.5}% 57
+\BOOKMARK [1][-]{section.5.8}{Handling Database Relationships}{chapter.5}% 58
+\BOOKMARK [2][-]{subsection.5.8.1}{One to One}{section.5.8}% 59
+\BOOKMARK [2][-]{subsection.5.8.2}{One to Many}{section.5.8}% 60
+\BOOKMARK [2][-]{subsection.5.8.3}{Many to One}{section.5.8}% 61
+\BOOKMARK [2][-]{subsection.5.8.4}{Many to Many}{section.5.8}% 62
+\BOOKMARK [0][-]{chapter.6}{Database Encryption}{}% 63
+\BOOKMARK [1][-]{section.6.1}{SQLCipher}{chapter.6}% 64
+\BOOKMARK [0][-]{chapter.7}{Database Layer}{}% 65
+\BOOKMARK [1][-]{section.7.1}{IDatabase Interface}{chapter.7}% 66
+\BOOKMARK [1][-]{section.7.2}{IDataTypeHandler}{chapter.7}% 67
+\BOOKMARK [1][-]{section.7.3}{IQueryBuilder}{chapter.7}% 68
+\BOOKMARK [0][-]{chapter.8}{Handling Libraries}{}% 69
+\BOOKMARK [1][-]{section.8.1}{Setting up a Library Project}{chapter.8}% 70
+\BOOKMARK [1][-]{section.8.2}{Referencing a library project}{chapter.8}% 71
+\BOOKMARK [1][-]{section.8.3}{Configure Application With Library}{chapter.8}% 72
+\BOOKMARK [0][-]{chapter.9}{Siminov ORM Architecture}{}% 73
+\BOOKMARK [1][-]{section.9.1}{Deployment Layer}{chapter.9}% 74
+\BOOKMARK [2][-]{subsection.9.1.1}{siminov.orm.Siminov}{section.9.1}% 75
+\BOOKMARK [1][-]{section.9.2}{Resources Layer}{chapter.9}% 76
+\BOOKMARK [2][-]{subsection.9.2.1}{siminov.orm.Resources}{section.9.2}% 77
+\BOOKMARK [1][-]{section.9.3}{Database Layer}{chapter.9}% 78
+\BOOKMARK [2][-]{subsection.9.3.1}{siminov.orm.database.Database}{section.9.3}% 79
+\BOOKMARK [1][-]{section.9.4}{Model and Annotation Layer}{chapter.9}% 80
+\BOOKMARK [2][-]{subsection.9.4.1}{siminov.orm.model.ApplicationDescriptor}{section.9.4}% 81
+\BOOKMARK [2][-]{subsection.9.4.2}{siminov.orm.model.DatabaseDescriptor}{section.9.4}% 82
+\BOOKMARK [2][-]{subsection.9.4.3}{siminov.orm.model.LibraryDescriptor}{section.9.4}% 83
+\BOOKMARK [2][-]{subsection.9.4.4}{siminov.orm.model.DatabaseMappingDescriptor}{section.9.4}% 84
+\BOOKMARK [2][-]{subsection.9.4.5}{siminov.orm.annotation.Table}{section.9.4}% 85
+\BOOKMARK [2][-]{subsection.9.4.6}{siminov.orm.annotation.Column}{section.9.4}% 86
+\BOOKMARK [2][-]{subsection.9.4.7}{siminov.orm.annotation.Property}{section.9.4}% 87
+\BOOKMARK [2][-]{subsection.9.4.8}{siminov.orm.annotation.Index}{section.9.4}% 88
+\BOOKMARK [2][-]{subsection.9.4.9}{siminov.orm.annotation.IndexColumn}{section.9.4}% 89
+\BOOKMARK [2][-]{subsection.9.4.10}{siminov.orm.annotation.Indexes}{section.9.4}% 90
+\BOOKMARK [2][-]{subsection.9.4.11}{siminov.orm.annotation.Reference}{section.9.4}% 91
+\BOOKMARK [2][-]{subsection.9.4.12}{siminov.orm.annotation.Map}{section.9.4}% 92
+\BOOKMARK [1][-]{section.9.5}{Parsers Layer}{chapter.9}% 93
+\BOOKMARK [2][-]{subsection.9.5.1}{siminov.orm.parsers.ApplicationDescriptorParser}{section.9.5}% 94
+\BOOKMARK [2][-]{subsection.9.5.2}{siminov.orm.parsers.DatabaseDescriptorParser}{section.9.5}% 95
+\BOOKMARK [2][-]{subsection.9.5.3}{siminov.orm.parsers.LibraryDescriptorParser}{section.9.5}% 96
+\BOOKMARK [2][-]{subsection.9.5.4}{siminov.orm.parsers.DatabaseMappingDescriptor}{section.9.5}% 97
+\BOOKMARK [1][-]{section.9.6}{Utils Layer}{chapter.9}% 98
+\BOOKMARK [2][-]{subsection.9.6.1}{siminov.orm.utils.Utils}{section.9.6}% 99
+\BOOKMARK [0][-]{chapter.10}{Exceptions}{}% 100
+\BOOKMARK [1][-]{section.10.1}{Siminov Exception}{chapter.10}% 101
+\BOOKMARK [1][-]{section.10.2}{Deployment Exception}{chapter.10}% 102
+\BOOKMARK [1][-]{section.10.3}{Database Exception}{chapter.10}% 103

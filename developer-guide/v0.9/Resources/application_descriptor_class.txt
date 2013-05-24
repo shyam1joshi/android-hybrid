@@ -1,0 +1,80 @@
+/**
+ Exposes methods to GET and SET Application Descriptor information as per define in ApplicationDescriptor.si.xml file by application.
+*/
+public final class ApplicationDescriptor {
+
+	/**
+	 Get Application Descriptor Name as per defined in ApplicationDescriptor.si.xml file.
+	*/
+	public String getName();
+
+	/**
+	 Set Description of Application as per defined in ApplicationDescriptor.si.xml file.
+	*/
+	public String getDescription();
+
+	/**
+	 Get Version of Application as per defined in ApplicationDescriptor.si.xml file.
+	*/
+	public double getVersion();
+
+	/**
+	 Check weather database needed by application or not.
+	*/
+	public boolean isDatabaseNeeded();
+
+	/**
+	 Check weather database descriptor exists in Resources or not.
+	*/
+	public boolean containsDatabaseDescriptor(final DatabaseDescriptor databaseDescriptor);
+
+	/**
+	 Check weather database descriptor exists in Resources or not, based on database descriptor path.
+	*/
+	public boolean containsDatabaseDescriptorBasedOnPath(final String containDatabaseDescriptorPath);
+
+	/**
+	 Check weather database descriptor exists in Resources or not, based on Database Descriptor name.
+	*/
+	public boolean containsDatabaseDescriptorBasedOnName(final String databaseDescriptorName);
+
+	/**
+	 Get Database Descriptor based on Database Descriptor Name.
+	*/
+	public DatabaseDescriptor getDatabaseDescriptorBasedOnName(final String databaseDescriptorName);
+
+	/**
+	 Get Database Descriptor based on Database Descriptor Path.
+	public DatabaseDescriptor getDatabaseDescriptorBasedOnPath(final String databaseDescriptorPath);
+
+	/**
+	 Get all database descriptor paths as per contained in ApplicationDescriptor.si.xml file.
+	*/
+	public Iterator<String> getDatabaseDescriptorPaths();
+
+	/**
+	 Get all database descriptor names as per needed by application.
+	*/
+	public Iterator<String> getDatabaseDescriptorNames();
+
+	/**
+	 Get all database descriptor objects contains by Siminov.
+	*/
+	public Iterator<DatabaseDescriptor> getDatabaseDescriptors();
+
+	/**
+	 Get all database descriptor objects in sorted order.
+	*/
+	public Iterator<DatabaseDescriptor> orderedDatabaseDescriptors();
+
+	/**
+	 It defines the behaviour of SIMINOV. (Should siminov load all database mapping at initialization or on demand).
+	*/
+	public boolean doLoadInitially();
+
+	/**
+	 Get all event handlers as per defined in ApplicationDescriptor.si.xml file.
+	*/
+	public  Iterator<String> getEvents();
+
+}

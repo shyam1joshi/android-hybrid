@@ -1,0 +1,14 @@
+	DatabaseMapping.Index indexOnLiquor = databaseMapping.new Index();
+	indexOnLiquor.setName("LIQUOR_INDEX_BASED_ON_LINK");
+	indexOnLiquor.setUnique(true);
+	
+	//Add Columns on which we need index.
+	indexOnLiquor.addColumn("LINK");
+
+	DatabaseMapping databaseMapping = new Liquor().getDatabaseMapping();
+
+	try {
+		Database.createIndex(databaseMapping, indexOnLiquor);
+	} catch(DatabaseException databaseException) {
+		//Log It.
+	}

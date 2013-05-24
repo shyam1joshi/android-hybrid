@@ -1,0 +1,65 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\chapter {\Large{Building Application}}
+Building application based on Siminov Framework is easy, simple. By the help of \textbf{Siminov Template Application} we will explain how we can build application.
+
+
+\section{Configure ApplicationDescriptor.si.xml}
+Application Descriptor is the one who connects application to Siminov Framework. It provide basic information about application, which defines the behaviour of application.
+
+	\lstinputlisting[language=xml]{Resources/siminov_template_application_application_descriptor.txt}
+
+
+
+\section{Configure DatabaseDescriptor.si.xml}
+Database Descriptor is the one who denes the schema of database.
+
+	\lstinputlisting[language=xml]{Resources/siminov_template_application_database_descriptor.txt}
+
+
+\section{Configure LibraryDescriptor.si.xml}
+Library Descriptor is the one who denes the properties of library.
+
+
+	\lstinputlisting[language=xml]{Resources/siminov_library_template_library_descriptor.txt}
+
+
+\section{Configure DatabaseMappingDescriptor.si.xml}
+Database Mapping Descriptor is one which does ORM, it maps POJO class to database table.
+
+	\lstinputlisting[language=xml]{Resources/siminov_template_application_database_mapping_descriptor.txt}
+
+
+
+\section{Using Annotation}
+Liquor pojo class of Siminov template application.
+
+	\lstinputlisting[language=Java]{Resources/siminov_template_application_liquor_pojo_class.txt}
+
+
+\section{Saving Entity Object}
+Saving liquor entity object.
+
+	\lstinputlisting[language=Java]{Resources/siminov_template_application_saving_liquor_object.txt}
+
+
+\section{Updaing Entity Object}
+Updating liquor object.
+
+	\lstinputlisting[language=Java]{Resources/siminov_template_application_updating_liquor_object.txt}
+
+
+\section{Save Or Update Entity Object}
+Save or update liquor object.
+
+	\lstinputlisting[language=Java]{Resources/siminov_template_application_save_or_update_liquor_object.txt}
+
+
+
+\section{Deleting Entity Object}
+Deleting liquor object.
+
+	\lstinputlisting[language=Java]{Resources/siminov_template_application_deleting_liquor_object.txt}
+
+
+

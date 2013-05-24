@@ -1,0 +1,16 @@
+		DatabaseDescriptor databaseDescriptor = Resources.getInstance().getDatabaseDescriptorBasedOnName(name-of-database);
+		
+		IDatabase database = null;
+		try {
+			database = Database.createDatabase(databaseDescriptor);
+		} catch(DatabaseException databaseException) {
+			//Log It.	
+		}
+
+
+		try {
+			database.openOrCreate(database_path + database_name);			
+		} catch {
+			//Log It.
+		}
+		

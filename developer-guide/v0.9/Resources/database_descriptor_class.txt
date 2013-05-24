@@ -1,0 +1,121 @@
+/**
+ Exposes methods to GET and SET Database Descriptor information as per define in DatabaseDescriptor.si.xml file by application.
+*/
+public final class DatabaseDescriptor {
+	/**
+	 Get database descriptor name as defined in DatabaseDescriptor.si.xml file.
+	*/
+	public String getDatabaseName();
+
+	/**
+	 Get description as per defined in DatabaseDescriptor.si.xml file.
+	*/
+	public String getDescription();
+
+	/**
+	 Get database implementer class name as per defined in DatabaseDescriptor.si.xml file.
+	*/
+	public String getDatabaseImplementer();
+
+	/**
+	 Get password.
+	*/
+	public String getPassword();
+
+	/**
+	 Check weather database implementer class defined in DatabaseDescritor.si.xml file or not.
+	*/
+	public boolean isDatabaseImplementer();
+
+	/**
+	 Check weather database needs to be stored on SDCard or not.
+	*/
+	public boolean isExternalStorageEnable();
+
+	/**
+	 Check weather database transactions to make multi-threading safe or not.
+	*/
+	public boolean isLockingRequired();
+
+	/**
+	 Check weather database mapping object exists or not, based on table name.
+	*/
+	public boolean containsDatabaseMappingBasedOnTableName(final String tableName);
+
+
+
+
+
+	/**
+	 Check weather database mapping object exists or not, based on POJO class name.
+	*/
+	public boolean containsDatabaseMappingBasedOnClassName(final String className);
+
+	/**
+	 Get all database mapping paths as per defined in DatabaseDescriptor.si.xml file.
+	*/
+	public Iterator<String> getDatabaseMappingPaths();
+
+	/**
+	 Get all database mapping objects contained.
+	*/
+	public Iterator<DatabaseMappingDescriptor> getDatabaseMappings();
+
+	/**
+	 Get database mapping object based on table name.
+	*/
+	public DatabaseMappingDescriptor getDatabseMappingBasedOnTableName(final String tableName);
+
+	/**
+	 Get database mapping object based on POJO class name.
+	*/
+	public DatabaseMappingDescriptor getDatabseMappingBasedOnClassName(final String className);
+
+	/**
+	 Get database mapping object based on path.
+	*/
+	public DatabaseMappingDescriptor getDatabseMappingBasedOnPath(final String databaseMappingPath);
+
+	/**
+	 Get all database mapping objects in sorted order. The order will be as per defined in DatabaseDescriptor.si.xml file.
+	*/
+	public Iterator<DatabaseMappingDescriptor> orderedDatabaseMappings();
+
+	/**
+	 Check weather library exists or not based on library name provided.
+	*/
+	public boolean containsLibraryBasedOnName(final String libraryName);
+
+	/**
+	 Check weather library exists or not based on library path provided.
+	*/
+	public boolean containsLibraryBasedOnPath(final String libraryPath);
+
+
+
+	/**
+	 Get all library paths as per defined in DatabaseDescriptor.si.xml file.
+	*/
+	public Iterator<String> getLibraryPaths();
+
+	/**
+	 Get all library descriptor paths contained.
+	*/
+	public Iterator<LibraryDescriptor> getLibraryDescriptors();
+
+	/**
+	 Get all library descriptor objects in sorted order as per defined in DatabaseDescriptor.si.xml file.
+	*/
+	public Iterator<LibraryDescriptor> orderedLibraryDescriptors();
+
+	/**
+	 Get library descriptor object based on library descriptor path.
+	*/
+	public LibraryDescriptor getLibraryDescriptorBasedOnPath(final String libraryPath);
+
+	/**
+	 Check weather library is needed by Database Descriptor or not.
+	*/
+	public boolean isLibrariesNeeded();
+
+}

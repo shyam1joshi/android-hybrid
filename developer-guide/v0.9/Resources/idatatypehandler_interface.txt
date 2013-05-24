@@ -1,0 +1,5 @@
+public interface IDataTypeHandler {
+
+	public String convert(String dataType);
+	
+}

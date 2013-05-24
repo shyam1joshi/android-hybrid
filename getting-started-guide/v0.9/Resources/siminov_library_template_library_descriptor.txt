@@ -1,0 +1,10 @@
+<library>
+
+	<property name="name">SIMINOV LIBRARY TEMPLATE</property>
+	<property name="description">Siminov Library Template</property>
+
+	<database-mappings>
+		<database-mapping path="Credential.si.xml" />
+	</database-mappings>
+	 
+</library>

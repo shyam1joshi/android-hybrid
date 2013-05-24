@@ -1,0 +1,1 @@
+	public IMax max() throws DatabaseException;

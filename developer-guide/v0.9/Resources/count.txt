@@ -1,0 +1,1 @@
+	public ICount count() throws DatabaseException;

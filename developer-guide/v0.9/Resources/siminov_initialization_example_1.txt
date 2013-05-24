@@ -1,0 +1,13 @@
+public class ApplicationSiminov extends Application {
+
+	public void onCreate() { 
+		super.onCreate();
+
+		initializeSiminov();
+	}
+	
+	private void initializeSiminov() {
+		siminov.orm.Siminov.initialize(this);
+	}
+	
+}

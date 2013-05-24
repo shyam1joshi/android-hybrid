@@ -1,0 +1,7 @@
+DatabaseDescriptor databaseDescriptor = Resources.getInstance().getDatabaseDescriptorBasedOnName(name-of-database);
+
+try {
+	Database.createTables(databaseDescriptor.orderedDatabaseMappings());			
+} catch(DatabaseException databaseException) {
+	\\Log It.
+}

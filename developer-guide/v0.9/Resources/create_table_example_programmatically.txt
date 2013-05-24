@@ -1,0 +1,87 @@
+DatabaseMapping databaseMapping = new DatabaseMapping();
+databaseMapping.setTableName("LIQUOR");
+databaseMapping.setClassName(Liquor.class.getName());
+
+//Add Liquor Type.
+DatabaseMapping.Column liquorType = databaseMapping.new Column();
+liquorType.setVariableName("liquorType");
+liquorType.setColumnName("LIQUOR_TYPE");
+
+liquorType.setType("TEXT");
+
+liquorType.setPrimaryKey(true);
+liquorType.setNotNull(true);
+liquorType.setUnique(false);
+
+liquorType.setGetterMethodName("getLiquorType");
+liquorType.setSetterMethodName("setLiquorType");
+
+databaseMapping.addColumn(liquorType);
+
+//Add Liquor Description.
+DatabaseMapping.Column description = databaseMapping.new Column();
+description.setVariableName("description");
+description.setColumnName("DESCRIPTION");
+
+description.setType("TEXT");
+
+description.setGetterMethodName("getDescription");
+description.setSetterMethodName("setDescription");
+
+databaseMapping.addColumn(description);
+
+//Add History.
+DatabaseMapping.Column history = databaseMapping.new Column();
+history.setVariableName("history");
+history.setColumnName("HISTORY");
+
+history.setType("TEXT");
+
+history.setGetterMethodName("getHistory");
+history.setSetterMethodName("setHistory");
+
+databaseMapping.addColumn(history);
+
+//Add Link.
+DatabaseMapping.Column link = databaseMapping.new Column();
+link.setVariableName("history");
+link.setColumnName("HISTORY");
+
+link.setType("TEXT");
+link.setDefault("www.wikipedia.org");
+
+link.setGetterMethodName("getLink");
+link.setSetterMethodName("setLink");
+
+databaseMapping.addColumn(link);
+
+//Add Alchol Content.
+DatabaseMapping.Column alcholContent = databaseMapping.new Column();
+alcholContent.setVariableName("alcholContent");
+alcholContent.setColumnName("ALCHOL_CONTENT");
+
+alcholContent.setType("TEXT");
+
+alcholContent.setGetterMethodName("getAlcholContent");
+alcholContent.setSetterMethodName("setAlcholContent");
+
+databaseMapping.addColumn(alcholContent);
+
+//Create Index On Liquor table.
+DatabaseMapping.Index indexOnLiquor = databaseMapping.new Index();
+indexOnLiquor.setName("LIQUOR_INDEX_BASED_ON_LINK");
+indexOnLiquor.setUnique(true);
+
+//Add Columns on which we need index.
+indexOnLiquor.addColumn("LINK");
+
+databaseMapping.addIndex(indexOnLiquor);
+
+Collection<DatabaseMapping> databaseMappings = new ArrayList<DatabaseMapping> ();
+databaseMappings.add(databaseMapping);
+
+try {
+	Database.createTables(databaseMappings.iterator());
+} catch(DatabaseException databaseException) {
+	//Log It.
+}

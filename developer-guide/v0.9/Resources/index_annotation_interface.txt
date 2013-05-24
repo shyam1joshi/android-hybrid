@@ -1,0 +1,21 @@
+/**
+ Exposes methods to GET index properties as per in POJO Class Annotation by application.
+ */
+public @interface Index {
+
+	/**
+	 Get index name.
+	*/
+	public String name();
+
+	/**
+	 Get index columns.
+	*/
+	public IndexColumn[] value();
+
+	/**
+	 Check if index is unique.
+	*/
+	public boolean unique();
+
+}

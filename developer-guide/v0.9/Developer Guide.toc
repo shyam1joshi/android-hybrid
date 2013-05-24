@@ -1,0 +1,104 @@
+\select@language {english}
+\contentsline {chapter}{Preface}{}{chapter*.1}
+\contentsline {section}{\numberline {0.1}Get Involved}{}{section.0.1}
+\contentsline {section}{\numberline {0.2}Getting Started Guide}{}{section.0.2}
+\contentsline {chapter}{\numberline {1}\relax \fontsize {17.28}{22}\selectfont {Overview}}{}{chapter.1}
+\contentsline {section}{\numberline {1.1}Features}{}{section.1.1}
+\contentsline {chapter}{\numberline {2}\relax \fontsize {17.28}{22}\selectfont {Configuration}}{}{chapter.2}
+\contentsline {section}{\numberline {2.1}Application Descriptor (ApplicationDescriptor.si.xml) Configuration}{}{section.2.1}
+\contentsline {section}{\numberline {2.2}Database Descriptor (DatabaseDescriptor.si.xml) Configuration}{}{section.2.2}
+\contentsline {section}{\numberline {2.3}Library Descriptor (LibraryDescriptor.si.xml) Configuration}{}{section.2.3}
+\contentsline {section}{\numberline {2.4}Database Mapping Descriptor (DatabaseMappingDescriptor.si.xml) Configuration}{}{section.2.4}
+\contentsline {section}{\numberline {2.5}Database Mapping Descriptor Through Annotation}{}{section.2.5}
+\contentsline {chapter}{\numberline {3}\relax \fontsize {17.28}{22}\selectfont {Siminov Initialization}}{}{chapter.3}
+\contentsline {section}{\numberline {3.1}Initializating Siminov}{}{section.3.1}
+\contentsline {section}{\numberline {3.2}Lazy Initialization VS Initial Initialization}{}{section.3.2}
+\contentsline {section}{\numberline {3.3}Handling Multiple Schema's}{}{section.3.3}
+\contentsline {chapter}{\numberline {4}\relax \fontsize {17.28}{22}\selectfont {Event Notifiers}}{}{chapter.4}
+\contentsline {section}{\numberline {4.1}ISiminov Events}{}{section.4.1}
+\contentsline {section}{\numberline {4.2}IDatabaseEvents}{}{section.4.2}
+\contentsline {chapter}{\numberline {5}\relax \fontsize {17.28}{22}\selectfont {Database API's}}{}{chapter.5}
+\contentsline {section}{\numberline {5.1}Data Types}{}{section.5.1}
+\contentsline {section}{\numberline {5.2}Database API's}{}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Create Database}{}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Drop Database}{}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Create Table}{}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Drop Table}{}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Create Index}{}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}Drop Index}{}{subsection.5.2.6}
+\contentsline {subsection}{\numberline {5.2.7}Select}{}{subsection.5.2.7}
+\contentsline {subsection}{\numberline {5.2.8}Save}{}{subsection.5.2.8}
+\contentsline {subsection}{\numberline {5.2.9}Update}{}{subsection.5.2.9}
+\contentsline {subsection}{\numberline {5.2.10}Save Or Update}{}{subsection.5.2.10}
+\contentsline {subsection}{\numberline {5.2.11}Delete}{}{subsection.5.2.11}
+\contentsline {section}{\numberline {5.3}Database Siminov API's}{}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Get Database Descriptor}{}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Get Database Mapping Descriptor}{}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Get Table Name}{}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Get Column Names}{}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Get Column Values}{}{subsection.5.3.5}
+\contentsline {subsection}{\numberline {5.3.6}Get Column Types}{}{subsection.5.3.6}
+\contentsline {subsection}{\numberline {5.3.7}Get Primary Keys}{}{subsection.5.3.7}
+\contentsline {subsection}{\numberline {5.3.8}Get Mandatory Fields}{}{subsection.5.3.8}
+\contentsline {subsection}{\numberline {5.3.9}Get Unique Fields}{}{subsection.5.3.9}
+\contentsline {subsection}{\numberline {5.3.10}Get Foreign Keys}{}{subsection.5.3.10}
+\contentsline {section}{\numberline {5.4}Database Aggregation API's}{}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Count}{}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Average}{}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Sum}{}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Total}{}{subsection.5.4.4}
+\contentsline {subsection}{\numberline {5.4.5}Minimum}{}{subsection.5.4.5}
+\contentsline {subsection}{\numberline {5.4.6}Maximum}{}{subsection.5.4.6}
+\contentsline {subsection}{\numberline {5.4.7}Group Concat}{}{subsection.5.4.7}
+\contentsline {section}{\numberline {5.5}Database Transaction API's}{}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Begin Transaction}{}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Commit Transaction}{}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}End Transaction}{}{subsection.5.5.3}
+\contentsline {section}{\numberline {5.6}Making Transaction Thread Safe}{}{section.5.6}
+\contentsline {section}{\numberline {5.7}Preparing Where Clause}{}{section.5.7}
+\contentsline {section}{\numberline {5.8}Handling Database Relationships}{}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}One to One}{}{subsection.5.8.1}
+\contentsline {subsection}{\numberline {5.8.2}One to Many}{}{subsection.5.8.2}
+\contentsline {subsection}{\numberline {5.8.3}Many to One}{}{subsection.5.8.3}
+\contentsline {subsection}{\numberline {5.8.4}Many to Many}{}{subsection.5.8.4}
+\contentsline {chapter}{\numberline {6}\relax \fontsize {17.28}{22}\selectfont {Database Encryption}}{}{chapter.6}
+\contentsline {section}{\numberline {6.1}SQLCipher}{}{section.6.1}
+\contentsline {chapter}{\numberline {7}\relax \fontsize {17.28}{22}\selectfont {Database Layer}}{}{chapter.7}
+\contentsline {section}{\numberline {7.1}IDatabase Interface}{}{section.7.1}
+\contentsline {section}{\numberline {7.2}IDataTypeHandler}{}{section.7.2}
+\contentsline {section}{\numberline {7.3}IQueryBuilder}{}{section.7.3}
+\contentsline {chapter}{\numberline {8}\relax \fontsize {17.28}{22}\selectfont {Handling Libraries}}{}{chapter.8}
+\contentsline {section}{\numberline {8.1}Setting up a Library Project}{}{section.8.1}
+\contentsline {section}{\numberline {8.2}Referencing a library project}{}{section.8.2}
+\contentsline {section}{\numberline {8.3}Configure Application With Library}{}{section.8.3}
+\contentsline {chapter}{\numberline {9}\relax \fontsize {17.28}{22}\selectfont {Siminov ORM Architecture}}{}{chapter.9}
+\contentsline {section}{\numberline {9.1}Deployment Layer}{}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}siminov.orm.Siminov}{}{subsection.9.1.1}
+\contentsline {section}{\numberline {9.2}Resources Layer}{}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}siminov.orm.Resources}{}{subsection.9.2.1}
+\contentsline {section}{\numberline {9.3}Database Layer}{}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}siminov.orm.database.Database}{}{subsection.9.3.1}
+\contentsline {section}{\numberline {9.4}Model and Annotation Layer}{}{section.9.4}
+\contentsline {subsection}{\numberline {9.4.1}siminov.orm.model.ApplicationDescriptor}{}{subsection.9.4.1}
+\contentsline {subsection}{\numberline {9.4.2}siminov.orm.model.DatabaseDescriptor}{}{subsection.9.4.2}
+\contentsline {subsection}{\numberline {9.4.3}siminov.orm.model.LibraryDescriptor}{}{subsection.9.4.3}
+\contentsline {subsection}{\numberline {9.4.4}siminov.orm.model.DatabaseMappingDescriptor}{}{subsection.9.4.4}
+\contentsline {subsection}{\numberline {9.4.5}siminov.orm.annotation.Table}{}{subsection.9.4.5}
+\contentsline {subsection}{\numberline {9.4.6}siminov.orm.annotation.Column}{}{subsection.9.4.6}
+\contentsline {subsection}{\numberline {9.4.7}siminov.orm.annotation.Property}{}{subsection.9.4.7}
+\contentsline {subsection}{\numberline {9.4.8}siminov.orm.annotation.Index}{}{subsection.9.4.8}
+\contentsline {subsection}{\numberline {9.4.9}siminov.orm.annotation.IndexColumn}{}{subsection.9.4.9}
+\contentsline {subsection}{\numberline {9.4.10}siminov.orm.annotation.Indexes}{}{subsection.9.4.10}
+\contentsline {subsection}{\numberline {9.4.11}siminov.orm.annotation.Reference}{}{subsection.9.4.11}
+\contentsline {subsection}{\numberline {9.4.12}siminov.orm.annotation.Map}{}{subsection.9.4.12}
+\contentsline {section}{\numberline {9.5}Parsers Layer}{}{section.9.5}
+\contentsline {subsection}{\numberline {9.5.1}siminov.orm.parsers.ApplicationDescriptorParser}{}{subsection.9.5.1}
+\contentsline {subsection}{\numberline {9.5.2}siminov.orm.parsers.DatabaseDescriptorParser}{}{subsection.9.5.2}
+\contentsline {subsection}{\numberline {9.5.3}siminov.orm.parsers.LibraryDescriptorParser}{}{subsection.9.5.3}
+\contentsline {subsection}{\numberline {9.5.4}siminov.orm.parsers.DatabaseMappingDescriptor}{}{subsection.9.5.4}
+\contentsline {section}{\numberline {9.6}Utils Layer}{}{section.9.6}
+\contentsline {subsection}{\numberline {9.6.1}siminov.orm.utils.Utils}{}{subsection.9.6.1}
+\contentsline {chapter}{\numberline {10}\relax \fontsize {17.28}{22}\selectfont {Exceptions}}{}{chapter.10}
+\contentsline {section}{\numberline {10.1}Siminov Exception}{}{section.10.1}
+\contentsline {section}{\numberline {10.2}Deployment Exception}{}{section.10.2}
+\contentsline {section}{\numberline {10.3}Database Exception}{}{section.10.3}

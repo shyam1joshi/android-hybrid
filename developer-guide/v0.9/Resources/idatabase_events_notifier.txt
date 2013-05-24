@@ -1,0 +1,17 @@
+public interface IDatabaseEvents {
+
+	public void databaseCreated(final DatabaseDescriptor databaseDescriptor);
+
+	public void databaseDropped(final DatabaseDescriptor databaseDescriptor);
+
+
+	public void tableCreated(final DatabaseMappingDescriptor databaseMapping);
+
+	public void tableDropped(final DatabaseMappingDescriptor databaseMapping);
+
+
+	public void indexCreated(final DatabaseMappingDescriptor databaseMapping, Index index);
+
+	public void indexDropped(final DatabaseMappingDescriptor databaseMapping, Index index);
+	
+}

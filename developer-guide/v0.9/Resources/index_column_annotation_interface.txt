@@ -1,0 +1,11 @@
+/**
+ Exposes methods to GET index column as per in POJO Class Annotation by application.
+ */
+public @interface IndexColumn {
+
+	/**
+	 Get column.
+	*/
+	public String column();
+
+}

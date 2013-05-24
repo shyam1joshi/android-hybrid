@@ -1,0 +1,1 @@
+	public IFetch select() throws DatabaseException;

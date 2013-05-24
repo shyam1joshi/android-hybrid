@@ -1,0 +1,1 @@
+	public IAverage avg() throws DatabaseException;

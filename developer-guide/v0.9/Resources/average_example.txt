@@ -1,0 +1,11 @@
+	int average = 0;
+	
+	try {
+		average = new Liquor().avg()
+					.column(Liquor.COLUMN_NAME_WHICH_CONTAIN_NUMBRIC_VALUE)
+					.where(Liquor.LIQUOR_TYPE).equalTo("RUM")
+					.execute();
+
+	} catch(DatabaseException de) {
+		//Log it.
+	}

@@ -1,0 +1,4 @@
+	Liquor[] liquor =  new Liquor().select()
+					.where(Liquor.LIQUOR_TYPE).equalTo("RUM")
+					.and(Liquor.ALCHOL_CONTENT).equalTo("90%")
+					.fetch();

@@ -1,0 +1,1 @@
+public void createIndex(final Index index) throws DatabaseException;

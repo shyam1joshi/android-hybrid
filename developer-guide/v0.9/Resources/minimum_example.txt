@@ -1,0 +1,12 @@
+	int minimum = 0;
+	
+	try {
+		minimum = new Liquor().min()
+					.column(Liquor.COLUMN_NAME_WHICH_CONTAIN_NUMBRIC_VALUE)
+					.where(Liquor.LIQUOR_TYPE).equalTo("RUM")
+					.execute();
+		
+	} catch(DatabaseException de) {
+		//Log it.
+	}
+	

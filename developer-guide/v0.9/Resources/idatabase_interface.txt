@@ -1,0 +1,15 @@
+public interface IDatabase {
+
+	public void openOrCreate(final DatabaseDescriptor databaseDescriptor) throws DatabaseException;
+
+	public void close(final DatabaseDescriptor databaseDescriptor) throws DatabaseException;
+
+	public void executeQuery(final DatabaseDescriptor databaseDescriptor, final DatabaseMappingDescriptor databaseMappingDescriptor, final String query) throws DatabaseException;
+
+	public void executeBindQuery(final DatabaseDescriptor databaseDescriptor, final DatabaseMappingDescriptor databaseMappingDescriptor, final String query, final Iterator<Object> columnValues) throws DatabaseException;
+
+	public Iterator<Map<String, Object>> executeFetchQuery(final DatabaseDescriptor databaseDescriptor, final DatabaseMappingDescriptor databaseMappingDescriptor, final String query) throws DatabaseException;
+
+	public void executeMethod(final String methodName, final Object parameters) throws DatabaseException;
+
+}

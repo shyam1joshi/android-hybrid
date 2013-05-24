@@ -1,0 +1,16 @@
+/**
+ Exposes methods to GET properties as per in POJO Class Annotation by application.
+ */
+public @interface Property {
+
+	/**
+	 Get property name.
+	*/
+	public String name();
+
+	/**
+	 Get property value.
+	*/
+	public String value();
+
+}

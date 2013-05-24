@@ -1,0 +1,1 @@
+public void createIndex(final String indexName, final Iterator<String> columnNames, final boolean isUnique) throws DatabaseException;

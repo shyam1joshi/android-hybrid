@@ -1,0 +1,11 @@
+	String indexName = "LIQUOR_INDEX_BASED_ON_LINK";
+	boolean isUnique = true;
+	
+	Collection<String> columnNames = new ArrayList<String>();
+	columnNames.add("LINK");
+	
+	try {
+		new Liquor().createIndex(indexName, columnNames.iterator(), isUnique);
+	} catch(DatabaseException databaseException) {
+		//Log It.
+	}

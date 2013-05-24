@@ -1,0 +1,11 @@
+	int sum = 0;
+	
+	try {
+		sum = new Liquor().sum()
+					.column(Liquor.COLUMN_NAME_WHICH_CONTAIN_NUMBRIC_VALUE)
+					.where(Liquor.LIQUOR_TYPE).equalTo("RUM")
+					.execute();
+
+	} catch(DatabaseException de) {
+		//Log it.
+	}

@@ -1,0 +1,11 @@
+	String whereClause = Liquor.LIQUOR_BRAND + "='" + Liquor.LIQUOR_TYPE_BEER + "'";
+	
+	Liquor[] liquors = null;
+	try {
+		liquors = new Liquor().fetch(whereClause);
+	} catch(DatabaseException de) {
+		//Log it.
+	}
+	 		
+	} 			
+

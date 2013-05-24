@@ -1,0 +1,11 @@
+/**
+ Exposes methods to GET indexes properties as per in POJO Class Annotation by application.
+ */
+public @interface Indexes {
+
+	/**
+	 Get index's.
+	*/
+	public Index[] value();
+
+}

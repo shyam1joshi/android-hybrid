@@ -1,0 +1,15 @@
+<database-mapping>
+
+	<table table_name="name-of-table" class_name="full-class-path-of-pojo-class">
+
+		<relationships>
+			
+			<one-to-many refer="name-of-variable" refer_to="full-class-path-of-refer-variable" on_update="cascade/restrict/no_action/set_null/set_default" on_delete="cascade/restrict/no_action/set_null/set_default">
+				<property name="load">true/false</property>
+			</one-to-many>		
+		    		
+		</relationships>		
+
+	</table>
+
+</database-mapping>		

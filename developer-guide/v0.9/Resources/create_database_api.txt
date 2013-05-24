@@ -1,0 +1,1 @@
+	public void openOrCreate(final String path) throws DatabaseException;
