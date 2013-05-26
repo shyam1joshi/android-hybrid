@@ -1,0 +1,12 @@
+		Liquor beer = new Liquor();
+		beer.setLiquorType("Beer");
+		beer.setDescription("Beer Description");
+		beer.setHistory("Beer History");
+		beer.setLink("Beer Web Link");
+		beer.setAlcholContent("Beer Alchol Content");
+
+		try {
+			beer.saveOrUpdate();
+		} catch(DatabaseException databaseException) {
+			//Log It.
+		}
