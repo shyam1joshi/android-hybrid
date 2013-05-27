@@ -1,24 +1,24 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.22)  26 MAY 2013 22:23
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  27 MAY 2013 17:49
 entering extended mode
-**H:/Siminov*Workspace/SIMINOV-HYBRID-RES-DOC/getting-started-guide/v0.9/Gettin
-g*Stared*Guide.tex
-
-("H:/Siminov Workspace/SIMINOV-HYBRID-RES-DOC/getting-started-guide/v0.9/Gettin
-g Stared Guide.tex"
-LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
-vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
-an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
-romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
-sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
-senglishmax, welsh, loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"Getting Stared Guide.tex"
+(./Getting Stared Guide.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -34,22 +34,22 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
-Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -64,22 +64,15 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2008/07/06 v3.8l The Babel package
-
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
-File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
+(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2008/07/08 v3.8m The Babel package
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/english.ldf
 Language: english 2005/03/30 v3.3o English support from the babel system
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2008/07/06 v3.8l Babel common definitions
+(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count91
 \U@D=\dimen111
 )
@@ -87,22 +80,22 @@ File: babel.def 2008/07/06 v3.8l Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count92
 )
@@ -116,96 +109,99 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fix-cm.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/fix-cm.sty
 Package: fix-cm 2006/09/13 v1.1m fixes to LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2011/04/17 v6.82g Hypertext links for LaTeX
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
-Package: hobsub-hyperref 2011/04/23 v1.4 Bundle oberdiek, subset hyperref (HO)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
-Package: hobsub-generic 2011/04/23 v1.4 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2011/04/23 v1.4 Subsetting bundle oberdiek (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
-Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
-Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
-Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-Package: pdfescape 2011/04/04 v1.12 Provides string conversions (HO)
-Package: bigintcalc 2011/01/30 v1.2 Expandable big integer calculations (HO)
-Package: bitset 2011/01/30 v1.1 Data type bit set (HO)
-Package: uniquecounter 2011/01/30 v1.2 Provides unlimited unique counter (HO)
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
 Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2011/01/30 v1.0 Wrapper for package hooks (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
-Package: atveryend 2011/04/23 v1.7 Hooks at very end of document (HO)
-Package atveryend Info: \enddocument detected (standard).
-Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
-Package: refcount 2010/12/01 v3.2 Data extraction from references (HO)
-Package: hycolor 2011/01/30 v1.7 Color options of hyperref/bookmark (HO)
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen112
 \Hy@linkcounter=\count93
 \Hy@pagecounter=\count94
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2011/04/17 v6.82g Hyperref: PDFDocEncoding definition (HO)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count95
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4026.
-Package hyperref Info: Link nesting OFF on input line 4031.
-Package hyperref Info: Hyper index ON on input line 4034.
-Package hyperref Info: Plain pages OFF on input line 4041.
-Package hyperref Info: Backreferencing OFF on input line 4046.
+Package hyperref Info: Hyper figures OFF on input line 4062.
+Package hyperref Info: Link nesting OFF on input line 4067.
+Package hyperref Info: Hyper index ON on input line 4070.
+Package hyperref Info: Plain pages OFF on input line 4077.
+Package hyperref Info: Backreferencing OFF on input line 4082.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4264.
+Package hyperref Info: Bookmarks ON on input line 4300.
 \c@Hy@tempcnt=\count96
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4617.
+LaTeX Info: Redefining \url on input line 4653.
 \Fld@menulength=\count97
 \Field@Width=\dimen113
 \Fld@charsize=\dimen114
-Package hyperref Info: Hyper figures OFF on input line 5701.
-Package hyperref Info: Link nesting OFF on input line 5706.
-Package hyperref Info: Hyper index ON on input line 5709.
-Package hyperref Info: backreferencing OFF on input line 5716.
-Package hyperref Info: Link coloring OFF on input line 5721.
-Package hyperref Info: Link coloring with OCG OFF on input line 5726.
-Package hyperref Info: PDF/A mode OFF on input line 5731.
-LaTeX Info: Redefining \ref on input line 5771.
-LaTeX Info: Redefining \pageref on input line 5775.
+Package hyperref Info: Hyper figures OFF on input line 5773.
+Package hyperref Info: Link nesting OFF on input line 5778.
+Package hyperref Info: Hyper index ON on input line 5781.
+Package hyperref Info: backreferencing OFF on input line 5788.
+Package hyperref Info: Link coloring OFF on input line 5793.
+Package hyperref Info: Link coloring with OCG OFF on input line 5798.
+Package hyperref Info: PDF/A mode OFF on input line 5803.
+LaTeX Info: Redefining \ref on input line 5843.
+LaTeX Info: Redefining \pageref on input line 5847.
 \Hy@abspage=\count98
 \c@Item=\count99
 \c@Hfootnote=\count100
@@ -213,33 +209,32 @@ LaTeX Info: Redefining \pageref on input line 5775.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2011/04/17 v6.82g Hyperref driver for pdfTeX
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
 \Fld@listcount=\count101
 \c@bookmark@seq@number=\count102
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip43
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\parskip.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\picture.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/picture.sty
 Package: picture 2009/10/11 v1.3 Dimens for picture macros (HO)
 Package picture Info: Calculation method: etex.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
-Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
-
-Package: `setspace' 6.7 <2000/12/01>
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2009/06/22 v3.00
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \@emptytoks=\toks16
 \symAMSa=\mathgroup4
@@ -247,10 +242,10 @@ Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mh\mathtools.sty"
-Package: mathtools 2011/02/12 v1.10 mathematical typesetting tools
+(/usr/local/texlive/2012/texmf-dist/tex/latex/mh/mathtools.sty
+Package: mathtools 2012/04/24 v1.12 mathematical typesetting tools
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count103
 \calc@Bcount=\count104
@@ -263,27 +258,27 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count105
 \calc@Cskip=\skip46
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mh\mhsetup.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/mh/mhsetup.sty
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen117
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen118
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count106
@@ -329,35 +324,39 @@ LaTeX Info: Redefining \] on input line 2667.
 \origjot=\skip50
 \l_MT_shortvdotswithinadjustabove_dim=\dimen127
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen128
+\l_MT_above_intertext_dim=\dimen129
+\l_MT_below_intertext_dim=\dimen130
+\l_MT_above_shortintertext_dim=\dimen131
+\l_MT_below_shortintertext_dim=\dimen132
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
-\Gin@req@height=\dimen129
-\Gin@req@width=\dimen130
+\Gin@req@height=\dimen133
+\Gin@req@width=\dimen134
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\floatrow\floatrow.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/floatrow/floatrow.sty
 Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
-Package: caption3 2010/01/14 v3.1m caption3 kernel (AR)
-\captionmargin=\dimen131
-\captionmargin@=\dimen132
-\captionwidth=\dimen133
-\caption@indent=\dimen134
-\caption@parindent=\dimen135
-\caption@hangindent=\dimen136
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+\captionmargin=\dimen135
+\captionmargin@=\dimen136
+\captionwidth=\dimen137
+\caption@indent=\dimen138
+\caption@parindent=\dimen139
+\caption@hangindent=\dimen140
 )
 \c@float@type=\count119
 \float@exts=\toks22
@@ -368,9 +367,9 @@ Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 
 \FR@everyfloat=\toks23
 \flrow@foot=\insert233
-\FB@wd=\dimen137
-\FBo@wd=\dimen138
-\FBc@wd=\dimen139
+\FB@wd=\dimen141
+\FBo@wd=\dimen142
+\FBc@wd=\dimen143
 \FBo@ht=\skip51
 \FBc@ht=\skip52
 \FBf@ht=\skip53
@@ -386,7 +385,7 @@ Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 \Zhsize=\skip59
 \sZhsize=\skip60
 \flrow@rowbox=\box30
-\FR@Zunitlength=\dimen140
+\FR@Zunitlength=\dimen144
 \c@FBcnt=\count124
 \FPOScnt=\count125
 \LTleft=\skip61
@@ -395,53 +394,45 @@ Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 \LTright=\skip64
 \flrow@types=\toks24
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
-Package: caption 2010/01/09 v3.1m Customizing captions (AR)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
 \c@ContinuedFloat=\count126
 Package caption Info: float package is loaded.
 Package caption Info: floatrow package is loaded.
 Package caption Info: hyperref package is loaded.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count127
 \lst@gtempboxa=\box31
 \lst@token=\toks25
 \lst@length=\count128
-\lst@currlwidth=\dimen141
+\lst@currlwidth=\dimen145
 \lst@column=\count129
 \lst@pos=\count130
-\lst@lostspace=\dimen142
-\lst@width=\dimen143
+\lst@lostspace=\dimen146
+\lst@width=\dimen147
 \lst@newlines=\count131
 \lst@lineno=\count132
-\lst@maxwidth=\dimen144
+\lst@maxwidth=\dimen148
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 \c@lstnumber=\count133
 \lst@skipnumbers=\count134
 \lst@framebox=\box32
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Gettin
-g Stared Guide.aux"
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Prefac
-e/Preface.aux")
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\About/
-About.aux")
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Obtain
-ing/Obtaining.aux")
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Setup/
-Setup.aux")
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Buildi
-ng/Building.aux"))
+(./Getting Stared Guide.aux (./Preface/Preface.aux) (./About/About.aux)
+(./Obtaining/Obtaining.aux) (./Setup/Setup.aux) (./Building/Building.aux))
+\openout1 = `"Getting Stared Guide.aux"'.
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
 LaTeX Font Info:    ... okay on input line 56.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
@@ -492,42 +483,58 @@ LaTeX Font Info:    ... okay on input line 56.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count135
-\scratchdimen=\dimen145
+\scratchdimen=\dimen149
 \scratchbox=\box33
 \nofMPsegments=\count136
 \nofMParguments=\count137
 \everyMPshowfont=\toks26
 \MPscratchCnt=\count138
-\MPscratchDim=\dimen146
+\MPscratchDim=\dimen150
 \MPnumerator=\count139
+\makeMPintoPDFobject=\count140
 \everyMPtoPDFconversion=\toks27
 )
 \AtBeginShipoutBox=\box34
 Package hyperref Info: Link coloring OFF on input line 56.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+ (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count140
+\c@section@level=\count141
 )
 LaTeX Info: Redefining \ref on input line 56.
 LaTeX Info: Redefining \pageref on input line 56.
 LaTeX Info: Redefining \nameref on input line 56.
 
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Gettin
-g Stared Guide.out")
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Gettin
-g Stared Guide.out")
+(./Getting Stared Guide.out) (./Getting Stared Guide.out)
 \@outlinefile=\write3
+\openout3 = `"Getting Stared Guide.out"'.
+
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count141
+\c@lstlisting=\count142
 
 Overfull \hbox (13.83325pt too wide) in paragraph at lines 74--75
 [][][][][][][] 
@@ -535,22 +542,23 @@ Overfull \hbox (13.83325pt too wide) in paragraph at lines 74--75
 
 [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [1
+{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[1
 
-]
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Gettin
-g Stared Guide.toc"
+] (./Getting Stared Guide.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 3.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ))
 \tf@toc=\write4
+\openout4 = `"Getting Stared Guide.toc"'.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
@@ -559,8 +567,9 @@ l.107 \include{Preface/Preface}
                                 [2
 
 ]
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Prefac
-e/Preface.tex"
+\openout2 = `Preface/Preface.aux'.
+
+ (./Preface/Preface.tex
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 27.
 
 Underfull \hbox (badness 10000) in paragraph at lines 27--27
@@ -580,8 +589,9 @@ l.41
                    \relax 
 l.107 \include{Preface/Preface}
                                 [4]
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\About/
-About.tex"
+\openout2 = `About/About.aux'.
+
+ (./About/About.tex
 Chapter 1.
 
 Overfull \hbox (0.40071pt too wide) in paragraph at lines 14--15
@@ -604,8 +614,9 @@ l.17
                    \relax 
 l.108 \include{About/About}
                             [6]
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Obtain
-ing/Obtaining.tex"
+\openout2 = `Obtaining/Obtaining.aux'.
+
+ (./Obtaining/Obtaining.tex
 Chapter 2.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
@@ -621,17 +632,18 @@ l.109 \include{Obtaining/Obtaining}
 
 
 ]
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Setup/
-Setup.tex"
+\openout2 = `Setup/Setup.aux'.
+
+ (./Setup/Setup.tex
 Chapter 3.
 
 Overfull \hbox (43.32135pt too wide) in paragraph at lines 11--12
 []\OT1/cmr/m/n/10.95 Download Simi-nov An-droid ORM jar from []$\OT1/cmtt/m/n/1
-0.95 http : / / siminov . github . io / android-[]hybrid /$
+0.95 http : / / siminov . github . io / android-[]hybrid /
  []
 
 
-<Resources/siminov_template_application_add_siminov_jar.png, id=166, 221.32687p
+<Resources/siminov_template_application_add_siminov_jar.png, id=168, 221.32687p
 t x 164.86594pt>
 File: Resources/siminov_template_application_add_siminov_jar.png Graphic file (
 type png)
@@ -643,7 +655,7 @@ Package pdftex.def Info: Resources/siminov_template_application_add_siminov_jar
 
 Overfull \hbox (43.32135pt too wide) in paragraph at lines 32--33
 []\OT1/cmr/m/n/10.95 Download Simi-nov An-droid ORM jar from []$\OT1/cmtt/m/n/1
-0.95 http : / / siminov . github . io / android-[]hybrid /$
+0.95 http : / / siminov . github . io / android-[]hybrid /
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
@@ -656,22 +668,21 @@ l.34 	\item \small
 
 
 
- <H:/Siminov Workspace/SIMINOV-HYBRID-RES-DOC/getting-started-guide/v0.9/Resour
-ces/siminov_template_application_add_siminov_jar.png>]
+ <./Resources/siminov_template_application_add_siminov_jar.png>]
 Overfull \hbox (19.7192pt too wide) in paragraph at lines 34--35
 []\OT1/cmr/m/n/10.95 Download Simi-nov Hy-brid build from []$\OT1/cmtt/m/n/10.9
-5 http : / / siminov . github . io / android-[]hybrid /$
+5 http : / / siminov . github . io / android-[]hybrid /
  []
 
 
-<Resources/siminov_hybrid_build_extract.png, id=176, 453.94594pt x 350.81062pt>
+<Resources/siminov_hybrid_build_extract.png, id=178, 453.94594pt x 350.81062pt>
 File: Resources/siminov_hybrid_build_extract.png Graphic file (type png)
 <use Resources/siminov_hybrid_build_extract.png>
 Package pdftex.def Info: Resources/siminov_hybrid_build_extract.png used on inp
 ut line 42.
 (pdftex.def)             Requested size: 294.54878pt x 227.62204pt.
 
-<Resources/siminov_hybrid_build_extracted.png, id=177, 462.22687pt x 70.76437pt
+<Resources/siminov_hybrid_build_extracted.png, id=179, 462.22687pt x 70.76437pt
 >
 File: Resources/siminov_hybrid_build_extracted.png Graphic file (type png)
  <use Resources/siminov_hybrid_build_extracted.png>
@@ -688,11 +699,9 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.53 	\newpage
-               [9 <H:/Siminov Workspace/SIMINOV-HYBRID-RES-DOC/getting-started-
-guide/v0.9/Resources/siminov_hybrid_build_extract.png> <H:/Siminov Workspace/SI
-MINOV-HYBRID-RES-DOC/getting-started-guide/v0.9/Resources/siminov_hybrid_build_
-extracted.png>]
-<Resources/siminov_hybrid_template_application_add_siminov_jars.png, id=188, 20
+               [9 <./Resources/siminov_hybrid_build_extract.png> <./Resources/s
+iminov_hybrid_build_extracted.png>]
+<Resources/siminov_hybrid_template_application_add_siminov_jars.png, id=190, 20
 5.5178pt x 193.47281pt>
 File: Resources/siminov_hybrid_template_application_add_siminov_jars.png Graphi
 c file (type png)
@@ -703,7 +712,7 @@ nov_jars.png used on input line 60.
 (pdftex.def)             Requested size: 181.34543pt x 170.71652pt.
 
 <Resources/siminov_hybrid_template_application_add_siminov_js_to_application_as
-sets.png, id=189, 216.05719pt x 272.51813pt>
+sets.png, id=191, 216.05719pt x 272.51813pt>
 File: Resources/siminov_hybrid_template_application_add_siminov_js_to_applicati
 on_assets.png Graphic file (type png)
 
@@ -717,13 +726,11 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.74 	\newpage
-               [10 <H:/Siminov Workspace/SIMINOV-HYBRID-RES-DOC/getting-started
--guide/v0.9/Resources/siminov_hybrid_template_application_add_siminov_jars.png>
- <H:/Siminov Workspace/SIMINOV-HYBRID-RES-DOC/getting-started-guide/v0.9/Resour
-ces/siminov_hybrid_template_application_add_siminov_js_to_application_assets.pn
-g>]
+               [10 <./Resources/siminov_hybrid_template_application_add_siminov
+_jars.png> <./Resources/siminov_hybrid_template_application_add_siminov_js_to_a
+pplication_assets.png>]
 <Resources/siminov_hybrid_template_application_include_siminov_js_to_applicatio
-n_view.png, id=197, 715.92468pt x 287.57437pt>
+n_view.png, id=199, 715.92468pt x 287.57437pt>
 File: Resources/siminov_hybrid_template_application_include_siminov_js_to_appli
 cation_view.png Graphic file (type png)
 
@@ -739,7 +746,7 @@ Overfull \hbox (77.6029pt too wide) in paragraph at lines 81--82
 
 
 <Resources/siminov_hybrid_template_application_add_device_redy_event_listener_i
-nitialize_siminov.png, id=198, 441.14813pt x 66.2475pt>
+nitialize_siminov.png, id=200, 441.14813pt x 66.2475pt>
 File: Resources/siminov_hybrid_template_application_add_device_redy_event_liste
 ner_initialize_siminov.png Graphic file (type png)
 
@@ -758,25 +765,24 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.110 \include{Setup/Setup}
-                            [11 <H:/Siminov Workspace/SIMINOV-HYBRID-RES-DOC/ge
-tting-started-guide/v0.9/Resources/siminov_hybrid_template_application_include_
-siminov_js_to_application_view.png> <H:/Siminov Workspace/SIMINOV-HYBRID-RES-DO
-C/getting-started-guide/v0.9/Resources/siminov_hybrid_template_application_add_
-device_redy_event_listener_initialize_siminov.png>]
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Buildi
-ng/Building.tex"
+                            [11 <./Resources/siminov_hybrid_template_applicatio
+n_include_siminov_js_to_application_view.png> <./Resources/siminov_hybrid_templ
+ate_application_add_device_redy_event_listener_initialize_siminov.png>]
+\openout2 = `Building/Building.aux'.
+
+
+(./Building/Building.tex
 Chapter 4.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 )
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Resour
-ces/siminov_hybrid_template_application_application_descriptor.txt"
+(./Resources/siminov_hybrid_template_application_application_descriptor.txt
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 1.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
@@ -791,12 +797,10 @@ l.19 	<
 
 
 ])
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Resour
-ces/siminov_hybrid_template_application_database_descriptor.txt")
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Resour
-ces/siminov_library_template_library_descriptor.txt"pdfTeX warning (ext4): dest
-ination with the same identifier (name{page.}) has been already used, duplicate
- ignored
+(./Resources/siminov_hybrid_template_application_database_descriptor.txt)
+(./Resources/siminov_library_template_library_descriptor.txtpdfTeX warning (ext
+4): destination with the same identifier (name{page.}) has been already used, d
+uplicate ignored
 <to be read again> 
                    \relax 
 l.7 	<
@@ -806,22 +810,20 @@ Overfull \hbox (11.76013pt too wide) in paragraph at lines 27--27
  []
 
 
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Resour
-ces/siminov_hybrid_template_application_database_mapping_descriptor.txt"pdfTeX 
-warning (ext4): destination with the same identifier (name{page.}) has been alr
-eady used, duplicate ignored
+(./Resources/siminov_hybrid_template_application_database_mapping_descriptor.tx
+tpdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.33 		<
         relationships> [14])
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Resour
-ces/siminov_hybrid_template_application_liquor_pojo_class.txt"
+(./Resources/siminov_hybrid_template_application_liquor_pojo_class.txt
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 2.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
@@ -844,38 +846,33 @@ with the same identifier (name{page.}) has been already used, duplicate ignored
                    \relax 
 l.45 		\item \small
                     \textbf{Java} [17]
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Resour
-ces/siminov_hybrid_template_application_saving_java_liquor_object.txt")
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Resour
-ces/siminov_hybrid_template_application_saving_javascript_liquor_object.txt")
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Resour
-ces/siminov_hybrid_template_application_updating_java_liquor_object.txt"pdfTeX 
-warning (ext4): destination with the same identifier (name{page.}) has been alr
-eady used, duplicate ignored
+(./Resources/siminov_hybrid_template_application_saving_java_liquor_object.txt)
+
+(./Resources/siminov_hybrid_template_application_saving_javascript_liquor_objec
+t.txt)
+(./Resources/siminov_hybrid_template_application_updating_java_liquor_object.tx
+tpdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.5 		beer.
            setLink("Beer Web Link"); [18])
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Resour
-ces/siminov_hybrid_template_application_updating_javascript_liquor_object.txt")
-
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Resour
-ces/siminov_hybrid_template_application_save_or_update_java_liquor_object.txt"p
-dfTeX warning (ext4): destination with the same identifier (name{page.}) has be
-en already used, duplicate ignored
+(./Resources/siminov_hybrid_template_application_updating_javascript_liquor_obj
+ect.txt)
+(./Resources/siminov_hybrid_template_application_save_or_update_java_liquor_obj
+ect.txtpdfTeX warning (ext4): destination with the same identifier (name{page.}
+) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.11 			//
           Log It. [19])
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Resour
-ces/siminov_hybrid_template_application_save_or_update_javascript_liquor_object
-.txt")
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Resour
-ces/siminov_hybrid_template_application_deleting_java_liquor_object.txt")
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Resour
-ces/siminov_hybrid_template_application_deleting_javascript_liquor_object.txt"p
-dfTeX warning (ext4): destination with the same identifier (name{page.}) has be
-en already used, duplicate ignored
+(./Resources/siminov_hybrid_template_application_save_or_update_javascript_liqu
+or_object.txt)
+(./Resources/siminov_hybrid_template_application_deleting_java_liquor_object.tx
+t)
+(./Resources/siminov_hybrid_template_application_deleting_javascript_liquor_obj
+ect.txtpdfTeX warning (ext4): destination with the same identifier (name{page.}
+) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.3 		beer.
@@ -888,46 +885,38 @@ l.111 \include{Building/Building}
                                   [21]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
-
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Gettin
-g Stared Guide.aux"
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Prefac
-e/Preface.aux")
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\About/
-About.aux")
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Obtain
-ing/Obtaining.aux")
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Setup/
-Setup.aux")
-("H:\Siminov Workspace\SIMINOV-HYBRID-RES-DOC\getting-started-guide\v0.9\Buildi
-ng/Building.aux"))
+ (./Getting Stared Guide.aux
+(./Preface/Preface.aux) (./About/About.aux) (./Obtaining/Obtaining.aux)
+(./Setup/Setup.aux) (./Building/Building.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
-Package rerunfilecheck Info: File `Getting*Stared*Guide.out' has not changed.
-(rerunfilecheck)             Checksum: <no file>.
+Package rerunfilecheck Info: File `"Getting Stared Guide".out' has not changed.
+
+(rerunfilecheck)             Checksum: E6D2763BBF39344194B293B678E5433C;1389.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 11233 strings out of 494049
- 177054 string characters out of 3146056
- 541032 words of memory out of 3000000
- 13919 multiletter control sequences out of 15000+200000
+ 11455 strings out of 493488
+ 176255 string characters out of 3141326
+ 540809 words of memory out of 3000000
+ 14159 multiletter control sequences out of 15000+200000
  20434 words of font info for 79 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
- 37i,7n,54p,814b,1860s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on "Getting Stared Guide.pdf" (22 pages, 326329 bytes).
+ 957 hyphenation exceptions out of 8191
+ 37i,7n,54p,744b,1860s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
+local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
+ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/lo
+cal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on "Getting Stared Guide.pdf" (22 pages, 266331 bytes).
 PDF statistics:
- 670 PDF objects out of 1000 (max. 8388607)
+ 678 PDF objects out of 1000 (max. 8388607)
+ 629 compressed objects within 7 object streams
  369 named destinations out of 1000 (max. 500000)
  204 words of extra memory for PDF output out of 10000 (max. 10000000)
 

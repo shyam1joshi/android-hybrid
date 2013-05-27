@@ -6,7 +6,7 @@
 		beer.setAlcholContent("Beer Alchol Content");
 
 		try {
-			beer.delete();
+			beer.delete().execute();
 		} catch(DatabaseException databaseException) {
 			//Log It.
 		}

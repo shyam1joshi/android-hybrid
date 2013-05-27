@@ -1,4 +1,4 @@
-		Liquor beer = new Liquor();
+		var beer = new Liquor();
 		beer.setLiquorType("Beer");
 		beer.setDescription("Beer Description");
 		beer.setHistory("Beer History");
@@ -6,7 +6,7 @@
 		beer.setAlcholContent("Beer Alchol Content");
 
 		try {
-			beer.delete();
+			beer.delete().execute();
 		} catch(DatabaseException databaseException) {
 			//Log It.
 		}
