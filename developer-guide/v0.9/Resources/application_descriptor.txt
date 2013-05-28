@@ -31,7 +31,7 @@
 	<!-- Event Handlers Implemented By Application (zero-to-many) -->	
 		<!-- Optional Field's -->
 	<event-handlers>
-		<event-handler>full_class_path_of_event_handler_(ICoreHandler/IDatabaseHandler)</event-handler>
+		<event-handler>full_java_class_path_of_event_handler/javascript_class_path_of_event_handler (ISiminovHandler/IDatabaseHandler)</event-handler>
 	</event-handlers>
 
 </siminov>

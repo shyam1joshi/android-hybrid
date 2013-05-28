@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  27 MAY 2013 18:49
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 MAY 2013 11:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -429,7 +429,11 @@ Package: listings 2007/02/22 1.4 (Carsten Heinz)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-(./Developer Guide.aux)
+(./Developer Guide.aux (./Preface/Preface.aux) (./About/About.aux)
+(./Configuration/Configuration.aux) (./Initialization/Initialization.aux)
+(./Events/Events.aux) (./Database/Database.aux) (./Encryption/Encryption.aux)
+(./DatabaseImpl/DatabaseImpl.aux) (./Libraries/Libraries.aux)
+(./Architecture/Architecture.aux) (./Exceptions/Exceptions.aux))
 \openout1 = `"Developer Guide.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
@@ -544,10 +548,29 @@ Overfull \hbox (13.83325pt too wide) in paragraph at lines 74--75
 {/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [1
 
-]
+] (./Developer Guide.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
 
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.28 ...e {5.2.5}Create Index}{}{subsection.5.2.5}
+                                                   [2
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.67 ...\selectfont {Database Layer}}{}{chapter.7}
+                                                   [3])
 \tf@toc=\write4
 \openout4 = `"Developer Guide.toc"'.
 
@@ -556,23 +579,17 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.107 \include{Preface/Preface}
-                                [2
-
-]
+                                [4]pdfTeX warning (ext4): destination with the 
+same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.107 \include{Preface/Preface}
+                                [5]
 \openout2 = `Preface/Preface.aux'.
 
  (./Preface/Preface.tex
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 27.
-LaTeX Font Info:    Try loading font information for U+msa on input line 27.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 27.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
 Underfull \hbox (badness 10000) in paragraph at lines 27--27
 
  []
@@ -582,37 +599,30 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.41 
-      [3
+      [6
 
 ])pdfTeX warning (ext4): destination with the same identifier (name{page.}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.107 \include{Preface/Preface}
-                                [4]
+                                [7]
 \openout2 = `About/About.aux'.
 
  (./About/About.tex
 Chapter 1.
-<Resources/siminov_orm_architecture.jpg, id=51, 562.35094pt x 571.38469pt>
-File: Resources/siminov_orm_architecture.jpg Graphic file (type jpg)
 
-<use Resources/siminov_orm_architecture.jpg>
-Package pdftex.def Info: Resources/siminov_orm_architecture.jpg used on input l
-ine 15.
-(pdftex.def)             Requested size: 322.03642pt x 327.20668pt.
-
-Overfull \hbox (0.40071pt too wide) in paragraph at lines 21--22
+Overfull \hbox (0.40071pt too wide) in paragraph at lines 14--15
 \OT1/cmr/m/n/10.95 Siminov Hy-brid is build us-ing Simi-nov An-droid ORM Frame-
 work and Simi-nov JavaScript
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
+)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.24 
-      [5
+l.108 \include{About/About}
+                            [8
 
 
 
@@ -620,25 +630,13 @@ l.24
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.24 
-      [6 <./Resources/siminov_orm_architecture.jpg>]
-File: Resources/siminov_orm_architecture.jpg Graphic file (type jpg)
-
-<use Resources/siminov_orm_architecture.jpg>
-Package pdftex.def Info: Resources/siminov_orm_architecture.jpg used on input l
-ine 27.
-(pdftex.def)             Requested size: 322.03642pt x 327.20668pt.
-)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
 l.108 \include{About/About}
-                            [7]
+                            [9]
 \openout2 = `Configuration/Configuration.aux'.
 
  (./Configuration/Configuration.tex
 Chapter 2.
-<Resources/siminov_descriptors.png, id=67, 459.96844pt x 399.74344pt>
+<Resources/siminov_descriptors.png, id=588, 459.96844pt x 399.74344pt>
 File: Resources/siminov_descriptors.png Graphic file (type png)
 
 <use Resources/siminov_descriptors.png>
@@ -650,14 +648,15 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.16 \newpage
-              [8
+              [10
 
 
 
  <./Resources/siminov_descriptors.png>]
-<Resources/application_assests_structure.png, id=75, 176.15813pt x 153.57375pt>
+<Resources/application_assests_structure.png, id=595, 176.15813pt x 153.57375pt
+>
 File: Resources/application_assests_structure.png Graphic file (type png)
-<use Resources/application_assests_structure.png>
+ <use Resources/application_assests_structure.png>
 Package pdftex.def Info: Resources/application_assests_structure.png used on in
 put line 19.
 (pdftex.def)             Requested size: 261.11311pt x 227.62204pt.
@@ -671,7 +670,7 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.46 \newpage
-              [9 <./Resources/application_assests_structure.png>]
+              [11 <./Resources/application_assests_structure.png>]
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
@@ -691,7 +690,7 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.52 \newpage
-              [10] (./Resources/siminov_template_application_descriptor.txt)
+              [12] (./Resources/siminov_template_application_descriptor.txt)
 Underfull \hbox (badness 10000) in paragraph at lines 78--78
 
  []
@@ -701,9 +700,9 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.80 		\end{center}
-                    [11]
+                    [13]
 <Resources/siminov_template_application_data_folder_structure_for_application_n
-ame.png, id=153, 197.23688pt x 70.01157pt>
+ame.png, id=673, 197.23688pt x 70.01157pt>
 File: Resources/siminov_template_application_data_folder_structure_for_applicat
 ion_name.png Graphic file (type png)
 
@@ -722,7 +721,7 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.129 		\end{center}
-                     [12 <./Resources/siminov_template_application_data_folder_
+                     [14 <./Resources/siminov_template_application_data_folder_
 structure_for_application_name.png>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 138.
 
@@ -739,7 +738,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--180
 
 
 <Resources/siminov_application_template_application_descriptor_path_example.png
-, id=172, 173.14688pt x 121.95563pt>
+, id=691, 173.14688pt x 121.95563pt>
 File: Resources/siminov_application_template_application_descriptor_path_exampl
 e.png Graphic file (type png)
 
@@ -753,7 +752,7 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.192 \newpage
-               [13 <./Resources/siminov_application_template_application_descri
+               [15 <./Resources/siminov_application_template_application_descri
 ptor_path_example.png>]
 Overfull \hbox (40.68623pt too wide) in paragraph at lines 193--193
 []\OT1/cmr/bx/n/17.28 Database De-scrip-tor (DatabaseDescrip-tor.si.xml)
@@ -764,7 +763,7 @@ e same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.198 \newpage
-               [14] (./Resources/siminov_template_database_descriptor.txt)
+               [16] (./Resources/siminov_template_database_descriptor.txt)
 Underfull \hbox (badness 10000) in paragraph at lines 225--225
 
  []
@@ -774,9 +773,9 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.234 	\item \small
-                    General Properties About Database. [15]
+                    General Properties About Database. [17]
 <Resources/siminov_template_application_data_folder_structure_for_database_name
-.png, id=253, 201.75375pt x 70.01157pt>
+.png, id=771, 201.75375pt x 70.01157pt>
 File: Resources/siminov_template_application_data_folder_structure_for_database
 _name.png Graphic file (type png)
 
@@ -812,7 +811,7 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.327 			\end{center}
-                      [16 <./Resources/siminov_template_application_data_folder
+                      [18 <./Resources/siminov_template_application_data_folder
 _structure_for_database_name.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 352--352
 
@@ -823,9 +822,9 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.356 \newpage
-               [17]
+               [19]
 <Resources/siminov_template_application_database_descriptor_path_example.png, i
-d=276, 748.29562pt x 247.67531pt>
+d=795, 748.29562pt x 247.67531pt>
 File: Resources/siminov_template_application_database_descriptor_path_example.p
 ng Graphic file (type png)
 
@@ -844,7 +843,7 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.367 \newpage
-               [18 <./Resources/siminov_template_application_database_descripto
+               [20 <./Resources/siminov_template_application_database_descripto
 r_path_example.png>]
 Overfull \hbox (11.33018pt too wide) in paragraph at lines 368--368
 []\OT1/cmr/bx/n/17.28 Library De-scrip-tor (Li-brary-De-scrip-tor.si.xml)
@@ -861,12 +860,12 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.400 		\end{center}
-                     [19]pdfTeX warning (ext4): destination with the same ident
+                     [21]pdfTeX warning (ext4): destination with the same ident
 ifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.403 \newpage
-               [20]
+               [22]
 Underfull \hbox (badness 10000) in paragraph at lines 439--439
 
  []
@@ -877,7 +876,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 465--465
  []
 
 
-<Resources/siminov_library_template_path_example.png, id=327, 633.86812pt x 188
+<Resources/siminov_library_template_path_example.png, id=844, 633.86812pt x 188
 .95593pt>
 File: Resources/siminov_library_template_path_example.png Graphic file (type pn
 g)
@@ -895,7 +894,7 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.478 \newpage
-               [21 <./Resources/siminov_library_template_path_example.png>]
+               [23 <./Resources/siminov_library_template_path_example.png>]
 Overfull \hbox (12.86023pt too wide) in paragraph at lines 479--479
 []\OT1/cmr/bx/n/17.28 Database Map-ping De-scrip-tor (DatabaseMap-
  []
@@ -906,24 +905,24 @@ with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.37 		<
-        /column> [22]pdfTeX warning (ext4): destination with the same identifie
+        /column> [24]pdfTeX warning (ext4): destination with the same identifie
 r (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.77 					<
-           !-- Optional Field (Default is false) --> [23])
+           !-- Optional Field (Default is false) --> [25])
 (./Resources/siminov_template_application_liquor_database_mapping_descriptor.tx
 tpdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.23 		<
-        /column> [24])pdfTeX warning (ext4): destination with the same identifi
+        /column> [26])pdfTeX warning (ext4): destination with the same identifi
 er (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.489 \newpage
-               [25]
+               [27]
 Overfull \hbox (44.72163pt too wide) in paragraph at lines 519--520
 \OT1/cmr/m/it/10.95 java.lang.Float\OT1/cmr/m/n/10.95 , \OT1/cmr/m/it/10.95 boo
 lean\OT1/cmr/m/n/10.95 , \OT1/cmr/m/it/10.95 java.lang.Boolean\OT1/cmr/m/n/10.9
@@ -950,24 +949,24 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.555 		\end{center}
-                     [26]pdfTeX warning (ext4): destination with the same ident
+                     [28]pdfTeX warning (ext4): destination with the same ident
 ifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.594 
-       [27]pdfTeX warning (ext4): destination with the same identifier (name{pa
+       [29]pdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.624 \newpage
-               [28]
+               [30]
 Underfull \hbox (badness 10000) in paragraph at lines 645--645
 
  []
 
 
-<Resources/siminov_template_database_descriptor_mapping_path_example.png, id=53
-4, 695.59875pt x 199.49532pt>
+<Resources/siminov_template_database_descriptor_mapping_path_example.png, id=10
+51, 695.59875pt x 199.49532pt>
 File: Resources/siminov_template_database_descriptor_mapping_path_example.png G
 raphic file (type png)
 
@@ -985,7 +984,7 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.657 \newpage
-               [29 <./Resources/siminov_template_database_descriptor_mapping_pa
+               [31 <./Resources/siminov_template_database_descriptor_mapping_pa
 th_example.png>]
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
@@ -998,19 +997,19 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.30 	properties=
-                 { [30])
+                 { [32])
 (./Resources/siminov_template_application_liquor_annotation_class.txtpdfTeX war
 ning (ext4): destination with the same identifier (name{page.}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
 l.38 }
-       [31])pdfTeX warning (ext4): destination with the same identifier (name{p
+       [33])pdfTeX warning (ext4): destination with the same identifier (name{p
 age.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.669 \newpage
-               [32]
+               [34]
 Overfull \hbox (10.41899pt too wide) in paragraph at lines 727--728
 []\OT1/cmr/bx/n/10.95 unique \OT1/cmr/m/n/10.95 | \OT1/cmr/bx/n/10.95 Colum-n-P
 rop-erty\OT1/cmr/m/n/10.95 .\OT1/cmr/bx/n/10.95 UNIQUE\OT1/cmr/m/n/10.95 : \OT1
@@ -1024,12 +1023,12 @@ een already used, duplicate ignored
                    \relax 
 l.738 			\item \small
                       \textbf{onDelete}: \textit{cascade}/\textit{restrict}/...
-[33])pdfTeX warning (ext4): destination with the same identifier (name{page.}) 
+[35])pdfTeX warning (ext4): destination with the same identifier (name{page.}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.109 \include{Configuration/Configuration}
-                                            [34]
+                                            [36]
 \openout2 = `Initialization/Initialization.aux'.
 
 
@@ -1045,7 +1044,7 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.33 	\newpage
-               [35
+               [37
 
 
 
@@ -1064,14 +1063,14 @@ e same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.3 	public 
-            static Resources getInstance(); [36]pdfTeX warning (ext4): destinat
+            static Resources getInstance(); [38]pdfTeX warning (ext4): destinat
 ion with the same identifier (name{page.}) has been already used, duplicate ign
 ored
 <to be read again> 
                    \relax 
 l.37 	public 
              IDatabase getDatabaseBasedOnDatabaseDescriptorName(final String...
-[37])
+[39])
 Overfull \hbox (0.15857pt too wide) in paragraph at lines 115--116
 \OT1/cmr/m/n/10.95 Siminov Frame-work pro-vides easy con-fig-u-ra-tion prop-ert
 y in Ap-pli-ca-tion-De-scrip-tor.si.xml
@@ -1079,7 +1078,7 @@ y in Ap-pli-ca-tion-De-scrip-tor.si.xml
 
 
 <Resources/siminov_application_template_application_descriptor_load_example.png
-, id=744, 385.44pt x 105.39375pt>
+, id=1257, 385.44pt x 105.39375pt>
 File: Resources/siminov_application_template_application_descriptor_load_exampl
 e.png Graphic file (type png)
 
@@ -1093,15 +1092,15 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.131 
-       [38 <./Resources/siminov_application_template_application_descriptor_loa
+       [40 <./Resources/siminov_application_template_application_descriptor_loa
 d_example.png>]pdfTeX warning (ext4): destination with the same identifier (nam
 e{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.141 \newpage
-               [39]
-<Resources/siminov_application_multiple_schemas_example.png, id=772, 750.55406p
-t x 243.91125pt>
+               [41]
+<Resources/siminov_application_multiple_schemas_example.png, id=1285, 750.55406
+pt x 243.91125pt>
 File: Resources/siminov_application_multiple_schemas_example.png Graphic file (
 type png)
 
@@ -1119,7 +1118,7 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.110 \include{Initialization/Initialization}
-                                              [40 <./Resources/siminov_applicat
+                                              [42 <./Resources/siminov_applicat
 ion_multiple_schemas_example.png>]
 \openout2 = `Events/Events.aux'.
 
@@ -1132,7 +1131,7 @@ notifier_example.txtpdfTeX warning (ext4): destination with the same identifier
 <to be read again> 
                    \relax 
 l.1 	public 
-            void firstTimeSiminovInitialized() { [41
+            void firstTimeSiminovInitialized() { [43
 
 
 
@@ -1142,7 +1141,7 @@ th the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.17 }
-       [42])
+       [44])
 Overfull \hbox (5.06682pt too wide) in paragraph at lines 91--92
 \OT1/cmr/m/n/10.95 It is trig-gered when a in-dex is dropped from ta-ble. This 
 API pro-vides DatabaseMap-
@@ -1153,7 +1152,7 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.111 \include{Events/Events}
-                              [43]
+                              [45]
 \openout2 = `Database/Database.aux'.
 
  (./Database/Database.tex
@@ -1166,7 +1165,7 @@ gnored
 <to be read again> 
                    \relax 
 l.27 ...rces/data_type_long_primitive_example.txt}
-                                                   [44
+                                                   [46
 
 
 
@@ -1180,7 +1179,7 @@ e ignored
 <to be read again> 
                    \relax 
 l.56 		\textbf{Example:}
-                         Java Boolean Class Data Type [45]
+                         Java Boolean Class Data Type [47]
 (./Resources/data_type_boolean_class_example.txt)
 (./Resources/data_type_char_example.txt)
 (./Resources/data_type_character_class_example.txt)
@@ -1191,7 +1190,7 @@ gnored
 <to be read again> 
                    \relax 
 l.81 ...rces/data_type_byte_primitive_example.txt}
-                                                   [46]
+                                                   [48]
 (./Resources/data_type_byte_class_example.txt)
 (./Resources/data_type_void_primitive_example.txt)
 (./Resources/data_type_void_class_example.txt)
@@ -1203,54 +1202,54 @@ ed
                    \relax 
 l.1 		<c
         olumn variable_name="name-of-variable" column_name="name-of-column">
-[47]) (./Resources/create_database_api.txt)pdfTeX warning (ext4): destination w
+[49]) (./Resources/create_database_api.txt)pdfTeX warning (ext4): destination w
 ith the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.158 					\begin{center}
-                          [48] (./Resources/create_database_api_example.txt)
+                          [50] (./Resources/create_database_api_example.txt)
 (./Resources/drop_database_api.txt) (./Resources/drop_database_api_example.txtp
 dfTeX warning (ext4): destination with the same identifier (name{page.}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.3 	try 
-         { [49]) (./Resources/create_table_example_xml.txtpdfTeX warning (ext4)
+         { [51]) (./Resources/create_table_example_xml.txtpdfTeX warning (ext4)
 : destination with the same identifier (name{page.}) has been already used, dup
 licate ignored
 <to be read again> 
                    \relax 
 l.25 		<
         column variable_name="alcholContent" column_name="ALCHOL_CONTENT">
-[50]) (./Resources/create_table_example_xml_annotation.txtpdfTeX warning (ext4)
+[52]) (./Resources/create_table_example_xml_annotation.txtpdfTeX warning (ext4)
 : destination with the same identifier (name{page.}) has been already used, dup
 licate ignored
 <to be read again> 
                    \relax 
 l.19 	//
-        Liquor Types [51]pdfTeX warning (ext4): destination with the same ident
+        Liquor Types [53]pdfTeX warning (ext4): destination with the same ident
 ifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.57 		})
-          [52]pdfTeX warning (ext4): destination with the same identifier (name
+          [54]pdfTeX warning (ext4): destination with the same identifier (name
 {page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.106 	public 
               void setLiquorBrands(ArrayList<LiquorBrand> liquorBrands) {
-[53]) (./Resources/create_table_example_programmatically.txtpdfTeX warning (ext
+[55]) (./Resources/create_table_example_programmatically.txtpdfTeX warning (ext
 4): destination with the same identifier (name{page.}) has been already used, d
 uplicate ignored
 <to be read again> 
                    \relax 
 l.36 history.
-             setColumnName("HISTORY"); [54]pdfTeX warning (ext4): destination w
+             setColumnName("HISTORY"); [56]pdfTeX warning (ext4): destination w
 ith the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.83 try 
-         { [55])
+         { [57])
 (./Resources/create_table_iterator_of_database_mapping_descriptor_objects.txt)
 (./Resources/create_table_iterator_of_database_mapping_descriptor_objects_examp
 le.txt) (./Resources/create_table_database_mapping_object.txt)
@@ -1260,12 +1259,12 @@ duplicate ignored
 <to be read again> 
                    \relax 
 l.13 		liquorType.
-                  setPrimaryKey(true); [56]pdfTeX warning (ext4): destination w
+                  setPrimaryKey(true); [58]pdfTeX warning (ext4): destination w
 ith the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.57 		databaseMapping.
-                       addColumn(link); [57])
+                       addColumn(link); [59])
 (./Resources/instance_drop_table_method.txt)
 (./Resources/instance_drop_table_method_example.txtpdfTeX warning (ext4): desti
 nation with the same identifier (name{page.}) has been already used, duplicate 
@@ -1273,7 +1272,7 @@ ignored
 <to be read again> 
                    \relax 
 l.4 		//
-        Log It. [58]) (./Resources/static_drop_table_method.txt)
+        Log It. [60]) (./Resources/static_drop_table_method.txt)
 (./Resources/static_drop_table_method_example.txt)
 (./Resources/create_index_using_xml.txt)pdfTeX warning (ext4): destination with
  the same identifier (name{page.}) has been already used, duplicate ignored
@@ -1281,7 +1280,7 @@ l.4 		//
                    \relax 
 l.283 				D
            atabase class provides few API's two create index programmatically
-[59] (./Resources/create_index_programmatically_1.txt)
+[61] (./Resources/create_index_programmatically_1.txt)
 (./Resources/create_index_programmatically_1_example.txt)
 (./Resources/create_index_programmatically_2.txt)
 (./Resources/create_index_programmatically_2_example.txt)pdfTeX warning (ext4):
@@ -1290,7 +1289,7 @@ icate ignored
 <to be read again> 
                    \relax 
 l.297 ...ate_index_programmatically_2_example.txt}
-                                                   [60]
+                                                   [62]
 (./Resources/create_index_programmatically_3.txt)
 (./Resources/create_index_programmatically_3_example.txt)
 (./Resources/create_index_programmatically_4.txt)
@@ -1301,7 +1300,7 @@ icate ignored
                    \relax 
 l.322 			\item \small
                       \lstinputlisting[language=Java]{Resources/drop_index_1...
-[61] (./Resources/drop_index_1.txt) (./Resources/drop_index_1_example.txt)
+[63] (./Resources/drop_index_1.txt) (./Resources/drop_index_1_example.txt)
 (./Resources/drop_index_2.txt) (./Resources/drop_index_2_example.txt)
 (./Resources/select.txt) (./Resources/ifetch_interface.txtpdfTeX warning (ext4)
 : destination with the same identifier (name{page.}) has been already used, dup
@@ -1309,28 +1308,28 @@ licate ignored
 <to be read again> 
                    \relax 
 l.3 	/*
-       * [62]pdfTeX warning (ext4): destination with the same identifier (name{
+       * [64]pdfTeX warning (ext4): destination with the same identifier (name{
 page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.44 	/*
-        * [63]pdfTeX warning (ext4): destination with the same identifier (name
+        * [65]pdfTeX warning (ext4): destination with the same identifier (name
 {page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.86 	/*
-        * [64]) (./Resources/ifetchclause_interface.txtpdfTeX warning (ext4): d
+        * [66]) (./Resources/ifetchclause_interface.txtpdfTeX warning (ext4): d
 estination with the same identifier (name{page.}) has been already used, duplic
 ate ignored
 <to be read again> 
                    \relax 
 l.24 	/*
-        * [65])pdfTeX warning (ext4): destination with the same identifier (nam
+        * [67])pdfTeX warning (ext4): destination with the same identifier (nam
 e{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.354 ...va]{Resources/ifetchclause_interface.txt}
-                                                   [66]
+                                                   [68]
 (./Resources/select_example.txt) (./Resources/manual_select.txt)
 (./Resources/manual_select_example.txt) (./Resources/save.txt)
 (./Resources/save_example.txtpdfTeX warning (ext4): destination with the same i
@@ -1338,7 +1337,7 @@ dentifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.9 		beer.
-           save(); [67]) (./Resources/update.txt)
+           save(); [69]) (./Resources/update.txt)
 (./Resources/update_example.txt) (./Resources/save_or_update.txt)
 (./Resources/save_or_update_example.txtpdfTeX warning (ext4): destination with 
 the same identifier (name{page.}) has been already used, duplicate ignored
@@ -1346,19 +1345,19 @@ the same identifier (name{page.}) has been already used, duplicate ignored
                    \relax 
 l.4 	beer.
           setHistory(applicationContext.getString(R.string.beer_history));
-[68]) (./Resources/delete.txt) (./Resources/idelete.txtpdfTeX warning (ext4): d
+[70]) (./Resources/delete.txt) (./Resources/idelete.txtpdfTeX warning (ext4): d
 estination with the same identifier (name{page.}) has been already used, duplic
 ate ignored
 <to be read again> 
                    \relax 
 l.16 }
-       [69]) (./Resources/ideleteclause.txt) (./Resources/delete_example.txt)
+       [71]) (./Resources/ideleteclause.txt) (./Resources/delete_example.txt)
 (./Resources/get_database_descriptor.txt)pdfTeX warning (ext4): destination wit
 h the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.436 ...a]{Resources/get_database_descriptor.txt}
-                                                   [70]
+                                                   [72]
 (./Resources/get_database_descriptor_example.txt)
 (./Resources/get_database_mapping.txt)
 (./Resources/get_database_mapping_example.txt) (./Resources/get_table_name.txt)
@@ -1367,7 +1366,7 @@ l.436 ...a]{Resources/get_database_descriptor.txt}
 <to be read again> 
                    \relax 
 l.456 ...va]{Resources/get_table_name_example.txt}
-                                                   [71]
+                                                   [73]
 (./Resources/get_column_names.txt) (./Resources/get_column_names_example.txt)
 (./Resources/get_column_values.txt) (./Resources/get_column_values_example.txt)
 (./Resources/get_column_types.txt)pdfTeX warning (ext4): destination with the s
@@ -1375,7 +1374,7 @@ ame identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.476 ...age=Java]{Resources/get_column_types.txt}
-                                                   [72]
+                                                   [74]
 (./Resources/get_column_types_example.txt) (./Resources/get_primary_keys.txt)
 (./Resources/get_primary_keys_example.txt)
 (./Resources/get_mandatory_fields.txt)
@@ -1385,175 +1384,175 @@ d
 <to be read again> 
                    \relax 
 l.5 		//
-        Log it. [73]) (./Resources/get_unique_fields.txt)
+        Log it. [75]) (./Resources/get_unique_fields.txt)
 (./Resources/get_unique_fields_example.txt) (./Resources/get_foreign_keys.txt)
 (./Resources/get_foreign_keys_example.txt)pdfTeX warning (ext4): destination wi
 th the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.521 			\textbf{API}
-                     : Count API. [74] (./Resources/count.txt)
+                     : Count API. [76] (./Resources/count.txt)
 (./Resources/icount_interface.txtpdfTeX warning (ext4): destination with the sa
 me identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.33 	 * 
-         @return ICountClause Interface. [75]pdfTeX warning (ext4): destination
+         @return ICountClause Interface. [77]pdfTeX warning (ext4): destination
  with the same identifier (name{page.}) has been already used, duplicate ignore
 d
 <to be read again> 
                    \relax 
 l.72 }
-       [76]) (./Resources/icountclause_interface.txtpdfTeX warning (ext4): dest
+       [78]) (./Resources/icountclause_interface.txtpdfTeX warning (ext4): dest
 ination with the same identifier (name{page.}) has been already used, duplicate
  ignored
 <to be read again> 
                    \relax 
 l.39 	 * 
-         Used to specify LESS THAN EQUAL (<=) condition. [77])
+         Used to specify LESS THAN EQUAL (<=) condition. [79])
 (./Resources/count_example.txt)pdfTeX warning (ext4): destination with the same
  identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.541 			\textbf{API}
-                     : Average API. [78] (./Resources/average.txt)
+                     : Average API. [80] (./Resources/average.txt)
 (./Resources/iaverage_interface.txtpdfTeX warning (ext4): destination with the 
 same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.32 	 * 
          Used to specify GROUP BY statement in conjunction with the aggregat...
-[79]) (./Resources/iaverageclause_interface.txtpdfTeX warning (ext4): destinati
+[81]) (./Resources/iaverageclause_interface.txtpdfTeX warning (ext4): destinati
 on with the same identifier (name{page.}) has been already used, duplicate igno
 red
 <to be read again> 
                    \relax 
 l.1 public 
-           interface IAverageClause { [80]pdfTeX warning (ext4): destination wi
+           interface IAverageClause { [82]pdfTeX warning (ext4): destination wi
 th the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.45 	/*
-        * [81]) (./Resources/average_example.txt)pdfTeX warning (ext4): destina
+        * [83]) (./Resources/average_example.txt)pdfTeX warning (ext4): destina
 tion with the same identifier (name{page.}) has been already used, duplicate ig
 nored
 <to be read again> 
                    \relax 
 l.564 ...listing[language=Java]{Resources/sum.txt}
-                                                   [82] (./Resources/sum.txt)
+                                                   [84] (./Resources/sum.txt)
 (./Resources/isum_interface.txtpdfTeX warning (ext4): destination with the same
  identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.34 	 * 
-         @param columns Name of columns. [83])
+         @param columns Name of columns. [85])
 (./Resources/isumclause_interface.txtpdfTeX warning (ext4): destination with th
 e same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.5 	 * 
         @param value Value for which EQUAL TO (=) condition will be applied.
-[84]pdfTeX warning (ext4): destination with the same identifier (name{page.}) h
+[86]pdfTeX warning (ext4): destination with the same identifier (name{page.}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.48 	 * 
-         @param end End Range. [85]) (./Resources/sum_example.txt)
+         @param end End Range. [87]) (./Resources/sum_example.txt)
 (./Resources/total.txt)pdfTeX warning (ext4): destination with the same identif
 ier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.586 ...sting[language=Java]{Resources/total.txt}
-                                                   [86]
+                                                   [88]
 (./Resources/itotal_interface.txtpdfTeX warning (ext4): destination with the sa
 me identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.39 	 * 
          Used to specify HAVING clause to SQL because the WHERE keyword coul...
-[87]) (./Resources/itotalclause_interface.txtpdfTeX warning (ext4): destination
+[89]) (./Resources/itotalclause_interface.txtpdfTeX warning (ext4): destination
  with the same identifier (name{page.}) has been already used, duplicate ignore
 d
 <to be read again> 
                    \relax 
 l.10 	/*
-        * [88]pdfTeX warning (ext4): destination with the same identifier (name
+        * [90]pdfTeX warning (ext4): destination with the same identifier (name
 {page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.53 	/*
-        * [89]) (./Resources/total_example.txt) (./Resources/minimum.txt)pdfTeX
+        * [91]) (./Resources/total_example.txt) (./Resources/minimum.txt)pdfTeX
  warning (ext4): destination with the same identifier (name{page.}) has been al
 ready used, duplicate ignored
 <to be read again> 
                    \relax 
 l.615 ...e=Java]{Resources/iminimum_interface.txt}
-                                                   [90]
+                                                   [92]
 (./Resources/iminimum_interface.txtpdfTeX warning (ext4): destination with the 
 same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.41 	 * 
-         @return IMinClause Interface. [91])
+         @return IMinClause Interface. [93])
 (./Resources/iminimumclause_interface.txtpdfTeX warning (ext4): destination wit
 h the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.13 	 * 
-         @return IMax Interface. [92]pdfTeX warning (ext4): destination with th
+         @return IMax Interface. [94]pdfTeX warning (ext4): destination with th
 e same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.58 	public 
-             IMin like(String like); [93]) (./Resources/minimum_example.txt)
+             IMin like(String like); [95]) (./Resources/minimum_example.txt)
 (./Resources/maximum.txt) (./Resources/imax_interface.txtpdfTeX warning (ext4):
  destination with the same identifier (name{page.}) has been already used, dupl
 icate ignored
 <to be read again> 
                    \relax 
 l.6 	 * 
-        @return IMaxClause Interface. [94]pdfTeX warning (ext4): destination wi
+        @return IMaxClause Interface. [96]pdfTeX warning (ext4): destination wi
 th the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.47 	 * 
-         @param havingClause Where clause. [95])
+         @param havingClause Where clause. [97])
 (./Resources/imaxclause_interface.txtpdfTeX warning (ext4): destination with th
 e same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.18 	 * 
-         Used to specify GREATER THAN (>) condition. [96]pdfTeX warning (ext4):
+         Used to specify GREATER THAN (>) condition. [98]pdfTeX warning (ext4):
  destination with the same identifier (name{page.}) has been already used, dupl
 icate ignored
 <to be read again> 
                    \relax 
 l.63 	 * 
-         @return IMax Interface. [97]) (./Resources/maximum_example.txt)
+         @return IMax Interface. [99]) (./Resources/maximum_example.txt)
 (./Resources/groupconcat.txt) (./Resources/igroupconcat_interface.txtpdfTeX war
 ning (ext4): destination with the same identifier (name{page.}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
 l.11 	 * 
-         Column name of which condition will be specified. [98]pdfTeX warning (
-ext4): destination with the same identifier (name{page.}) has been already used
-, duplicate ignored
+         Column name of which condition will be specified. [100]pdfTeX warning 
+(ext4): destination with the same identifier (name{page.}) has been already use
+d, duplicate ignored
 <to be read again> 
                    \relax 
 l.52 	/*
-        * [99]) (./Resources/igroupconcatclause_interface.txtpdfTeX warning (ex
-t4): destination with the same identifier (name{page.}) has been already used, 
-duplicate ignored
+        * [101]) (./Resources/igroupconcatclause_interface.txtpdfTeX warning (e
+xt4): destination with the same identifier (name{page.}) has been already used,
+ duplicate ignored
 <to be read again> 
                    \relax 
 l.17 	/*
-        * [100]pdfTeX warning (ext4): destination with the same identifier (nam
+        * [102]pdfTeX warning (ext4): destination with the same identifier (nam
 e{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.61 	 * 
-         Used to specify IN condition. [101])
+         Used to specify IN condition. [103])
 (./Resources/groupconcat_example.txt) (./Resources/begin_transaction.txt)
 (./Resources/begin_transaction_example.txtpdfTeX warning (ext4): destination wi
 th the same identifier (name{page.}) has been already used, duplicate ignored
@@ -1561,21 +1560,21 @@ th the same identifier (name{page.}) has been already used, duplicate ignored
                    \relax 
 l.4 	beer.
           setHistory(applicationContext.getString(R.string.beer_history));
-[102]) (./Resources/commit_transaction.txt)
+[104]) (./Resources/commit_transaction.txt)
 (./Resources/commit_transaction_example.txtpdfTeX warning (ext4): destination w
 ith the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.10 	try 
-          { [103]) (./Resources/end_transaction.txt)
+          { [105]) (./Resources/end_transaction.txt)
 (./Resources/end_transaction_example.txtpdfTeX warning (ext4): destination with
  the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.17 		//
-         Log it. [104])
+         Log it. [106])
 (./Resources/andorid_transaction_set_locking_enabled_api.txt)
-<Resources/siminov_template_application_is_locking_enable_example.png, id=3155,
+<Resources/siminov_template_application_is_locking_enable_example.png, id=3626,
  408.02437pt x 188.20313pt>
 File: Resources/siminov_template_application_is_locking_enable_example.png Grap
 hic file (type png)
@@ -1594,31 +1593,31 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.727 
-       [105 <./Resources/siminov_template_application_is_locking_enable_example
+       [107 <./Resources/siminov_template_application_is_locking_enable_example
 .png>] (./Resources/preparing_where_clause.txt)
 (./Resources/one_to_one_syntax.txtpdfTeX warning (ext4): destination with the s
 ame identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.9 			</o
-          ne-to-one> [106]) (./Resources/one_to_many_syntax.txt)pdfTeX warning 
+          ne-to-one> [108]) (./Resources/one_to_many_syntax.txt)pdfTeX warning 
 (ext4): destination with the same identifier (name{page.}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
 l.753 
-       [107] (./Resources/many_to_one_syntax.txt)
+       [109] (./Resources/many_to_one_syntax.txt)
 (./Resources/many_to_many_syntax.txtpdfTeX warning (ext4): destination with the
  same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.5 		<r
-        elationships> [108]))pdfTeX warning (ext4): destination with the same i
+        elationships> [110]))pdfTeX warning (ext4): destination with the same i
 dentifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.112 \include{Database/Database}
-                                  [109]
+                                  [111]
 \openout2 = `Encryption/Encryption.aux'.
 
  (./Encryption/Encryption.tex
@@ -1628,12 +1627,12 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.26 			\newpage
-                 [110
+                 [112
 
 
 
 ]
-<Resources/siminov_template_sqlcipher_application_setup_1.png, id=3272, 188.203
+<Resources/siminov_template_sqlcipher_application_setup_1.png, id=3734, 188.203
 13pt x 274.77657pt>
 File: Resources/siminov_template_sqlcipher_application_setup_1.png Graphic file
  (type png)
@@ -1643,7 +1642,7 @@ Package pdftex.def Info: Resources/siminov_template_sqlcipher_application_setup
 _1.png used on input line 31.
 (pdftex.def)             Requested size: 155.90988pt x 227.62204pt.
 
-<Resources/siminov_template_sqlcipher_application_setup_2.png, id=3273, 188.203
+<Resources/siminov_template_sqlcipher_application_setup_2.png, id=3735, 188.203
 13pt x 274.77657pt>
 File: Resources/siminov_template_sqlcipher_application_setup_2.png Graphic file
  (type png)
@@ -1657,9 +1656,9 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.42 			\newpage
-                 [111 <./Resources/siminov_template_sqlcipher_application_setup
+                 [113 <./Resources/siminov_template_sqlcipher_application_setup
 _1.png> <./Resources/siminov_template_sqlcipher_application_setup_2.png>]
-<Resources/siminov_template_sqlcipher_application_setup_3.png, id=3281, 188.203
+<Resources/siminov_template_sqlcipher_application_setup_3.png, id=3744, 188.203
 13pt x 274.77657pt>
 File: Resources/siminov_template_sqlcipher_application_setup_3.png Graphic file
  (type png)
@@ -1669,7 +1668,7 @@ Package pdftex.def Info: Resources/siminov_template_sqlcipher_application_setup
 _3.png used on input line 47.
 (pdftex.def)             Requested size: 155.90988pt x 227.62204pt.
 
-<Resources/siminov_template_sqlcipher_application_setup.png, id=3282, 196.48407
+<Resources/siminov_template_sqlcipher_application_setup.png, id=3745, 196.48407
 pt x 325.96782pt>
 File: Resources/siminov_template_sqlcipher_application_setup.png Graphic file (
 type png)
@@ -1683,10 +1682,10 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.60 	\newpage
-               [112 <./Resources/siminov_template_sqlcipher_application_setup_3
+               [114 <./Resources/siminov_template_sqlcipher_application_setup_3
 .png> <./Resources/siminov_template_sqlcipher_application_setup.png>]
 <Resources/siminov_sqlcipher_template_application_add_siminov_sqlcipher_jar.png
-, id=3289, 188.95593pt x 217.5628pt>
+, id=3753, 188.95593pt x 217.5628pt>
 File: Resources/siminov_sqlcipher_template_application_add_siminov_sqlcipher_ja
 r.png Graphic file (type png)
 
@@ -1697,7 +1696,7 @@ iminov_sqlcipher_jar.png used on input line 65.
 (pdftex.def)             Requested size: 172.991pt x 199.16928pt.
 
 <Resources/siminov_template_sqlcipher_application_sqlcipherdatabaseimpl_class_c
-onfigure.png, id=3290, 462.22687pt x 191.21437pt>
+onfigure.png, id=3754, 462.22687pt x 191.21437pt>
 File: Resources/siminov_template_sqlcipher_application_sqlcipherdatabaseimpl_cl
 ass_configure.png Graphic file (type png)
 
@@ -1711,7 +1710,7 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.113 \include{Encryption/Encryption}
-                                      [113 <./Resources/siminov_sqlcipher_templ
+                                      [115 <./Resources/siminov_sqlcipher_templ
 ate_application_add_siminov_sqlcipher_jar.png> <./Resources/siminov_template_sq
 lcipher_application_sqlcipherdatabaseimpl_class_configure.png>]
 \openout2 = `DatabaseImpl/DatabaseImpl.aux'.
@@ -1725,7 +1724,7 @@ Chapter 7.
                    \relax 
 l.13 	public 
              void executeMethod(final String methodName, final Object parame...
-[114
+[116
 
 
 
@@ -1736,14 +1735,14 @@ with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.11 		try 
-           { [115]) (./Resources/idatabase_execute_query_api_example.txt)
+           { [117]) (./Resources/idatabase_execute_query_api_example.txt)
 (./Resources/idatabase_execute_bind_query_api_example.txtpdfTeX warning (ext4):
  destination with the same identifier (name{page.}) has been already used, dupl
 icate ignored
 <to be read again> 
                    \relax 
 l.6 		} 
-        catch(DatabaseException databaseException) { [116])
+        catch(DatabaseException databaseException) { [118])
 (./Resources/idatabase_execute_fetch_query_api_example.txt)
 (./Resources/idatabase_execute_method_api_example.txtpdfTeX warning (ext4): des
 tination with the same identifier (name{page.}) has been already used, duplicat
@@ -1751,32 +1750,32 @@ e ignored
 <to be read again> 
                    \relax 
 l.6 		} 
-        catch(DatabaseException databaseException) { [117])
+        catch(DatabaseException databaseException) { [119])
 (./Resources/idatatypehandler_interface.txt)
 (./Resources/iquerybuilder_interface.txtpdfTeX warning (ext4): destination with
  the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.7 	public 
-            String formDropTableQuery(final String tableName); [118]pdfTeX warn
+            String formDropTableQuery(final String tableName); [120]pdfTeX warn
 ing (ext4): destination with the same identifier (name{page.}) has been already
  used, duplicate ignored
 <to be read again> 
                    \relax 
 l.33 	public 
              Iterator<String> formTriggers(final DatabaseMappingDescriptor d...
-[119]))pdfTeX warning (ext4): destination with the same identifier (name{page.}
+[121]))pdfTeX warning (ext4): destination with the same identifier (name{page.}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.114 \include{DatabaseImpl/DatabaseImpl}
-                                          [120]
+                                          [122]
 \openout2 = `Libraries/Libraries.aux'.
 
  (./Libraries/Libraries.tex
 Chapter 8.
 
-<Resources/setting_up_a_library_project.png, id=3490, 607.26875pt x 420.57124pt
+<Resources/setting_up_a_library_project.png, id=3948, 607.26875pt x 420.57124pt
 >
 File: Resources/setting_up_a_library_project.png Graphic file (type png)
  <use Resources/setting_up_a_library_project.png>
@@ -1788,7 +1787,7 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.30 \newpage
-              [121
+              [123
 
 
 
@@ -1797,8 +1796,8 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.48 \newpage
-              [122 <./Resources/setting_up_a_library_project.png>]
-<Resources/referencing_a_library_project.png, id=3511, 607.26875pt x 419.5675pt
+              [124 <./Resources/setting_up_a_library_project.png>]
+<Resources/referencing_a_library_project.png, id=3967, 607.26875pt x 419.5675pt
 >
 File: Resources/referencing_a_library_project.png Graphic file (type png)
  <use Resources/referencing_a_library_project.png>
@@ -1810,8 +1809,8 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.54 \newpage
-              [123 <./Resources/referencing_a_library_project.png>]
-<Resources/siminov_library_template_library_descriptor.png, id=3517, 652.68843p
+              [125 <./Resources/referencing_a_library_project.png>]
+<Resources/siminov_library_template_library_descriptor.png, id=3972, 652.68843p
 t x 118.94438pt>
 File: Resources/siminov_library_template_library_descriptor.png Graphic file (t
 ype png)
@@ -1826,7 +1825,7 @@ Overfull \hbox (128.22813pt too wide) in paragraph at lines 63--64
  []
 
 
-<Resources/siminov_library_template_configure.png, id=3518, 683.55376pt x 410.2
+<Resources/siminov_library_template_configure.png, id=3973, 683.55376pt x 410.2
 828pt>
 File: Resources/siminov_library_template_configure.png Graphic file (type png)
  <use Resources/siminov_library_template_configure.png>
@@ -1843,19 +1842,19 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.102 		\end{center}
-                     [124 <./Resources/siminov_library_template_library_descrip
+                     [126 <./Resources/siminov_library_template_library_descrip
 tor.png> <./Resources/siminov_library_template_configure.png>])pdfTeX warning (
 ext4): destination with the same identifier (name{page.}) has been already used
 , duplicate ignored
 <to be read again> 
                    \relax 
 l.115 \include{Libraries/Libraries}
-                                    [125]
+                                    [127]
 \openout2 = `Architecture/Architecture.aux'.
 
  (./Architecture/Architecture.tex
 Chapter 9.
-<Resources/siminov_layers.png, id=3530, 604.50844pt x 433.62pt>
+<Resources/siminov_layers.png, id=3985, 604.50844pt x 433.62pt>
 File: Resources/siminov_layers.png Graphic file (type png)
 
 <use Resources/siminov_layers.png>
@@ -1866,7 +1865,7 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.12 \newpage
-              [126
+              [128
 
 
 
@@ -1876,238 +1875,238 @@ identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.34 	public 
-             static final void shutdown() throws CoreException; [127])pdfTeX wa
+             static final void shutdown() throws CoreException; [129])pdfTeX wa
 rning (ext4): destination with the same identifier (name{page.}) has been alrea
 dy used, duplicate ignored
 <to be read again> 
                    \relax 
 l.21 \newpage
-              [128] (./Resources/resources_class.txtpdfTeX warning (ext4): dest
+              [130] (./Resources/resources_class.txtpdfTeX warning (ext4): dest
 ination with the same identifier (name{page.}) has been already used, duplicate
  ignored
 <to be read again> 
                    \relax 
 l.34 	 Get 
            Database Descriptor based on database descriptor name provided as...
-[129]pdfTeX warning (ext4): destination with the same identifier (name{page.}) 
+[131]pdfTeX warning (ext4): destination with the same identifier (name{page.}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.74 	/*
-        * [130]pdfTeX warning (ext4): destination with the same identifier (nam
+        * [132]pdfTeX warning (ext4): destination with the same identifier (nam
 e{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.112 	 Get 
-            all IDatabase objects contain by application. [131])pdfTeX warning 
+            all IDatabase objects contain by application. [133])pdfTeX warning 
 (ext4): destination with the same identifier (name{page.}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
 l.29 \newpage
-              [132] (./Resources/database_class.txtpdfTeX warning (ext4): desti
+              [134] (./Resources/database_class.txtpdfTeX warning (ext4): desti
 nation with the same identifier (name{page.}) has been already used, duplicate 
 ignored
 <to be read again> 
                    \relax 
 l.34 	*/
-         [133]pdfTeX warning (ext4): destination with the same identifier (name
+         [135]pdfTeX warning (ext4): destination with the same identifier (name
 {page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.75 	public 
              static final void endTransaction(final DatabaseDescriptor datab...
-[134]pdfTeX warning (ext4): destination with the same identifier (name{page.}) 
+[136]pdfTeX warning (ext4): destination with the same identifier (name{page.}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.108 	/*
-         * [135]pdfTeX warning (ext4): destination with the same identifier (na
+         * [137]pdfTeX warning (ext4): destination with the same identifier (na
 me{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.141 	public 
-              final void delete() throws DatabaseException; [136]pdfTeX warning
+              final void delete() throws DatabaseException; [138]pdfTeX warning
  (ext4): destination with the same identifier (name{page.}) has been already us
 ed, duplicate ignored
 <to be read again> 
                    \relax 
 l.183 	 Returns 
-                the minimum based on column name provided. [137]pdfTeX warning 
+                the minimum based on column name provided. [139]pdfTeX warning 
 (ext4): destination with the same identifier (name{page.}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
 l.222 	/*
-         * [138]pdfTeX warning (ext4): destination with the same identifier (na
+         * [140]pdfTeX warning (ext4): destination with the same identifier (na
 me{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.259 	 Returns 
                 all foreign keys of mapped table for invoked class object.
-[139])pdfTeX warning (ext4): destination with the same identifier (name{page.})
+[141])pdfTeX warning (ext4): destination with the same identifier (name{page.})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.38 \newpage
-              [140] (./Resources/application_descriptor_class.txtpdfTeX warning
+              [142] (./Resources/application_descriptor_class.txtpdfTeX warning
  (ext4): destination with the same identifier (name{page.}) has been already us
 ed, duplicate ignored
 <to be read again> 
                    \relax 
 l.34 	public 
              boolean containsDatabaseDescriptorBasedOnPath(final String cont...
-[141]pdfTeX warning (ext4): destination with the same identifier (name{page.}) 
+[143]pdfTeX warning (ext4): destination with the same identifier (name{page.}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.76 	 Get 
            all event handlers as per defined in ApplicationDescriptor.si.xml...
-[142])pdfTeX warning (ext4): destination with the same identifier (name{page.})
+[144])pdfTeX warning (ext4): destination with the same identifier (name{page.})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.48 \newpage
-              [143] (./Resources/database_descriptor_class.txtpdfTeX warning (e
+              [145] (./Resources/database_descriptor_class.txtpdfTeX warning (e
 xt4): destination with the same identifier (name{page.}) has been already used,
  duplicate ignored
 <to be read again> 
                    \relax 
 l.40 	/*
-        * [144]pdfTeX warning (ext4): destination with the same identifier (nam
+        * [146]pdfTeX warning (ext4): destination with the same identifier (nam
 e{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.81 	*/
-         [145]pdfTeX warning (ext4): destination with the same identifier (name
+         [147]pdfTeX warning (ext4): destination with the same identifier (name
 {page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.121 }
-        [146])pdfTeX warning (ext4): destination with the same identifier (name
+        [148])pdfTeX warning (ext4): destination with the same identifier (name
 {page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.54 \newpage
-              [147] (./Resources/library_descriptor_class.txtpdfTeX warning (ex
+              [149] (./Resources/library_descriptor_class.txtpdfTeX warning (ex
 t4): destination with the same identifier (name{page.}) has been already used, 
 duplicate ignored
 <to be read again> 
                    \relax 
 l.39 	public 
              DatabaseMappingDescriptor getDatabseMappingBasedOnTableName(fin...
-[148])pdfTeX warning (ext4): destination with the same identifier (name{page.})
+[150])pdfTeX warning (ext4): destination with the same identifier (name{page.})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.60 \newpage
-              [149] (./Resources/database_mapping_descriptor_class.txtpdfTeX wa
+              [151] (./Resources/database_mapping_descriptor_class.txtpdfTeX wa
 rning (ext4): destination with the same identifier (name{page.}) has been alrea
 dy used, duplicate ignored
 <to be read again> 
                    \relax 
 l.41 	/*
-        * [150]pdfTeX warning (ext4): destination with the same identifier (nam
+        * [152]pdfTeX warning (ext4): destination with the same identifier (nam
 e{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.89 	 Check 
-             weather map object exists based on map name. [151]pdfTeX warning (
+             weather map object exists based on map name. [153]pdfTeX warning (
 ext4): destination with the same identifier (name{page.}) has been already used
 , duplicate ignored
 <to be read again> 
                    \relax 
 l.137 			/*
-           * [152]pdfTeX warning (ext4): destination with the same identifier (
-name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.187 		}
-          [153]pdfTeX warning (ext4): destination with the same identifier (nam
-e{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.234 			/*
            * [154]pdfTeX warning (ext4): destination with the same identifier (
 name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
+l.187 		}
+          [155]pdfTeX warning (ext4): destination with the same identifier (nam
+e{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.234 			/*
+           * [156]pdfTeX warning (ext4): destination with the same identifier (
+name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
 l.279 			/*
-           * [155]pdfTeX warning (ext4): destination with the same identifier (
+           * [157]pdfTeX warning (ext4): destination with the same identifier (
 name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.326 		}
-          [156])pdfTeX warning (ext4): destination with the same identifier (na
+          [158])pdfTeX warning (ext4): destination with the same identifier (na
 me{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.66 \newpage
-              [157] (./Resources/table_annotation_interface.txt)pdfTeX warning 
+              [159] (./Resources/table_annotation_interface.txt)pdfTeX warning 
 (ext4): destination with the same identifier (name{page.}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
 l.72 \newpage
-              [158] (./Resources/column_annotation_interface.txt)pdfTeX warning
+              [160] (./Resources/column_annotation_interface.txt)pdfTeX warning
  (ext4): destination with the same identifier (name{page.}) has been already us
 ed, duplicate ignored
 <to be read again> 
                    \relax 
 l.78 \newpage
-              [159] (./Resources/properties_annotation_interface.txt)pdfTeX war
+              [161] (./Resources/properties_annotation_interface.txt)pdfTeX war
 ning (ext4): destination with the same identifier (name{page.}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
 l.83 \newpage
-              [160] (./Resources/index_annotation_interface.txt)pdfTeX warning 
+              [162] (./Resources/index_annotation_interface.txt)pdfTeX warning 
 (ext4): destination with the same identifier (name{page.}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
 l.88 \newpage
-              [161] (./Resources/index_column_annotation_interface.txt)pdfTeX w
+              [163] (./Resources/index_column_annotation_interface.txt)pdfTeX w
 arning (ext4): destination with the same identifier (name{page.}) has been alre
 ady used, duplicate ignored
 <to be read again> 
                    \relax 
 l.94 \newpage
-              [162] (./Resources/indexes_annotation_interface.txt)pdfTeX warnin
+              [164] (./Resources/indexes_annotation_interface.txt)pdfTeX warnin
 g (ext4): destination with the same identifier (name{page.}) has been already u
 sed, duplicate ignored
 <to be read again> 
                    \relax 
 l.100 \newpage
-               [163] (./Resources/reference_annotation_interface.txt)pdfTeX war
+               [165] (./Resources/reference_annotation_interface.txt)pdfTeX war
 ning (ext4): destination with the same identifier (name{page.}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
 l.106 \newpage
-               [164] (./Resources/map_annotation_interface.txt)pdfTeX warning (
+               [166] (./Resources/map_annotation_interface.txt)pdfTeX warning (
 ext4): destination with the same identifier (name{page.}) has been already used
 , duplicate ignored
 <to be read again> 
                    \relax 
 l.112 \newpage
-               [165]pdfTeX warning (ext4): destination with the same identifier
+               [167]pdfTeX warning (ext4): destination with the same identifier
  (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.130 \newpage
-               [166] (./Resources/utils_class.txtpdfTeX warning (ext4): destina
+               [168] (./Resources/utils_class.txtpdfTeX warning (ext4): destina
 tion with the same identifier (name{page.}) has been already used, duplicate ig
 nored
 <to be read again> 
                    \relax 
 l.37 }
-       [167]))pdfTeX warning (ext4): destination with the same identifier (name
+       [169]))pdfTeX warning (ext4): destination with the same identifier (name
 {page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.116 \include{Architecture/Architecture}
-                                          [168]
+                                          [170]
 \openout2 = `Exceptions/Exceptions.aux'.
 
  (./Exceptions/Exceptions.tex
@@ -2119,7 +2118,7 @@ ith the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.117 \include{Exceptions/Exceptions}
-                                      [169
+                                      [171
 
 
 
@@ -2134,23 +2133,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
 (./Architecture/Architecture.aux) (./Exceptions/Exceptions.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
-
-
-Package rerunfilecheck Warning: File `"Developer Guide".out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"Developer Guide".out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  7A1058E17A91F3E1C34C4F8279E0A185;7414.
+Package rerunfilecheck Info: File `"Developer Guide".out' has not changed.
+(rerunfilecheck)             Checksum: 7A1058E17A91F3E1C34C4F8279E0A185;7414.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
  ) 
 Here is how much of TeX's memory you used:
- 16301 strings out of 493488
- 265757 string characters out of 3141326
+ 16439 strings out of 493488
+ 268065 string characters out of 3141326
  663809 words of memory out of 3000000
- 14604 multiletter control sequences out of 15000+200000
- 19533 words of font info for 75 fonts, out of 3000000 for 9000
+ 14721 multiletter control sequences out of 15000+200000
+ 20780 words of font info for 80 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  37i,7n,54p,739b,1879s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -2164,10 +2156,10 @@ local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
 ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/lo
 cal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/loc
 al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on "Developer Guide.pdf" (170 pages, 1145357 bytes).
+Output written on "Developer Guide.pdf" (172 pages, 1135497 bytes).
 PDF statistics:
- 5823 PDF objects out of 6186 (max. 8388607)
- 5557 compressed objects within 56 object streams
- 4276 named destinations out of 4296 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6248 PDF objects out of 7423 (max. 8388607)
+ 5977 compressed objects within 60 object streams
+ 4274 named destinations out of 4296 (max. 500000)
+ 943 words of extra memory for PDF output out of 10000 (max. 10000000)
 
