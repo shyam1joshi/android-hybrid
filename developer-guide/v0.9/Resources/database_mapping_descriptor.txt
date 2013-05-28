@@ -6,7 +6,7 @@
     
 	    <!-- TABLE_NAME: Mandatory Field -->
 	    <!-- CLASS_NAME: Mandatory Field -->
-	<table table_name="name_of_table" class_name="mapped_pojo_class_name">
+	<table table_name="name_of_table" class_name="mapped_pojo_java_class_name/mapped_pojo_javascript_class_name">
 		
 	    <!-- Column Properties Required Under This Table -->
 	    
@@ -17,7 +17,7 @@
 		<column variable_name="class_variable_name" column_name="column_name_of_table">
 		    
 			    <!-- Mandatory Field -->
-			<property name="type">int/java.lang.Integer/long/java.lang.Long/float/java.lang.Float/boolean/java.lang.Boolean/char/java.lang.Character/java.lang.String/void/java.lang.Void/short/java.lang.Short</property>
+			<property name="type">java_variable_data_type/javascript_variable_data_type</property>
 			
 				<!-- Optional Field (Default is false) -->
 			<property name="primary_key">true/false</property>
@@ -56,7 +56,7 @@
 		    
 			    <!-- REFER: Mandatory Field -->
 			    <!-- REFER_TO: Mandatory Field -->
-			<one-to-one refer="class_variable_name" refer_to="map_to_pojo_class_name" on_update="cascade/restrict/no_action/set_null/set_default" on_delete="cascade/restrict/no_action/set_null/set_default">
+			<one-to-one refer="class_variable_name" refer_to="map_to_pojo_java_class_name/map_to_pojo_javascript_class_name" on_update="cascade/restrict/no_action/set_null/set_default" on_delete="cascade/restrict/no_action/set_null/set_default">
 					
 					<!-- Optional Field (Default is false) -->
 				<property name="load">true/false</property>
@@ -64,7 +64,7 @@
 			
 				<!-- REFER: Mandatory Field -->
 			    <!-- REFER_TO: Mandatory Field -->
-			<one-to-many refer="class_variable_name" refer_to="map_to_pojo_class_name" on_update="cascade/restrict/no_action/set_null/set_default" on_delete="cascade/restrict/no_action/set_null/set_default">
+			<one-to-many refer="class_variable_name" refer_to="map_to_pojo_java_class_name/map_to_pojo_javascript_class_name" on_update="cascade/restrict/no_action/set_null/set_default" on_delete="cascade/restrict/no_action/set_null/set_default">
 					
 					<!-- Optional Field (Default is false) -->
 				<property name="load">true/false</property>
@@ -72,7 +72,7 @@
 
 				<!-- REFER: Mandatory Field -->
 			    <!-- REFER_TO: Mandatory Field -->
-			<many-to-one refer="class_variable_name" refer_to="map_to_pojo_class_name" on_update="cascade/restrict/no_action/set_null/set_default" on_delete="cascade/restrict/no_action/set_null/set_default">
+			<many-to-one refer="class_variable_name" refer_to="map_to_pojo_java_class_name/map_to_pojo_javascript_class_name" on_update="cascade/restrict/no_action/set_null/set_default" on_delete="cascade/restrict/no_action/set_null/set_default">
 					
 					<!-- Optional Field (Default is false) -->
 				<property name="load">true/false</property>
@@ -80,7 +80,7 @@
 
 				<!-- REFER: Mandatory Field -->
 			    <!-- REFER_TO: Mandatory Field -->
-			<many-to-many refer="class_variable_name" refer_to="map_to_pojo_class_name" on_update="cascade/restrict/no_action/set_null/set_default" on_delete="cascade/restrict/no_action/set_null/set_default">
+			<many-to-many refer="class_variable_name" refer_to="map_to_pojo_java_class_name/map_to_pojo_javascript_class_name" on_update="cascade/restrict/no_action/set_null/set_default" on_delete="cascade/restrict/no_action/set_null/set_default">
 					
 					<!-- Optional Field (Default is false) -->
 				<property name="load">true/false</property>
