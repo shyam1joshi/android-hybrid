@@ -156,6 +156,34 @@ All these descriptor should will be placed in application assests folder.
 
 		\end{itemize}
 
+		\begin{center}
+			\colorbox{grey}{
+				\parbox[t]{.8\linewidth}{
+					\fontsize{11pt}{11pt}\selectfont % The first argument for fontsize is the font size of the text and the second is the line spacing - you may need to play with these for your particular title
+					\vspace*{0.1cm} % Space between the start of the title and the top of the grey box
+		
+					\hfill \textbf{Note} \\
+
+					\hfill 	
+					\begin{enumerate}
+			
+						\item \small Event Handler can be define in both Native and Web.
+
+						\item \small Native Event Handler: If you want to handle Event in Web then define Event Handler using JavaScript. Specify full Java class path name in ApplicationDescriptor.si.xml.
+
+						\item \small Web Event Handler: If you want to handle Event in Web then define Event Handler using JavaScript. Specify only JavaScript Function name in ApplicationDescriptor.si.xml.
+
+						\item \small Both (Native/Web) Event Handler: If you want to handle Event in both Native and Web then define Event Handler in both Java and JavaScript. Specify full Java class path and name in ApplicationDescriptor.si.xml, no need to define for JavaScript because Siminov will automatically accume same name for it.
+
+					\end{enumerate}
+
+					\vspace*{0.0cm} % Space between the end of the title and the bottom of the grey box
+		}
+}
+
+\end{center}
+
+
 \end{enumerate}
 
 \begin{center}
@@ -197,7 +225,7 @@ All these descriptor should will be placed in application assests folder.
 
 \newpage
 \textbf{Example}: DatabaseDescriptor.si.xml File Of Siminov Template Application.
-\lstinputlisting[language=XML]{Resources/siminov_template_database_descriptor.txt}
+\lstinputlisting[language=XML]{Resources/siminov_hybrid_template_database_descriptor.txt}
 
 
 			\begin{center}
@@ -466,6 +494,8 @@ All these descriptor should will be placed in application assests folder.
 
 \end{center}
 
+
+
 		\par
 		\textbf{Example:} LibraryDescriptor.si.xml file path
 		\begin{figure}[htbp]
@@ -478,16 +508,18 @@ All these descriptor should will be placed in application assests folder.
 \newpage
 \section{Database Mapping Descriptor (DatabaseMappingDescriptor.si.xml) Configuration}
 	
-Database Mapping Descriptor is one which does ORM, it maps POJO class to database table.
+Database Mapping Descriptor is one which does ORM, it maps Java/JavaScript POJO class to database table.
 \lstinputlisting[language=XML]{Resources/database_mapping_descriptor.txt}
 
 
-\textbf{Example}: DatabaseMappingDescriptor.si.xml File Of Siminov Library Template.
-\lstinputlisting[language=XML]{Resources/siminov_template_application_liquor_database_mapping_descriptor.txt}
+\textbf{Example}: DatabaseMappingDescriptor.si.xml File Of Siminov Hybrid Template.
+\lstinputlisting[language=XML]{Resources/siminov_hybrid_template_application_liquor_database_mapping_descriptor.txt}
 
 
 \newpage
 \textbf{Database Mapping Descriptor Elements}:
+
+
 
 \begin{enumerate}
 
@@ -496,8 +528,37 @@ Database Mapping Descriptor is one which does ORM, it maps POJO class to databas
 		\begin{enumerate}
 
 			\item \small \textbf{table\_name*}: Name of table. It is mandatory field.
-			\item \small \textbf{class\_name*}: Name of POJO class name which is to be mapped to table name. It is mandatory field.
+			\item \small \textbf{class\_name*}: Name of Java/JavaScript POJO class name which is to be mapped to table name. It is mandatory field.
 
+	\begin{center}
+		\colorbox{grey}{
+			\parbox[t]{.8\linewidth}{
+				\fontsize{11pt}{11pt}\selectfont % The first argument for fontsize is the font size of the text and the second is the line spacing - you may need to play with these for your particular title
+				\vspace*{0.1cm} % Space between the start of the title and the top of the grey box
+		
+				\hfill \textbf{Note} \\
+
+				\hfill 
+
+				\begin{enumerate}
+
+					\item \small POJO Class can be define in both Native and Web.
+					
+					\item \small Native Class: If you mapped POJO class is in Native then use Java to define class. Specify full Java class path and name in class\_name TAG.
+
+					\item \small Web Class: If you have mapped POJO class is in Web then use JavaScript to define class. Specify only JavaScript Function name in class\_name TAG.
+
+					\item \small Both (Native/Web) Class: If you mapped POJO class is in both Native and Web then both Java and JavaScript to define classes. Specify full Java class path and name in class\_name TAG, no need to define for JavaScript because Siminov will automatically assume same name for it.
+
+	
+				\end{enumerate}
+
+				\vspace*{0.0cm} % Space between the end of the title and the bottom of the grey box
+			}
+		}
+
+	\end{center}
+			
 		\end{enumerate}
 
 
@@ -516,7 +577,41 @@ Database Mapping Descriptor is one which does ORM, it maps POJO class to databas
 	
 		\begin{enumerate}
 
-			\item \small \textbf{type*}: Java variable type (\textit{int}, \textit{java.lang.Integer}, \textit{long}, \textit{java.lang.Long}, \textit{float}, \textit{java.lang.Float}, \textit{boolean}, \textit{java.lang.Boolean}, \textit{char}, \textit{java.lang.Character}, \textit{java.lang.String}, \textit{byte}, \textit{java.lang.Byte}, \textit{void}, \textit{java.lang.Void}, \textit{short}, \textit{java.lang.Short}). It is mandatory property. 
+			\item \small \textbf{type*}: Variable data type. It is mandatory property. 
+
+
+	\begin{center}
+		\colorbox{grey}{
+			\parbox[t]{.8\linewidth}{
+				\fontsize{11pt}{11pt}\selectfont % The first argument for fontsize is the font size of the text and the second is the line spacing - you may need to play with these for your particular title
+				\vspace*{0.1cm} % Space between the start of the title and the top of the grey box
+		
+				\hfill \textbf{Note} \\
+
+				\hfill 
+
+				\begin{enumerate}
+		
+					\item \small POJO Class can be define in both Native and Web.
+
+					\item \small Native Class: If you have mapped POJO class in Native then specify Java Variable data type.
+
+					\begin{enumerate}
+
+						\item \small 
+
+					\end{enumerate} 
+						
+				\end{enumerate}
+
+				\vspace*{0.0cm} % Space between the end of the title and the bottom of the grey box
+			}
+		}
+
+	\end{center}
+
+				
+
 				\par
 				For more details see Data Type section of this developer guide.
 			
