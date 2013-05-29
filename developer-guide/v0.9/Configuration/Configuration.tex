@@ -213,7 +213,7 @@ All these descriptor should will be placed in application assests folder.
 		\textbf{Example:} Siminov Template Application.
 		\begin{figure}[htbp]
 			\centering
-				\includegraphics[height=4.5cm]{Resources/siminov_application_template_application_descriptor_path_example.png}
+				\includegraphics[height=4.5cm]{Resources/siminov_hybrid_template_application_descriptor_path_example.png}
 		\end{figure}
 
 
@@ -596,12 +596,67 @@ Database Mapping Descriptor is one which does ORM, it maps Java/JavaScript POJO 
 
 					\item \small Native Class: If you have mapped POJO class in Native then specify Java Variable data type.
 
+					\textbf{Java Data Type's}
 					\begin{enumerate}
 
-						\item \small 
+						\item \small java.lang.int
+
+						\item \small java.lang.Integer
+
+						\item \small java.lang.long
+
+						\item \small java.lang.Long
+
+						\item \small java.lang.float
+
+						\item \small java.lang.Float
+
+						\item \small java.lang.boolean
+
+						\item \small java.lang.Boolean
+
+						\item \small java.lang.char
+
+						\item \small java.lang.Character
+
+						\item \small java.lang.String
+
+						\item \small java.lang.byte
+
+						\item \small java.lang.Byte
+
+						\item \small java.lang.void
+
+						\item \small java.lang.Void
+
+						\item \small java.lang.short
+
+						\item \small java.lang.Short
 
 					\end{enumerate} 
 						
+				
+					\item \small Web Class: If you have mapped POJO class in Web then specify JavaScript Variable data type.
+
+					\textbf{JavaScript Data Type's}
+					\begin{enumerate}
+
+						\item \small String								
+
+						\item \small Number								
+
+						\item \small Boolean								
+
+						\item \small Array								
+
+						\item \small Object								
+
+						\item \small Null								
+
+						\item \small Undefined								
+	
+					\end{enumerate}
+
 				\end{enumerate}
 
 				\vspace*{0.0cm} % Space between the end of the title and the bottom of the grey box
@@ -700,6 +755,35 @@ Database Mapping Descriptor is one which does ORM, it maps Java/JavaScript POJO 
 
 			\item \small \textbf{refer\_to*}: Class name of mapped variable. It is mandatory field.
 
+			\begin{center}
+				\colorbox{grey}{
+					\parbox[t]{.8\linewidth}{
+						\fontsize{11pt}{11pt}\selectfont % The first argument for fontsize is the font size of the text and the second is the line spacing - you may need to play with these for your particular title
+						\vspace*{0.1cm} % Space between the start of the title and the top of the grey box
+		
+						\hfill \textbf{Note} \\
+			
+						\hfill 	
+						\begin{enumerate}
+
+							\item \small Class can be define in both Native and Web.
+
+							\item \small Native Class: If you have mapped POJO class in Native then specify Java class path and name in refer\_to TAG.
+
+							\item \small Web Class: If you have mapped POJO class in Web then specify only JavaScript Function name in refer\_to TAG.
+
+							\item \small Both (Native/Web) Class: If you have mapped POJO class in both Native and Web then specify full Java class path and name in refer\_to TAG, no need o define for JavaScript because Siminov will automatically accume same name for it.	
+
+						\end{enumerate}
+
+						\vspace*{0.0cm} % Space between the end of the title and the bottom of the grey box
+				}
+			}
+
+		\end{center}
+
+
+
 			\item \small \textbf{on\_update}: \textit{cascade}/\textit{restrict}/\textit{no\_action}/\textit{set\_null}/\textit{set\_default}. It defines action needs to be done, when update occur.
 
 			\item \small \textbf{on\_delete}: \textit{cascade}/\textit{restrict}/\textit{no\_action}/\textit{set\_null}/\textit{set\_default}. It defines action needs to be done, when delete occur.
@@ -751,7 +835,7 @@ Database Mapping Descriptor is one which does ORM, it maps Java/JavaScript POJO 
 
 \newpage
 \section{Database Mapping Descriptor Through Annotation}
-Annotation is another way to do ORM, it maps POJO class to database table.
+Annotation is another way to map Java POJO class to database table.
 
 \par
 (Annotations provide data about a program that is not part of the program itself. They have no direct effect on the operation of the code they annotate)
@@ -761,7 +845,24 @@ Annotation is another way to do ORM, it maps POJO class to database table.
 \textbf{Example}: Liquor Class Of Siminov Template Application.
 \lstinputlisting[language=XML]{Resources/siminov_hybrid_template_application_liquor_annotation_class.txt}
 
-\newpage
+\begin{center}
+		\colorbox{grey}{
+			\parbox[t]{.8\linewidth}{
+				\fontsize{11pt}{11pt}\selectfont % The first argument for fontsize is the font size of the text and the second is the line spacing - you may need to play with these for your particular title
+				\vspace*{0.1cm} % Space between the start of the title and the top of the grey box
+		
+				\hfill \textbf{Note} \\
+
+				\hfill 
+					You can only use Annotation with Native Java, it is not supported with Web JavaScript.
+	
+				\vspace*{0.0cm} % Space between the end of the title and the bottom of the grey box
+			}
+		}
+
+\end{center}
+
+
 \textbf{Different Annotation Tags}:
 
 \begin{enumerate}

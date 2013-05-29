@@ -1,29 +1,29 @@
 <database-mapping>
 
-	<table table_name="LIQUOR" class_name="siminov.orm.template.model.Liquor">
+	<table table_name="LIQUOR" class_name="Liquor">
 		
 		<column variable_name="liquorType" column_name="LIQUOR_TYPE">
-			<property name="type">TEXT</property>
+			<property name="type">String</property>
 			<property name="primary_key">true</property>
 			<property name="not_null">true</property>
 			<property name="unique">true</property>
 		</column>		
 
 		<column variable_name="description" column_name="DESCRIPTION">
-			<property name="type">TEXT</property>
+			<property name="type">String</property>
 		</column>
 
 		<column variable_name="history" column_name="HISTORY">
-			<property name="type">TEXT</property>
+			<property name="type">String</property>
 		</column>
 
 		<column variable_name="link" column_name="LINK">
-			<property name="type">TEXT</property>
+			<property name="type">String</property>
 			<property name="default">www.wikipedia.org</property>
 		</column>
 
 		<column variable_name="alcholContent" column_name="ALCHOL_CONTENT">
-			<property name="type">TEXT</property>
+			<property name="type">String</property>
 		</column>
 
 		<index name="LIQUOR_INDEX_BASED_ON_LINK" unique="true">
@@ -32,7 +32,7 @@
 
 		<relationships>
 
-		    <one-to-many refer="liquorBrands" refer_to="siminov.orm.template.model.LiquorBrand" on_update="cascade" on_delete="cascade">
+		    <one-to-many refer="liquorBrands" refer_to="LiquorBrand" on_update="cascade" on_delete="cascade">
 				<property name="load">true</property>
 		    </one-to-many>		
 		    
