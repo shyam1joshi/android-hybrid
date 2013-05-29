@@ -1,0 +1,3 @@
+	public void firstTimeSiminovInitialized() {
+		new DatabaseUtils().prepareData();
+	}

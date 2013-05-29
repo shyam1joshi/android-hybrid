@@ -1,0 +1,38 @@
+@Table(tableName=Liquor.TABLE_NAME)
+@Indexes({
+	@Index(name="LIQUOR_INDEX_BASED_ON_LINK", unique=true, value={
+		@IndexColumn(column=Liquor.LINK)
+	}), 
+})
+public class Liquor extends Database implements Serializable {
+	
+	@Column(columnName=LIQUOR_TYPE,
+			properties={
+				@Property(name=Property.PRIMARY_KEY, value="true"),
+				@Property(name=Property.NOT_NULL, value="true"), 
+				@Property(name=Property.UNIQUE, value="true")
+				})
+	private String liquorType = null;
+	
+	@Column(columnName=DESCRIPTION)
+	private String description = null;
+	
+	@Column(columnName=HISTORY)
+	private String history = null;
+
+	@Column(columnName=LINK,
+			properties={
+				@Property(name=Property.DEFAULT, value="www.wikipedia.org")
+				})
+	private String link = null;
+	
+	@Column(columnName=ALCHOL_CONTENT)
+	private String alcholContent = null;
+
+	@OneToMany(onUpdate="cascade", onDelete="cascade", 
+			properties={
+				@RelationshipProperty(name=RelationshipProperty.LOAD, value="true")
+		})
+	private ArrayList<LiquorBrand> liquorBrands = null;
+
+}
