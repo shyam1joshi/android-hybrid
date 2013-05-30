@@ -2,17 +2,35 @@
 \newpage
 \chapter {\Large{Siminov Initialization}}
 
-\section{Initializating Siminov}
-Every application when it starts they need to first initialize Siminov. They can do this by invoking initialize method of siminov.orm.Siminov class by passing \textbf{ApplicationContext} object as paramter to method.
+\section{Siminov Native ORM}
+Every native application when it starts they need to first initialize Siminov Native ORM. They can do this by invoking initialize method of siminov.orm.Siminov class by passing \textbf{ApplicationContext} object as paramter to method.
+
+		\begin{center}
+			\colorbox{grey}{
+				\parbox[t]{.8\linewidth}{
+					\fontsize{11pt}{11pt}\selectfont % The first argument for fontsize is the font size of the text and the second is the line spacing - you may need to play with these for your particular title
+					\vspace*{0.1cm} % Space between the start of the title and the top of the grey box
+		
+					\hfill \textbf{Note} \\
+
+					Use Siminov Native ORM only if you are buiding Android Native based application. 
+
+					\vspace*{0.0cm} % Space between the end of the title and the bottom of the grey box
+				}
+			}
+
+		\end{center}
+
+
 
 \par
-There are two ways to initialize Siminov
+There are two ways to initialize Siminov Native ORM
 
 \begin{enumerate}
 
-	\item \small \textbf{Initializing Siminov From Sub-Class Of Application}
+	\item \small \textbf{Initializing Siminov Native ORM From Sub-Class Of Application}
 
-		\lstinputlisting[language=Java]{Resources/siminov_initialization_example_1.txt}
+		\lstinputlisting[language=Java]{Resources/siminov_native_orm_initialization_example_1.txt}
 	
 		\begin{center}
 			\colorbox{grey}{
@@ -31,9 +49,9 @@ There are two ways to initialize Siminov
 		\end{center}
 
 	\newpage
-	\item \small \textbf{Initializing Siminov From Sub-Class Of Activity}
+	\item \small \textbf{Initializing Siminov Native ORM From Sub-Class Of Activity}
 
-		\lstinputlisting[language=Java]{Resources/siminov_initialization_example_2.txt}
+		\lstinputlisting[language=Java]{Resources/siminov_native_orm_initialization_example_2.txt}
 
 
 		\begin{center}
@@ -44,7 +62,7 @@ There are two ways to initialize Siminov
 		
 					\hfill \textbf{Note} \\
 
-					If you are initializing Siminov from activity sub class then you should pass application context not the activity context. See above example.
+					If you are initializing Siminov Native ORM from activity sub class then you should pass application context not the activity context. See above example.
 
 					\vspace*{0.0cm} % Space between the end of the title and the bottom of the grey box
 				}
@@ -69,7 +87,7 @@ There are two ways to initialize Siminov
 
 						\item \small Application should call siminov.orm.Siminov initialize only once in the life time of application.
 
-						\item \small Once Siminov initialize it can not be re initialized.
+						\item \small Once Siminov Native ORM is initialized it can not be re initialized.
 
 					\end{enumerate}
 
@@ -81,27 +99,27 @@ There are two ways to initialize Siminov
 
 
 \par
-\textbf{Steps performed in initializating Siminov Framework}
+\textbf{Steps performed in initializating Siminov Native ORM Framework}
 
 	\begin{enumerate}
 
 		\item \small \textbf{Database Creation}: Siminov provides \textbf{Initialization Layer} which handles the creation of databases required by application. 
 
 		\par
-		Siminov follows below steps to create databases required by application.
+		Siminov Native ORM follows below steps to create databases required by application.
 
 		\begin{enumerate}
 
 			\item \small \textbf{Step 1}: Then application invokes initialize method, it checks wheather database exists or not.
 
-			\item \small \textbf{Step 2}: If application database does not exists, Siminov will create database required by the application.
+			\item \small \textbf{Step 2}: If application database does not exists, Siminov Native ORM will create database required by the application.
 
 			\item \small \textbf{Step 3}: If application database exists, then it will read all desriptors defined by application based on load\_initially property defined in ApplicationDescriptor.si.xml file.
 
 		\end{enumerate}
 
 		
-		\item \small \textbf{Initialize Resources Layer}	: Any resource created by Siminov Framework is places in resource layer of Siminov. You can use API's provided by Resources class to get required object.
+		\item \small \textbf{Initialize Resources Layer}	: Any resource created by Siminov Native ORM Framework is places in resource layer of Siminov Native ORM. You can use API's provided by Resources class to get required object.
 			
 			\lstinputlisting[language=java]{Resources/resources_class_apis.txt}
 
