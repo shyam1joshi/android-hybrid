@@ -1,0 +1,27 @@
+function ISumClause(clause) {
+
+    return {
+
+        interfaceName : "ISumClause",
+
+        equalTo : clause.equalTo,
+
+        notEqualTo : clause.notEqualTo,
+
+        greaterThan : clause.greaterThan,
+
+        greaterThanEqual : clause.greaterThanEqual,
+
+        lessThan : clause.lessThan,
+
+        lessThanEqual : clause.lessThanEqual,
+
+        between : clause.between,
+
+        like : clause.like,
+
+        'in' : clause['in']
+
+    }
+
+}

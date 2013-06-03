@@ -1,0 +1,27 @@
+function IAverage(select) {
+
+    return {
+
+        interfaceName : "IAverage",
+
+        where : select.where,
+
+        whereClause : select.whereClause,
+
+        and : select.and,
+
+        or : select.or,
+
+        groupBy : select.groupBy,
+
+        having : select.having,
+
+        havingClause : select.havingClause,
+
+        column : select.column,
+
+        execute : select.execute
+
+    }
+
+}
