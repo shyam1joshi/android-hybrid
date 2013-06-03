@@ -187,7 +187,7 @@ Sqlite data types:
 	
 	\item \small \textbf{TEXT Sqlite Data Type}: This sqlite data type generaly contain \textit{CHARACTER(20)}, \textit{VARCHAR(255)}, \textit{VARYING CHARACTER(255)}, \textit{NCHAR(55)}, \textit{NATIVE CHARACTER(70)}, \textit{NVARCHAR(100)}, \textit{TEXT}, \textit{CLOB}.
 
-	\item \small \textbf{REAL Sqlite Data Type}: This sqlite data type generaly contain \textit{REAL}, \textit{DOUBLE}, \textit{DOUBLE PRECISION}, \textit{FLOAT}.
+	\item \small \textbf{REAL Sqlite Data Type}: This sqlite data type generaly contain \textit{REAL}, \textit{DOUBLE}, \textit{DOUBLxE PRECISION}, \textit{FLOAT}.
 	
 	\item \small \textbf{NONE Sqlite Data Type}: This sqlite data type generaly contain \textit{BLOB}, \textit{NO DATA TYPE SPECIFIED}.
 
@@ -401,61 +401,146 @@ Sqlite data types:
 
 	\subsection{Select}
 
-		\par
-		Database class provides following API's to fetch tuples from table.
-
 		\begin{enumerate}
 
-			\item \small \lstinputlisting[language=Java]{Resources/select.txt}
-
+			\item \small \textbf{Select API - Native}
 				\par
-				Fetch tuples from table.
+				Database class provides following API's to select tuples from table.
 
-				\textbf{IFetch}: Exposes API's to provide information based on which tuples will be fetched from table.
-					\lstinputlisting[language=Java]{Resources/ifetch_interface.txt}
+				\begin{enumerate}
+
+					\item \small \lstinputlisting[language=Java]{Resources/select_native.txt}
+
+						\par
+						Select tuples from table.
+
+						\textbf{ISelect}: Exposes API's to provide information based on which tuples will be fetched from table.
+						\lstinputlisting[language=Java]{Resources/ifetch_native_interface.txt}
 	
-			
-				\textbf{IFetchClause}: Exposes API's to provide condition to where clause based on which tuples will be fetched from table.
-					\lstinputlisting[language=Java]{Resources/ifetchclause_interface.txt}
+				
+						\textbf{IFetchClause}: Exposes API's to provide condition to where clause based on which tuples will be fetched from table.
+						\lstinputlisting[language=Java]{Resources/ifetchclause_native_interface.txt}
 
-				\textbf{Example}: Select Liquor Where Type Equal To RUM
-					\lstinputlisting[language=Java]{Resources/select_example.txt}
+						\textbf{Example}: Select Liquor Where Type Equal To RUM
+						\lstinputlisting[language=Java]{Resources/select_native_example.txt}
 
-			\item \small \lstinputlisting[language=Java]{Resources/manual_select.txt}
+					\item \small \lstinputlisting[language=Java]{Resources/manual_select_native.txt}
 
+						\par
+						Returns all tuples based on manual query from mapped table for invoked class object.
+
+						\textbf{Example}: Select Liquor Object.
+						\lstinputlisting[language=Java]{Resources/manual_select_native_example.txt}
+
+
+		\end{enumerate}
+				
+
+			\item \small \textbf{Select API - Web}
 				\par
-				Returns all tuples based on manual query from mapped table for invoked class object.
+				Database function provides following API's to select tuples from table.
 
-				\textbf{Example}: Select Liquor Object.
-					\lstinputlisting[language=Java]{Resources/manual_select_example.txt}
+				\begin{enumerate}
+
+					\item \small \lstinputlisting[language=Java]{Resources/select_hybrid.txt}
+
+						\par
+						Select tuples from table.
+
+						\textbf{ISelect}: Exposes API's to provide information based on which tuples will be fetched from table.
+						\lstinputlisting[language=Java]{Resources/ifetch_hybrid_interface.txt}
+	
+				
+						\textbf{ISelectClause}: Exposes API's to provide condition to where clause based on which tuples will be fetched from table.
+						\lstinputlisting[language=Java]{Resources/ifetchclause_hybrid_interface.txt}
+
+						\textbf{Example}: Select Liquor Where Type Equal To RUM
+						\lstinputlisting[language=Java]{Resources/select_hybrid_example.txt}
+
+					\item \small \lstinputlisting[language=Java]{Resources/manual_select_hybrid.txt}
+
+						\par
+						Returns all tuples based on manual query from mapped table for invoked class object.
+
+						\textbf{Example}: Select Liquor Object.
+						\lstinputlisting[language=Java]{Resources/manual_select_hybrid_example.txt}
 
 
 		\end{enumerate}
 
 
+		\end{enumerate}
+		
+
 
 	\subsection{Save}
-		\lstinputlisting[language=Java]{Resources/save.txt}
+		
+		\begin{enumerate}
 
-			\par
-			\textbf{Example}: Saving Liquor Object.
-				\lstinputlisting[language=Java]{Resources/save_example.txt}
+			\item \small \textbf{Save API - Native}
+				
+				\lstinputlisting[language=Java]{Resources/save_native.txt}
+
+				\par
+					\textbf{Example}: Saving Liquor Object.
+					\lstinputlisting[language=Java]{Resources/save_native_example.txt}
+
+			\item \small \textbf{Save API - Web}
+
+				\lstinputlisting[language=Java]{Resources/save_hybrid.txt}
+
+				\par
+					\textbf{Example}: Saving Liquor Object.
+					\lstinputlisting[language=Java]{Resources/save_hybrid_example.txt}
+
+		\end{enumerate}
+
 
 
 	\subsection{Update}
-		\lstinputlisting[language=Java]{Resources/update.txt}
 
-			\par
-			\textbf{Example}: Updaing Liquor Object.
-				\lstinputlisting[language=Java]{Resources/update_example.txt}
+		\begin{enumerate}
+	
+			\item \small \textbf{Update API - Native}
+
+				\lstinputlisting[language=Java]{Resources/update_native.txt}
+
+				\par
+					\textbf{Example}: Updaing Liquor Object.
+					\lstinputlisting[language=Java]{Resources/update_native_example.txt}
+
+
+			\item \small \textbf{Update API - Web}
+				\lstinputlisting[language=Java]{Resources/update_hybrid.txt}
+
+				\par
+					\textbf{Example}: Updaing Liquor Object.
+					\lstinputlisting[language=Java]{Resources/update_hybrid_example.txt}
+
+		\end{enumerate}
+
 
 
 	\subsection{Save Or Update}
-		\lstinputlisting[language=Java]{Resources/save_or_update.txt}
 
-			\par
-			\textbf{Example}: Save Or Update Liquor Object.
-				\lstinputlisting[language=Java]{Resources/save_or_update_example.txt}
+		\begin{enumerate}
+
+			\item \small \textbf{Save Or Update API - Native}
+				\lstinputlisting[language=Java]{Resources/save_or_update_native.txt}
+
+				\par
+					\textbf{Example}: Save Or Update Liquor Object.
+					\lstinputlisting[language=Java]{Resources/save_or_update_native_example.txt}
+
+			\item \small \textbf{Save Or Update API - Web}
+				\lstinputlisting[language=Java]{Resources/save_or_update_hybrid.txt}
+
+				\par
+					\textbf{Example}: Save Or Update Liquor Object.
+					\lstinputlisting[language=Java]{Resources/save_or_update_hybrid_example.txt}
+
+		\end{enumerate}
+
 
 
 
@@ -476,57 +561,138 @@ Sqlite data types:
 
 
 	\subsection{Delete}
-		\par 
-		Database class provides following API's to delete tuples from table.
 
-			\textbf{API}: Delete API.
-				\lstinputlisting[language=Java]{Resources/delete.txt}
+		\begin{enumerate}
+
+			\item \small \textbf{Delete API - Native}
+				\par 
+				Database class provides following API's to delete tuples from table.
+
+					\lstinputlisting[language=Java]{Resources/delete_native.txt}
 		
-			\textbf{IDelete}:  Exposes API's to delete tuples from table.
+				\textbf{IDelete}:  Exposes API's to delete tuples from table.
 
-				\lstinputlisting[language=Java]{Resources/idelete.txt}
+					\lstinputlisting[language=Java]{Resources/idelete_native.txt}
 
 			
-			\textbf{IDeleteClause}: Exposes API's to provide condition on where clause to delete tuple from table.
-				\lstinputlisting[language=Java]{Resources/ideleteclause.txt}
+				\textbf{IDeleteClause}: Exposes API's to provide condition on where clause to delete tuple from table.
+					\lstinputlisting[language=Java]{Resources/ideleteclause_native.txt}
 
-			\textbf{Example}: 
-				\lstinputlisting[language=Java]{Resources/delete_example.txt}
+				\textbf{Example}: 
+					\lstinputlisting[language=Java]{Resources/delete_native_example.txt}
+
+			\item \small \textbf{Delete API - Web}
+				\par 
+				Database function provides following API's to delete tuples from table.
+
+					\lstinputlisting[language=Java]{Resources/delete_hybrid.txt}
+		
+				\textbf{IDelete}:  Exposes API's to delete tuples from table.
+
+					\lstinputlisting[language=Java]{Resources/idelete_hybrid.txt}
+
+			
+				\textbf{IDeleteClause}: Exposes API's to provide condition on where clause to delete tuple from table.
+					\lstinputlisting[language=Java]{Resources/ideleteclause_hybrid.txt}
+
+				\textbf{Example}: 
+					\lstinputlisting[language=Java]{Resources/delete_hybrid_example.txt}
+
+		\end{enumerate}
+
 	
 
 \section{Database Siminov API's}
 
 
 	\subsection{Get Database Descriptor}
-	\lstinputlisting[language=Java]{Resources/get_database_descriptor.txt}
+
+		\begin{enumerate}
+
+			\item \small \textbf{Get Database Descriptor API - Native}
+				\lstinputlisting[language=Java]{Resources/get_database_descriptor_native.txt}
 
 				\par
 				\textbf{Example}: Get Database Descriptor Object Which Contain Liquor Table.
-					\lstinputlisting[language=Java]{Resources/get_database_descriptor_example.txt}
+					\lstinputlisting[language=Java]{Resources/get_database_descriptor_native_example.txt}
+
+			\item \small \textbf{Get Database Descriptor API - Web}
+				\lstinputlisting[language=Java]{Resources/get_database_descriptor_hybrid.txt}
+
+				\par
+				\textbf{Example}: Get Database Descriptor Object Which Contain Liquor Table.
+					\lstinputlisting[language=Java]{Resources/get_database_descriptor_hybrid_example.txt}
+
+		\end{enumerate}
 
 
-	\subsection{Get Database Mapping Descriptor}
-	\lstinputlisting[language=Java]{Resources/get_database_mapping.txt}
+
+	\subsection{Get Database Mapping Descriptor}\
+	
+		\begin{enumerate}
+
+			\item \small \textbf{Get Database Mapping Descriptor API - Native}
+				\lstinputlisting[language=Java]{Resources/get_database_mapping_native.txt}
 
 				\par
 				\textbf{Example}: Get Database Mapping Descriptor Object Related To Liquor Table.
-					\lstinputlisting[language=Java]{Resources/get_database_mapping_example.txt}
+					\lstinputlisting[language=Java]{Resources/get_database_mapping_native_example.txt}
+
+			\item \small \textbf{Get Database Mapping Descriptor API - Web}
+				\lstinputlisting[language=Java]{Resources/get_database_mapping_hybrid.txt}
+
+				\par
+				\textbf{Example}: Get Database Mapping Descriptor Object Related To Liquor Table.
+					\lstinputlisting[language=Java]{Resources/get_database_mapping_hybrid_example.txt}
+
+		\end{enumerate}
+
+
 
 
 	\subsection{Get Table Name}
-	\lstinputlisting[language=Java]{Resources/get_table_name.txt}
+
+		\begin{enumerate}
+
+			\item \small \textbf{Get Table Name - Native}
+				\lstinputlisting[language=Java]{Resources/get_table_name_native.txt}
 
 				\par
 				\textbf{Example}: Get Liquor Object Table Name.
-					\lstinputlisting[language=Java]{Resources/get_table_name_example.txt}
+					\lstinputlisting[language=Java]{Resources/get_table_name_native_example.txt}
+
+
+			\item \small \textbf{Get Table Name - Web}
+				\lstinputlisting[language=Java]{Resources/get_table_name_hybrid.txt}
+
+				\par
+				\textbf{Example}: Get Liquor Object Table Name.
+					\lstinputlisting[language=Java]{Resources/get_table_name_hybrid_example.txt}
+
+		\end{enumerate}
+
 		
 
 	\subsection{Get Column Names}
-	\lstinputlisting[language=Java]{Resources/get_column_names.txt}
+
+		\begin{enumerate}
+
+			\item \small \textbf{Get Column Names API - Native}
+				\lstinputlisting[language=Java]{Resources/get_column_names_native.txt}
 
 				\par
 				\textbf{Example}: Get All Column Names Of Liquor Table.
-					\lstinputlisting[language=Java]{Resources/get_column_names_example.txt}
+					\lstinputlisting[language=Java]{Resources/get_column_names_native_example.txt}
+			
+			\item \small \textbf{Get Column Names API - Web}
+				\lstinputlisting[language=Java]{Resources/get_column_names_hybrid.txt}
+
+				\par
+				\textbf{Example}: Get All Column Names Of Liquor Table.
+					\lstinputlisting[language=Java]{Resources/get_column_names_hybrid_example.txt}
+
+		\end{enumerate}
+
 
 
 	\subsection{Get Column Values}
@@ -538,42 +704,114 @@ Sqlite data types:
 
 
 	\subsection{Get Column Types}
-	\lstinputlisting[language=Java]{Resources/get_column_types.txt}
+	
+		\begin{enumerate}
+
+			\item \small \textbf{Get Column Types API - Native}
+				\lstinputlisting[language=Java]{Resources/get_column_types_native.txt}
 
 				\par
 				\textbf{Example}: Get All Column Types Of Liquor Table.
-					\lstinputlisting[language=Java]{Resources/get_column_types_example.txt}
+					\lstinputlisting[language=Java]{Resources/get_column_types_native_example.txt}
+
+			\item \small \textbf{Get Column Types API - Web}
+				\lstinputlisting[language=Java]{Resources/get_column_types_hybrid.txt}
+
+				\par
+				\textbf{Example}: Get All Column Types Of Liquor Table.
+					\lstinputlisting[language=Java]{Resources/get_column_types_hybrid_example.txt}
+
+		\end{enumerate}
+
 
 
 	\subsection{Get Primary Keys}
-	\lstinputlisting[language=Java]{Resources/get_primary_keys.txt}
+		
+		\begin{enumerate}
+
+			\item \small \textbf{Get Primary Keys API - Native}
+				\lstinputlisting[language=Java]{Resources/get_primary_keys_native.txt}
 
 				\par
 				\textbf{Example}: Get All Primary Keys Of Liquor Table.
-					\lstinputlisting[language=Java]{Resources/get_primary_keys_example.txt}
+					\lstinputlisting[language=Java]{Resources/get_primary_keys_native_example.txt}
+
+			\item \small \textbf{Get Primary Keys API - Web}
+				\lstinputlisting[language=Java]{Resources/get_primary_keys_hybrid.txt}
+
+				\par
+				\textbf{Example}: Get All Primary Keys Of Liquor Table.
+					\lstinputlisting[language=Java]{Resources/get_primary_keys_hybrid_example.txt}
+	
+		\end{enumerate}
+
 
 
 	\subsection{Get Mandatory Fields}
-	\lstinputlisting[language=Java]{Resources/get_mandatory_fields.txt}
+
+		\begin{enumerate}
+
+			\item \small \textbf{Get Mandatory Fields API - Native}
+				\lstinputlisting[language=Java]{Resources/get_mandatory_fields_native.txt}
 
 				\par
 				\textbf{Example}: Get All Column Names Which Are Marked As Manadatory Fields.
-					\lstinputlisting[language=Java]{Resources/get_mandatory_fields_example.txt}
+					\lstinputlisting[language=Java]{Resources/get_mandatory_fields_native_example.txt}
+		
+			\item \small \textbf{Get Mandatory Fields API - Web}
+				\lstinputlisting[language=Java]{Resources/get_mandatory_fields_hybrid.txt}
 
-	\subsection{Get Unique Fields}
-	\lstinputlisting[language=Java]{Resources/get_unique_fields.txt}
+				\par
+				\textbf{Example}: Get All Column Names Which Are Marked As Manadatory Fields.
+					\lstinputlisting[language=Java]{Resources/get_mandatory_fields_hybrid_example.txt}
+
+		\end{enumerate}
+
+
+	\subsection{Get Unique Fields}\
+		
+		\begin{enumerate}
+
+			\item \small \textbf{Get Unique Fields API - Native}
+				\lstinputlisting[language=Java]{Resources/get_unique_fields_native.txt}
 
 				\par
 				\textbf{Example}: Get All Column Names Which Are Marked As Unique.
-					\lstinputlisting[language=Java]{Resources/get_unique_fields_example.txt}
+					\lstinputlisting[language=Java]{Resources/get_unique_fields_native_example.txt}
+	
+
+			\item \small \textbf{Get unique Fields API - Web}
+				\lstinputlisting[language=Java]{Resources/get_unique_fields_hybrid.txt}
+
+				\par
+				\textbf{Example}: Get All Column Names Which Are Marked As Unique.
+					\lstinputlisting[language=Java]{Resources/get_unique_fields_hybrid_example.txt}
+
+		\end{enumerate}
+
+
 
 
 	\subsection{Get Foreign Keys}
-	\lstinputlisting[language=Java]{Resources/get_foreign_keys.txt}
+
+		\begin{enumerate}
+	
+			\item \small \textbf{Get Foreign Keys API - Native}
+				\lstinputlisting[language=Java]{Resources/get_foreign_keys_native.txt}
 
 				\par
 				\textbf{Example}: Get All Column Names Which Are Marked As Foreign Keys.
-					\lstinputlisting[language=Java]{Resources/get_foreign_keys_example.txt}
+					\lstinputlisting[language=Java]{Resources/get_foreign_keys_native_example.txt}
+
+			\item \small \textbf{Get Foreign Keys API - Web}
+				\lstinputlisting[language=Java]{Resources/get_foreign_keys_hybrid.txt}
+
+				\par
+				\textbf{Example}: Get All Column Names Which Are Marked As Foreign Keys.
+					\lstinputlisting[language=Java]{Resources/get_foreign_keys_hybrid_example.txt}
+	
+		\end{enumerate}
+
 
 
 \section{Database Aggregation API's}
