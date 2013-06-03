@@ -4,6 +4,40 @@
 
 Siminov framework provides few event notifiers which gets triggered based on particular action. Application have to provide implementation for these event notifiers and register them with Siminov.
 
+	\begin{center}
+		\colorbox{grey}{
+			\parbox[t]{.8\linewidth}{
+			\fontsize{11pt}{11pt}\selectfont % The first argument for fontsize is the font size of the text and the second is the line spacing - you may need to play with these for your particular title
+			\vspace*{0.1cm} % Space between the start of the title and the top of the grey box
+		
+			\hfill \textbf{Note} \\
+				
+				\begin{enumerate}
+
+					\item \small If you use Siminov Hybrid Framework it is mandatory to register for Events.
+
+					\item \small If you use only Siminov Native ORM Framework it is not mandatory to register for events.
+
+					\item \small Event Handler can be define in both Native and Web.
+
+					\item \small Native Event Handler: If you want to handle Event in Native then define Event Handler using Java. Specify full Java class path and name in ApplicationDescriptor.si.xml.
+
+					\item \small Web Event Handler: If you want to handle Event in Web then define Event Handler using JavaScript. Specify only JavaScript Function name in ApplicationDescriptor.si.xml.
+
+					\item \small Both (Native/Web) Event Handler: If you want to handle Event in both Native and Web then define Event Handler in both Java and JavaScript. Specify full Java class path and name in ApplicationDescriptor.si.xml, no need to define for JavaScript because Siminov will automatically accume same name for it.
+	
+				\end{enumerate}
+				
+			\vspace*{0.0cm} % Space between the end of the title and the bottom of the grey box
+			}
+		}
+
+	\end{center}
+
+
+
+
+
 \section{ISiminov Events} It provide API's related to life cycle of Siminov framework
 
 		\par
@@ -36,6 +70,7 @@ Siminov framework provides few event notifiers which gets triggered based on par
 						}
 					}
 
+
 					\end{center}
 
 
@@ -61,6 +96,17 @@ Siminov framework provides few event notifiers which gets triggered based on par
 
 
 		\end{enumerate}
+
+
+
+		\textbf{i.ISiminov  Native Event Handler}
+			
+			\lstinputlisting[language=Java]{Resources/isiminov_native_event_handler_example.txt}
+		
+		\textbf{ii. ISiminov Web Event Handler}
+
+			\lstinputlisting[language=Java]{Resources/isiminov_web_event_handler_example.txt}
+
 
 
 
@@ -91,3 +137,13 @@ Siminov framework provides few event notifiers which gets triggered based on par
 			\item \small \textbf{Index Dropped - indexDropped(DatabaseMappingDescriptor, Index)}: It is triggered when a index is dropped from table. This API provides DatabaseMappingDescriptor and Index object which defines table and index for which index is dropped.
 
 		\end{enumerate}
+
+
+
+		\textbf{i.IDatabase Native Event Handler}
+			
+			\lstinputlisting[language=Java]{Resources/idatabase_native_event_handler_example.txt}
+		
+		\textbf{ii. IDatabase Web Event Handler}
+
+			\lstinputlisting[language=Java]{Resources/idatabase_web_event_handler_example.txt}

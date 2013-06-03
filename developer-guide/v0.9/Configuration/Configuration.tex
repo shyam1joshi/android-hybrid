@@ -169,7 +169,7 @@ All these descriptor should will be placed in application assests folder.
 			
 						\item \small Event Handler can be define in both Native and Web.
 
-						\item \small Native Event Handler: If you want to handle Event in Web then define Event Handler using JavaScript. Specify full Java class path name in ApplicationDescriptor.si.xml.
+						\item \small Native Event Handler: If you want to handle Event in Native then define Event Handler using Java. Specify full Java class path and name in ApplicationDescriptor.si.xml.
 
 						\item \small Web Event Handler: If you want to handle Event in Web then define Event Handler using JavaScript. Specify only JavaScript Function name in ApplicationDescriptor.si.xml.
 
@@ -656,6 +656,10 @@ Database Mapping Descriptor is one which does ORM, it maps Java/JavaScript POJO 
 						\item \small Undefined								
 	
 					\end{enumerate}
+
+
+					\item \small Native and Web Class: If your mapped POJO class is in both Native and Web then only specify Java Variable data type, for JavaScript Siminov will take care.
+
 
 				\end{enumerate}
 

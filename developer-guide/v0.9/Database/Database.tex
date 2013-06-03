@@ -6,6 +6,49 @@
 \section{Data Types}
 Based on java variable type siminov decides the data type of column.
 
+
+					\begin{center}
+						\colorbox{grey}{
+						\parbox[t]{.8\linewidth}{
+							\fontsize{11pt}{11pt}\selectfont % The first argument for fontsize is the font size of the text and the second is the line spacing - you may need to play with these for your particular title
+							\vspace*{0.1cm} % Space between the start of the title and the top of the grey box
+		
+							\hfill \textbf{Note} \\
+		
+												\begin{enumerate}
+		
+					\item \small POJO Class can be define in both Native and Web.
+
+					\item \small Native Class: If you have mapped POJO class in Native then specify Java Variable data type.
+
+					\textbf{Java Data Type's}
+						\par
+						java.lang.int, java.lang.Integer, java.lang.long, java.lang.Long, java.lang.float, java.lang.Float, java.lang.boolean, java.lang.Boolean, java.lang.char, java.lang.Character, java.lang.String, java.lang.byte, java.lang.Byte, java.lang.void, java.lang.Void, java.lang.short, java.lang.Short.
+
+				
+					\item \small Web Class: If you have mapped POJO class in Web then specify JavaScript Variable data type.
+
+					\textbf{JavaScript Data Type's}
+						\par
+						String, Number, Boolean, Array.
+	
+
+					\item \small Native and Web Class: If your mapped POJO class is in both Native and Web then only specify Java Variable data type, for JavaScript Siminov will take care.
+
+
+				\end{enumerate}
+
+
+
+
+							\vspace*{0.0cm} % Space between the end of the title and the bottom of the grey box
+						}
+					}
+
+					\end{center}
+
+
+
 \begin{enumerate}
 
 	\item \small \textbf{int}: Java int primitive data type is converted to \textbf{INTEGER} Sqlite data type.
@@ -109,6 +152,28 @@ Based on java variable type siminov decides the data type of column.
 		\par
 		\textbf{Example:} Java Short Class Data Type
 			\lstinputlisting[language=Java]{Resources/data_type_short_class_example.txt}
+
+
+	\item \small \textbf{String}: JavaScript String data type is converted to \textbf{TEXT} Sqlite data type.
+
+		\par 
+		\textbf{Example:} JavaScript String Data Type
+		 	\lstinputlisting[language=Java]{Resources/data_type_javascript_string_example.txt}
+
+
+	\item \small \textbf{Number}: JavaScript String data type is converted to \textbf{REAL} Sqlite data type.
+
+		\par 
+		\textbf{Example:} JavaScript Number Data Type
+		 	\lstinputlisting[language=Java]{Resources/data_type_javascript_number_example.txt}
+
+	
+	\item \small \textbf{Boolean}: JavaScript String data type is converted to \textbf{NUMERIC} Sqlite data type.
+
+		\par 
+		\textbf{Example:} JavaScript Boolean Data Type
+		 	\lstinputlisting[language=Java]{Resources/data_type_javascript_boolean_example.txt}
+
 
 \end{enumerate}
 
