@@ -1,0 +1,8 @@
+	String query = "SELECT * FROM LIQUOR";
+	
+	Liquor[] liquors = null;
+	try {
+		liquors = new Liquor().select(query);
+	} catch(DatabaseException de) {
+		//Log it.
+	}

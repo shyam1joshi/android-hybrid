@@ -1,0 +1,1 @@
+	public Object[] select(final String query) throws DatabaseException;

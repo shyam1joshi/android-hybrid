@@ -1,0 +1,1 @@
+	public final String getTableName() throws DatabaseException;

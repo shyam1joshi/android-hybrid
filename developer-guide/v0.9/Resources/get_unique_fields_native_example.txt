@@ -1,0 +1,6 @@
+	Iterator<String> uniqueFields = null;
+	try {
+		uniqueFields = new Liquor().getUniqueFields();
+	} catch(DatabaseException de) {
+		//Log it.
+	}

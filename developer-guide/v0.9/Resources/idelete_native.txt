@@ -1,0 +1,16 @@
+public interface IDelete {
+
+	public String INTERFACE_NAME = IDelete.class.getName();
+
+	
+	public IDeleteClause where(String column);
+	
+	public IDelete whereClause(String whereClause); 
+
+	public IDeleteClause and(String column);
+	
+	public IDeleteClause or(String column);
+
+	public Object execute() throws DatabaseException;
+
+}

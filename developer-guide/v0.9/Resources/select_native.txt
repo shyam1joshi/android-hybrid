@@ -1,0 +1,1 @@
+	public ISelect select() throws DatabaseException;

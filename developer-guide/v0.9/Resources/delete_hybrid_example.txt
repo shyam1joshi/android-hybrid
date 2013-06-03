@@ -1,0 +1,2 @@
+	var liquor = new Liquor();
+	liquor.delete().execute();

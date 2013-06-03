@@ -1,0 +1,5 @@
+	try {
+		DatabaseDescriptor databaseDescriptor = new Liquor().getDatabaseDescriptor();
+	} catch(DatabaseException databaseException) {
+		//Log It.
+	}

@@ -1,0 +1,6 @@
+	var columnNames = null;
+	try {
+		columnNames = new Liquor().getColumnNames();
+	} catch(DatabaseException de) {
+		//Log it.
+	}

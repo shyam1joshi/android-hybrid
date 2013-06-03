@@ -1,0 +1,6 @@
+	var primaryKeys = null;
+	try {
+		primaryKeys = new Liquor().getPrimeryKeys();
+	} catch(DatabaseException de) {
+		//Log it.
+	}

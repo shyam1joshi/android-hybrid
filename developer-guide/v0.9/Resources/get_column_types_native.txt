@@ -1,0 +1,1 @@
+	public final Map<String, String> getColumnTypes() throws DatabaseException;

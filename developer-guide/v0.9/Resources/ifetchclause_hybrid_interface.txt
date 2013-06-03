@@ -1,0 +1,37 @@
+function ISelect(select) {
+
+    return {
+
+        interfaceName : "ISelect",
+
+        distinct : select.distinct,
+
+        where : select.where,
+
+        whereClause : select.whereClause,
+
+        and : select.and,
+
+        or : select.or,
+
+        orderBy : select.orderBy,
+
+        ascendingOrderBy : select.ascendingOrderBy,
+
+        descendingOrderBy : select.descendingOrderBy,
+
+        limit : select.limit,
+
+        groupBy : select.groupBy,
+
+        having : select.having,
+
+        havingClause : select.havingClause,
+
+        columns : select.columns,
+
+        fetch : select.fetch
+
+    }
+
+}

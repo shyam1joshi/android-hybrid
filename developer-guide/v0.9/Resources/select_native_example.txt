@@ -1,0 +1,3 @@
+LiquorBrand[] liquorBrands = new LiquorBrand().select()
+				.where(LiquorBrand.LIQUOR_TYPE).equalTo(liquorType)
+				.fetch();

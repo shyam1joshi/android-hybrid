@@ -1,0 +1,19 @@
+function IDelete(select) {
+
+	return {
+	
+		interfaceName : "IDelete",
+		
+		where : select.where,
+		
+		whereClause : select.whereClause,
+		
+		and : select.and,
+		
+        or : select.or,
+
+        execute : select.execute
+		
+	}
+
+}

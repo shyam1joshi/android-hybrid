@@ -1,0 +1,2 @@
+	Liquor liquor = new Liquor();
+	liquor.delete().execute();

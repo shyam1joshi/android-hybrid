@@ -1,0 +1,6 @@
+	var mandatoryFields = null;
+	try {
+		mandatoryFields = new Liquor().getMandatoryFields();
+	} catch(DatabaseException de) {
+		//Log it.
+	}

@@ -1,0 +1,6 @@
+	Map<String, String> columnTypes = null;
+	try {
+		columnTypes = new Liquor().getColumnTypes();
+	} catch(DatabaseException de) {
+		//Log it.
+	}

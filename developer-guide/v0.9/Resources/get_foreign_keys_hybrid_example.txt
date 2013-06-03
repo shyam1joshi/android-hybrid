@@ -1,0 +1,6 @@
+	var foreignKeys = null;
+	try {
+		foreignKeys = new Liquor().getForeignKeys();
+	} catch(DatabaseException de) {
+		//Log it.
+	}

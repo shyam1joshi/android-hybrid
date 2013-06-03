@@ -1,0 +1,24 @@
+public interface IDeleteClause {
+
+	public String INTERFACE_NAME = IDeleteClause.class.getName();
+
+	
+	public IDelete equalTo(String value);
+
+	public IDelete notEqualTo(String value);
+	
+	public IDelete greaterThan(String value);
+	
+	public IDelete greaterThanEqual(String value);
+
+	public IDelete lessThan(String value);
+	
+	public IDelete lessThanEqual(String value);
+	
+	public IDelete between(String start, String end);
+	
+	public IDelete like(String like);
+	
+	public IDelete in(String...values);
+
+}
