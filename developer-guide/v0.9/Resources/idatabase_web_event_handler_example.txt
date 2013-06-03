@@ -1,0 +1,33 @@
+
+function DatabaseEventHandler() {
+
+    this.databaseCreated = function(databaseDescriptor) {
+		//Database Created.
+    }
+
+
+    this.databaseDropped = function(databaseDescriptor) {
+		//Database Dropped.
+    }
+
+
+    this.tableCreated = function(databaseDescriptor, databaseMappingDescriptor) {
+		//Table Created.
+    }
+
+
+    this.tableDropped = function(databaseDescriptor, databaseMappingDescriptor) {
+		//Table Dropped.
+    }
+
+
+    this.indexCreated = function(databaseDescriptor, databaseMappingDescriptor, index) {
+		//Index Created.
+    }
+
+
+    this.indexDropped = function(databaseDescriptor, databaseMappingDescriptor, index) {
+		//Index Dropped.
+    }
+
+}

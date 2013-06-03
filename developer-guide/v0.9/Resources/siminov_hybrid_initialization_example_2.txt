@@ -1,0 +1,17 @@
+
+	//Register Siminov.initialize API For Device Ready Event. 
+	document.addEventListener("deviceready", Siminov.initialize, false);
+
+			
+	//Application Defined Event Handler. Once Siminov gets initialize this Event Handler will be invoked.
+	function SiminovEventHandler() {
+
+		this.firstTimeSiminovInitialized = function() {
+			//Siminov Initialized.
+		}
+			
+		this.siminovInitialized = function() {
+			//Siminov Initialized.
+		}
+					
+	}

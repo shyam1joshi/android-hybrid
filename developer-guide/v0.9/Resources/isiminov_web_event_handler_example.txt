@@ -1,0 +1,17 @@
+function SiminovEventHandler() {
+
+    this.firstTimeSiminovInitialized = function() {
+		//First Time Siminov Initialized.
+    }
+
+
+    this.siminovInitialized = function() {
+		//Siminov Initialized.
+    }
+
+
+    this.siminovStopped = function() {
+        //Siminov Stopped.
+    }
+
+}

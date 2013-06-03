@@ -1,0 +1,15 @@
+public class SiminovEventHandler implements ISiminovEvents {
+
+	public void firstTimeSiminovInitialized() {
+		//First Time Siminov Initialized.
+	}
+
+	public void siminovInitialized() {
+		//Siminov Initialized.
+	}
+
+	public void siminovStopped() {
+		//Siminov Stopped.
+	}
+
+}

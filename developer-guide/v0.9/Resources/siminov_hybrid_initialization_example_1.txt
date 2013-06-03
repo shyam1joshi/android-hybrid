@@ -1,0 +1,20 @@
+public class Siminov extends DroidGap {
+
+	public void onCreate(Bundle savedInstanceState) { 
+
+		super.onCreate(savedInstanceState);
+		super.init();
+		super.appView.getSettings().setJavaScriptEnabled(true);
+
+		initializeSiminov();
+
+		super.loadUrl("file:///android_asset/www/home.html");
+
+	}
+
+
+	private void initializeSiminov() {
+		siminov.hybrid.Siminov.initialize(getApplicationContext(), this.appView);
+	}
+
+}

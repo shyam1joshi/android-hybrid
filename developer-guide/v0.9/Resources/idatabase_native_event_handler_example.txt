@@ -1,0 +1,31 @@
+public class DatabaseEventHandler implements IDatabaseEvents {
+
+	public void databaseCreated(DatabaseDescriptor databaseDescriptor) {
+		//Database Created.
+	}
+
+	public void databaseDropped(DatabaseDescriptor databaseDescriptor) {
+		//Database Dropped.
+	}
+
+	public void tableCreated(DatabaseDescriptor databaseDescriptor,
+			DatabaseMappingDescriptor databaseMapping) {
+		//Table Created.
+	}
+
+	public void tableDropped(DatabaseDescriptor databaseDescriptor,
+			DatabaseMappingDescriptor databaseMapping) {
+		//Table Dropped.
+	}
+
+	public void indexCreated(DatabaseDescriptor databaseDescriptor,
+			DatabaseMappingDescriptor databaseMapping, Index index) {
+		//Index Created.
+	}
+
+	public void indexDropped(DatabaseDescriptor databaseDescriptor,
+			DatabaseMappingDescriptor databaseMapping, Index index) {
+		//Index Dropped.
+	}
+
+}
