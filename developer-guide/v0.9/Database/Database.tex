@@ -818,156 +818,327 @@ Sqlite data types:
 
 
 	\subsection{Count}
-		\par
-		Returns the count of rows based on information provided.
 
-			\textbf{API}: Count API.
-				\lstinputlisting[language=Java]{Resources/count.txt}
+		\begin{enumerate}
+
+			\item \small \textbf{Count API - Native}	
+
+				\par
+				Returns the count of rows based on information provided.
+					\lstinputlisting[language=Java]{Resources/count_native.txt}
 		
-			\textbf{ICount}:  Exposes API's to get count of the number of times that X is not NULL in a group.
+				\textbf{ICount}:  Exposes API's to get count of the number of times that X is not NULL in a group.
 						 The count(*) function (with no arguments) returns the total number of rows in the group.
 
-				\lstinputlisting[language=Java]{Resources/icount_interface.txt}
+					\lstinputlisting[language=Java]{Resources/icount_native_interface.txt}
 
 			
-			\textbf{ICountClause}: Exposes API's to provide condition on where clause to calculate count.
-				\lstinputlisting[language=Java]{Resources/icountclause_interface.txt}
+				\textbf{ICountClause}: Exposes API's to provide condition on where clause to calculate count.
+					\lstinputlisting[language=Java]{Resources/icountclause_native_interface.txt}
 
-			\textbf{Example}: Get count of liquors type equal to RUM.
-				\lstinputlisting[language=Java]{Resources/count_example.txt}
+				\textbf{Example}: Get count of liquors type equal to RUM.
+					\lstinputlisting[language=Java]{Resources/count_native_example.txt}
+
+
+			\item \small \textbf{Count API - Web}		
+				\par
+				Returns the count of rows based on information provided.
+					\lstinputlisting[language=Java]{Resources/count_hybrid.txt}
+		
+				\textbf{ICount}:  Exposes API's to get count of the number of times that X is not NULL in a group.
+						 The count(*) function (with no arguments) returns the total number of rows in the group.
+
+					\lstinputlisting[language=Java]{Resources/icount_hybrid_interface.txt}
+
+			
+				\textbf{ICountClause}: Exposes API's to provide condition on where clause to calculate count.
+					\lstinputlisting[language=Java]{Resources/icountclause_hybrid_interface.txt}
+
+				\textbf{Example}: Get count of liquors type equal to RUM.
+					\lstinputlisting[language=Java]{Resources/count_hybrid_example.txt}
+
+		\end{enumerate}
+
 
 
 	\subsection{Average} 
-		\par 
-		Returns the average based on column name provided.
 
-			\textbf{API}: Average API.
-				\lstinputlisting[language=Java]{Resources/average.txt}
+		\begin{enumerate}
+
+			\item \small \textbf{Average API - Native}
+				\par 
+				Returns the average based on column name provided.
+					\lstinputlisting[language=Java]{Resources/average_native.txt}
 		
-			\textbf{IAverage}:  Exposes API's to get average value of all non-NULL X within a group. 
+				\textbf{IAverage}:  Exposes API's to get average value of all non-NULL X within a group. 
  						 String and BLOB values that do not look like numbers are interpreted as 0.
 						 The result of avg() is always a floating point value as long as at there is at least one non-NULL input even if all inputs are integers.
 						 The result of avg() is NULL if and only if there are no non-NULL inputs.
 
-				\lstinputlisting[language=Java]{Resources/iaverage_interface.txt}
+					\lstinputlisting[language=Java]{Resources/iaverage_native_interface.txt}
 
 			
-			\textbf{IAverageClause}: Exposes API's to provide condition on where clause to calculate average.
-				\lstinputlisting[language=Java]{Resources/iaverageclause_interface.txt}
+				\textbf{IAverageClause}: Exposes API's to provide condition on where clause to calculate average.
+					\lstinputlisting[language=Java]{Resources/iaverageclause_native_interface.txt}
 
-			\textbf{Example}: 
-				\lstinputlisting[language=Java]{Resources/average_example.txt}
+				\textbf{Example}: 
+					\lstinputlisting[language=Java]{Resources/average_native_example.txt}
+
+
+			\item \small \textbf{Average API - Web}	
+				\par 
+				Returns the average based on column name provided.
+					\lstinputlisting[language=Java]{Resources/average_hybrid.txt}
+		
+				\textbf{IAverage}:  Exposes API's to get average value of all non-NULL X within a group. 
+ 						 String and BLOB values that do not look like numbers are interpreted as 0.
+						 The result of avg() is always a floating point value as long as at there is at least one non-NULL input even if all inputs are integers.
+						 The result of avg() is NULL if and only if there are no non-NULL inputs.
+
+					\lstinputlisting[language=Java]{Resources/iaverage_hybrid_interface.txt}
+
+			
+				\textbf{IAverageClause}: Exposes API's to provide condition on where clause to calculate average.
+					\lstinputlisting[language=Java]{Resources/iaverageclause_hybrid_interface.txt}
+
+				\textbf{Example}: 
+					\lstinputlisting[language=Java]{Resources/average_hybrid_example.txt}
+
+		\end{enumerate}
+
 		
 
 	\subsection{Sum} 
-		\par 
-		Returns the sum based on column name provided.
 
-			\textbf{API}: Sum API.
-				\lstinputlisting[language=Java]{Resources/sum.txt}
+		\begin{enumerate}
+
+			\item \small \textbf{Sum API - Native}
+				\par 
+				Returns the sum based on column name provided.
+					\lstinputlisting[language=Java]{Resources/sum_native.txt}
 		
-			\textbf{ISum}:   Exposes API's to return sum of all non-NULL values in the group.
+				\textbf{ISum}:   Exposes API's to return sum of all non-NULL values in the group.
 					  	 If there are no non-NULL input rows then sum() returns NULL but total() returns 0.0.
 						 NULL is not normally a helpful result for the sum of no rows but the SQL standard requires it and most other SQL database engines implement sum() that way so SQLite does it in the same way in order to be compatible.
 						 The result of sum() is an integer value if all non-NULL inputs are integers. 
 
-				\lstinputlisting[language=Java]{Resources/isum_interface.txt}
+					\lstinputlisting[language=Java]{Resources/isum_native_interface.txt}
 
 			
-			\textbf{ISumClause}: Exposes API's to provide condition on where clause to calculate sum.
-				\lstinputlisting[language=Java]{Resources/isumclause_interface.txt}
+				\textbf{ISumClause}: Exposes API's to provide condition on where clause to calculate sum.
+					\lstinputlisting[language=Java]{Resources/isumclause_native_interface.txt}
 
-			\textbf{Example}: 
-				\lstinputlisting[language=Java]{Resources/sum_example.txt}
+				\textbf{Example}: 
+					\lstinputlisting[language=Java]{Resources/sum_native_example.txt}
+
+
+			\item \small \textbf{Sum API - Web}
+				\par 
+				Returns the sum based on column name provided.
+					\lstinputlisting[language=Java]{Resources/sum_hybrid.txt}
+		
+				\textbf{ISum}:   Exposes API's to return sum of all non-NULL values in the group.
+					  	 If there are no non-NULL input rows then sum() returns NULL but total() returns 0.0.
+						 NULL is not normally a helpful result for the sum of no rows but the SQL standard requires it and most other SQL database engines implement sum() that way so SQLite does it in the same way in order to be compatible.
+						 The result of sum() is an integer value if all non-NULL inputs are integers. 
+
+					\lstinputlisting[language=Java]{Resources/isum_hybrid_interface.txt}
+
+			
+				\textbf{ISumClause}: Exposes API's to provide condition on where clause to calculate sum.
+					\lstinputlisting[language=Java]{Resources/isumclause_hybrid_interface.txt}
+
+				\textbf{Example}: 
+					\lstinputlisting[language=Java]{Resources/sum_hybrid_example.txt}
+
+		\end{enumerate}
 
 
 	\subsection{Total} 
-		\par 
-		Returns the total based on column name provided.
 
-			\textbf{API}: Total API.
-				\lstinputlisting[language=Java]{Resources/total.txt}
+		\begin{enumerate}
+
+			\item \small \textbf{Total API - Native}
+				\par 
+				Returns the total based on column name provided.
+				\lstinputlisting[language=Java]{Resources/total_native.txt}
 		
-			\textbf{ITotal}:     Exposes API's to return total of all non-NULL values in the group.
+				\textbf{ITotal}:     Exposes API's to return total of all non-NULL values in the group.
  						The non-standard total() function is provided as a convenient way to work around this design problem in the SQL language.
 						The result of total() is always a floating point value.
 
-
-				\lstinputlisting[language=Java]{Resources/itotal_interface.txt}
+	
+					\lstinputlisting[language=Java]{Resources/itotal_native_interface.txt}
 
 			
-			\textbf{ITotalClause}: Exposes API's to provide condition on where clause to calculate total.
-				\lstinputlisting[language=Java]{Resources/itotalclause_interface.txt}
+				\textbf{ITotalClause}: Exposes API's to provide condition on where clause to calculate total.
+					\lstinputlisting[language=Java]{Resources/itotalclause_native_interface.txt}
 
-			\textbf{Example}: 
-				\lstinputlisting[language=Java]{Resources/total_example.txt}
+				\textbf{Example}: 
+					\lstinputlisting[language=Java]{Resources/total_native_example.txt}
+
+
+			\item \small \textbf{Total API - Web}
+				\par 
+				Returns the total based on column name provided.
+				\lstinputlisting[language=Java]{Resources/total_hybrid.txt}
+		
+				\textbf{ITotal}:     Exposes API's to return total of all non-NULL values in the group.
+ 						The non-standard total() function is provided as a convenient way to work around this design problem in the SQL language.
+						The result of total() is always a floating point value.
+
+	
+					\lstinputlisting[language=Java]{Resources/itotal_hybrid_interface.txt}
+
+			
+				\textbf{ITotalClause}: Exposes API's to provide condition on where clause to calculate total.
+					\lstinputlisting[language=Java]{Resources/itotalclause_hybrid_interface.txt}
+
+				\textbf{Example}: 
+					\lstinputlisting[language=Java]{Resources/total_hybrid_example.txt}
+
+		\end{enumerate}
+
 
 
 	\subsection{Minimum} 
-		\par 
-		Returns the minimum based on column name provided.
 
-			\textbf{API}: Minimum API.
-				\lstinputlisting[language=Java]{Resources/minimum.txt}
+		\begin{enumerate}
+
+			\item \small \textbf{Minimum API - Native}
+				\par 
+				Returns the minimum based on column name provided.
+					\lstinputlisting[language=Java]{Resources/minimum_native.txt}
 		
-			\textbf{IMin}:      Exposes API's to returns the minimum non-NULL value of all values in the group.
+				\textbf{IMin}:      Exposes API's to returns the minimum non-NULL value of all values in the group.
 						The minimum value is the first non-NULL value that would appear in an ORDER BY of the column.
 						Aggregate min() returns NULL if and only if there are no non-NULL values in the group.
 
 
-				\lstinputlisting[language=Java]{Resources/iminimum_interface.txt}
+					\lstinputlisting[language=Java]{Resources/iminimum_native_interface.txt}
 
 			
-			\textbf{IMinClause}: Exposes API's to provide condition on where clause to calculate minimum.
-				\lstinputlisting[language=Java]{Resources/iminimumclause_interface.txt}
+				\textbf{IMinClause}: Exposes API's to provide condition on where clause to calculate minimum.
+					\lstinputlisting[language=Java]{Resources/iminimumclause_native_interface.txt}
+	
+				\textbf{Example}: 
+					\lstinputlisting[language=Java]{Resources/minimum_native_example.txt}
 
-			\textbf{Example}: 
-				\lstinputlisting[language=Java]{Resources/minimum_example.txt}
+			\item \small \textbf{Minimum API - Web}
+				\par 
+				Returns the minimum based on column name provided.
+					\lstinputlisting[language=Java]{Resources/minimum_hybrid.txt}
+		
+				\textbf{IMin}:      Exposes API's to returns the minimum non-NULL value of all values in the group.
+						The minimum value is the first non-NULL value that would appear in an ORDER BY of the column.
+						Aggregate min() returns NULL if and only if there are no non-NULL values in the group.
+
+
+					\lstinputlisting[language=Java]{Resources/iminimum_hybrid_interface.txt}
+
+			
+				\textbf{IMinClause}: Exposes API's to provide condition on where clause to calculate minimum.
+					\lstinputlisting[language=Java]{Resources/iminimumclause_hybrid_interface.txt}
+	
+				\textbf{Example}: 
+					\lstinputlisting[language=Java]{Resources/minimum_hybrid_example.txt}
+
+		\end{enumerate}
+
 
 
 
 	\subsection{Maximum} 
-		\par 
-		Returns the minimum based on column name provided.
-
-			\textbf{API}: Maximum API.
-				\lstinputlisting[language=Java]{Resources/maximum.txt}
 		
-			\textbf{IMax}:    Exposes API's to returns the maximum value of all values in the group.
+		\begin{enumerate}
+		
+			\item \small \textbf{Maximum API - Native}
+				\par 
+				Returns the minimum based on column name provided.
+					\lstinputlisting[language=Java]{Resources/maximum_native.txt}
+		
+				\textbf{IMax}:    Exposes API's to returns the maximum value of all values in the group.
 						The maximum value is the value that would be returned last in an ORDER BY on the same column. 
 						Aggregate max() returns NULL if and only if there are no non-NULL values in the group.
 
 
-				\lstinputlisting[language=Java]{Resources/imax_interface.txt}
+					\lstinputlisting[language=Java]{Resources/imax_native_interface.txt}
 
 			
-			\textbf{IMaxClause}: Exposes API's to provide condition on where clause to calculate maximum.
-				\lstinputlisting[language=Java]{Resources/imaxclause_interface.txt}
+				\textbf{IMaxClause}: Exposes API's to provide condition on where clause to calculate maximum.
+					\lstinputlisting[language=Java]{Resources/imaxclause_native_interface.txt}
 
-			\textbf{Example}: 
-				\lstinputlisting[language=Java]{Resources/maximum_example.txt}
+				\textbf{Example}: 
+					\lstinputlisting[language=Java]{Resources/maximum_native_example.txt}
+
+
+			\item \small \textbf{Maximum API - Hybrid}
+				\par 
+				Returns the minimum based on column name provided.
+					\lstinputlisting[language=Java]{Resources/maximum_hybrid.txt}
+		
+				\textbf{IMax}:    Exposes API's to returns the maximum value of all values in the group.
+						The maximum value is the value that would be returned last in an ORDER BY on the same column. 
+						Aggregate max() returns NULL if and only if there are no non-NULL values in the group.
+
+
+					\lstinputlisting[language=Java]{Resources/imax_hybrid_interface.txt}
+
+			
+				\textbf{IMaxClause}: Exposes API's to provide condition on where clause to calculate maximum.
+					\lstinputlisting[language=Java]{Resources/imaxclause_hybrid_interface.txt}
+
+				\textbf{Example}: 
+					\lstinputlisting[language=Java]{Resources/maximum_hybrid_example.txt}
+
+		\end{enumerate}
+
 
 
 	\subsection{Group Concat} 
-		\par 
-		Returns the group concat based on column name provided.
 
-			\textbf{API}: Group Concat API.
-				\lstinputlisting[language=Java]{Resources/groupconcat.txt}
+		\begin{enumerate}
 		
-			\textbf{IGroupConcat}:     Exposes API's to get group concat that returns a string which is the concatenation of all non-NULL values of X.
+			\item \small \textbf{Group Concat API - Native}
+				\par 
+				Returns the group concat based on column name provided.
+					\lstinputlisting[language=Java]{Resources/groupconcat_native.txt}
+		
+				\textbf{IGroupConcat}:     Exposes API's to get group concat that returns a string which is the concatenation of all non-NULL values of X.
 							If parameter Y is present then it is used as the separator between instances of X. A comma (",") is used as the separator if Y is omitted.
 							The order of the concatenated elements is arbitrary.
 
 
-				\lstinputlisting[language=Java]{Resources/igroupconcat_interface.txt}
+					\lstinputlisting[language=Java]{Resources/igroupconcat_native_interface.txt}
 
 			
-			\textbf{IGroupConcatClause}: Exposes API's to provide condition on where clause to calculate group concat.
-				\lstinputlisting[language=Java]{Resources/igroupconcatclause_interface.txt}
+				\textbf{IGroupConcatClause}: Exposes API's to provide condition on where clause to calculate group concat.	
+					\lstinputlisting[language=Java]{Resources/igroupconcatclause_native_interface.txt}
 
-			\textbf{Example}: 
-				\lstinputlisting[language=Java]{Resources/groupconcat_example.txt}
+				\textbf{Example}: 
+					\lstinputlisting[language=Java]{Resources/groupconcat_native_example.txt}
+
+			\item \small \textbf{Group Concat API - Hybrid}
+				\par 
+				Returns the group concat based on column name provided.
+					\lstinputlisting[language=Java]{Resources/groupconcat_hybrid.txt}
+		
+				\textbf{IGroupConcat}:     Exposes API's to get group concat that returns a string which is the concatenation of all non-NULL values of X.
+							If parameter Y is present then it is used as the separator between instances of X. A comma (",") is used as the separator if Y is omitted.
+							The order of the concatenated elements is arbitrary.
+
+
+					\lstinputlisting[language=Java]{Resources/igroupconcat_hybrid_interface.txt}
+
+			
+				\textbf{IGroupConcatClause}: Exposes API's to provide condition on where clause to calculate group concat.	
+					\lstinputlisting[language=Java]{Resources/igroupconcatclause_hybrid_interface.txt}
+
+				\textbf{Example}: 
+					\lstinputlisting[language=Java]{Resources/groupconcat_hybrid_example.txt}
+	
+		\end{enumerate}
+
 
 
 \section{Database Transaction API's}
