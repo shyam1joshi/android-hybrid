@@ -1,1 +1,0 @@
-	public static final void endTransaction(final DatabaseDescriptor databaseDescriptor);

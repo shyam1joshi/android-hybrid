@@ -1,6 +1,0 @@
-	String tableName = null;
-	try {
-		tableName = new Liquor().getTableName();
-	} catch(DatabaseException de) {
-		//Log it.
-	}

@@ -1,1 +1,0 @@
-	public static final void commitTransaction(final DatabaseDescriptor databaseDescriptor) throws DatabaseException;

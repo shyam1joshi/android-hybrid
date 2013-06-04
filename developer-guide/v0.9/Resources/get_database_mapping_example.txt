@@ -1,6 +1,0 @@
-	DatabaseMapping databaseMapping = null;
-	try {
-		databaseMapping = new Liquor().getDatabaseMapping();
-	} catch(DatabaseException de) {
-		//Log it.
-	}
