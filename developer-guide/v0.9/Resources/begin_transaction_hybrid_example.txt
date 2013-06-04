@@ -1,0 +1,20 @@
+	var beer = new Liquor();
+	beer.setLiquorType(Liquor.LIQUOR_TYPE_BEER);
+	beer.setDescription(Constants.beer_description));
+	beer.setHistory(Constants.beer_history));
+	beer.setLink(Constants.beer_link));
+	beer.setAlcholContent(Constants.beer_alchol_content));
+
+	DatabaseDescriptor databaseDescriptor = beer.getDatabaseDescriptor();
+  
+	try {
+		Database.beginTransaction(databaseDescriptor);
+	
+		beer.save();
+  
+		Database.commitTransaction(databaseDescriptor);
+	} catch(DatabaseException de) {
+		//Log it.
+	} finally {
+		Database.endTransaction(databaseDescriptor);
+	}

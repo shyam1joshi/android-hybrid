@@ -1,0 +1,1 @@
+	function SiminovException(className, methodName, message);
