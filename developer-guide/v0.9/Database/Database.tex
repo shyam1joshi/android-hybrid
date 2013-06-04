@@ -1144,39 +1144,97 @@ Sqlite data types:
 \section{Database Transaction API's}
 
 	\subsection{Begin Transaction}
-	\lstinputlisting[language=Java]{Resources/begin_transaction.txt}
 
-	\par
-	Begins a transaction in \textbf{EXCLUSIVE} mode.
+		\begin{enumerate}
 
-	\par
-	Transactions can be nested. When the outer transaction is ended all of the work done in that transaction and all of the nested transactions will be committed or rolled back. The changes will be rolled back if any transaction is ended without being marked as clean(by calling commitTransaction). Otherwise they will be committed.
+			\item \small \textbf{Begin Transaction API - Native}
+				\lstinputlisting[language=Java]{Resources/begin_transaction_native.txt}
 
 				\par
-				\textbf{Example}: Saving Liquor Within Transaction.
-					\lstinputlisting[language=Java]{Resources/begin_transaction_example.txt}
+				Begins a transaction in \textbf{EXCLUSIVE} mode.
+
+				\par
+				Transactions can be nested. When the outer transaction is ended all of the work done in that transaction and all of the nested transactions will be committed or rolled back. The changes will be rolled back if any transaction is ended without being marked as clean(by calling commitTransaction). Otherwise they will be committed.
+
+				\par
+					\textbf{Example}: Saving Liquor Within Transaction.
+						\lstinputlisting[language=Java]{Resources/begin_transaction_native_example.txt}
+
+
+
+			\item \small \textbf{Begin Transaction API - Web}
+				\lstinputlisting[language=Java]{Resources/begin_transaction_hybrid.txt}
+
+				\par
+				Begins a transaction in \textbf{EXCLUSIVE} mode.
+
+				\par
+				Transactions can be nested. When the outer transaction is ended all of the work done in that transaction and all of the nested transactions will be committed or rolled back. The changes will be rolled back if any transaction is ended without being marked as clean(by calling commitTransaction). Otherwise they will be committed.
+
+				\par
+					\textbf{Example}: Saving Liquor Within Transaction.
+						\lstinputlisting[language=Java]{Resources/begin_transaction_hybrid_example.txt}
+
+		\end{enumerate}
 
 
 	\subsection{Commit Transaction}
-	\lstinputlisting[language=Java]{Resources/commit_transaction.txt}
-
-	\par
-	Marks the current transaction as successful. Finally it will End a transaction.
+	
+		\begin{enumerate}
+	
+			\item \small \textbf{Commit Transaction API - Native}
+				\lstinputlisting[language=Java]{Resources/commit_transaction_native.txt}
 
 				\par
-				\textbf{Example}: Save And Commt Liquor Transaction.
-					\lstinputlisting[language=Java]{Resources/commit_transaction_example.txt}
+				Marks the current transaction as successful. Finally it will End a transaction.
+
+				\par
+					\textbf{Example}: Save And Commt Liquor Transaction.
+						\lstinputlisting[language=Java]{Resources/commit_transaction_native_example.txt}
+
+
+			\item \small \textbf{Commit Transaction API - Web}
+				\lstinputlisting[language=Java]{Resources/commit_transaction_hybrid.txt}
+
+				\par
+				Marks the current transaction as successful. Finally it will End a transaction.
+
+				\par
+					\textbf{Example}: Save And Commt Liquor Transaction.
+						\lstinputlisting[language=Java]{Resources/commit_transaction_hybrid_example.txt}
+
+		\end{enumerate}
+
+
 
 	
 	\subsection{End Transaction}
-	\lstinputlisting[language=Java]{Resources/end_transaction.txt}
 
-	\par
-	End the current transaction.
+		\begin{enumerate}
+
+			\item \small \textbf{End Transaction API - Native}
+				\lstinputlisting[language=Java]{Resources/end_transaction_native.txt}
 
 				\par
-				\textbf{Example}: End Transaction After Save And Commit Transaction.
-					\lstinputlisting[language=Java]{Resources/end_transaction_example.txt}
+					End the current transaction.
+
+				\par
+					\textbf{Example}: End Transaction After Save And Commit Transaction.
+						\lstinputlisting[language=Java]{Resources/end_transaction_native_example.txt}
+
+
+			\item \small \textbf{End Transaction API - Web}
+				\lstinputlisting[language=Java]{Resources/end_transaction_hybrid.txt}
+
+				\par
+					End the current transaction.
+
+				\par
+					\textbf{Example}: End Transaction After Save And Commit Transaction.
+						\lstinputlisting[language=Java]{Resources/end_transaction_hybrid_example.txt}
+
+		\end{enumerate}
+
 
 
 \section{Making Transaction Thread Safe}
