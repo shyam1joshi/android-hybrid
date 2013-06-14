@@ -11,7 +11,7 @@
 Siminov Framework works based on a set of defined descriptors which can be broadly classified as \textbf{ApplicationDescriptor.si.xml}, \textbf{DatabaseDescriptor.si.xml}, \textbf{LibraryDescriptor.si.xml}, \textbf{DatabaseMappingDescriptor.si.xml}, \textbf{HybridDescriptor.si.xml}
 
 \par
-All these descriptor should will be placed in application assests folder. 
+All these descriptor should will be placed in application assets folder. 
 
 \newpage
 \begin{figure}[!htbp]
@@ -173,7 +173,7 @@ All these descriptor should will be placed in application assests folder.
 
 						\item \small Web Event Handler: If you want to handle Event in Web then define Event Handler using JavaScript. Specify only JavaScript Function name in ApplicationDescriptor.si.xml.
 
-						\item \small Both (Native/Web) Event Handler: If you want to handle Event in both Native and Web then define Event Handler in both Java and JavaScript. Specify full Java class path and name in ApplicationDescriptor.si.xml, no need to define for JavaScript because Siminov will automatically accume same name for it.
+						\item \small Both (Native/Web) Event Handler: If you want to handle Event in both Native and Web then define Event Handler in both Java and JavaScript. Specify full Java class path and name in ApplicationDescriptor.si.xml, no need to define for JavaScript because Siminov will automatically assume same name for it.
 
 					\end{enumerate}
 
@@ -281,6 +281,9 @@ All these descriptor should will be placed in application assests folder.
 				\par
 				The default is false. It is optional field. 
 			
+
+			\item \small \textbf{external\_storage}:It specifies whether database resources needs to be saved on external storage or not (SDCard). It is optinal field. Default is false.
+
 			\begin{center}
 				\colorbox{grey}{
 					\parbox[t]{.8\linewidth}{
@@ -296,8 +299,6 @@ All these descriptor should will be placed in application assests folder.
 			}
 
 			\end{center}
-
-			\item \small \textbf{external\_storage}:It specifies whether database resources needs to be saved on external storage or not (SDCard). It is optinal field. Default is false.
 
 		\end{enumerate}
 
@@ -381,7 +382,6 @@ All these descriptor should will be placed in application assests folder.
 
 \end{center}
 
-\newpage
 	\par
 		\textbf{Example:} DatabaseDescriptor.si.xml file path
 		\begin{figure}[htbp]
