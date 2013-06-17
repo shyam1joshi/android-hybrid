@@ -805,7 +805,7 @@ Database Mapping Descriptor is one which does ORM, it maps Java/JavaScript POJO 
 
 							\item \small Web Class: If you have mapped POJO class in Web then specify only JavaScript Function name in refer\_to TAG.
 
-							\item \small Both (Native/Web) Class: If you have mapped POJO class in both Native and Web then specify full Java class path and name in refer\_to TAG, no need o define for JavaScript because Siminov will automatically accume same name for it.	
+							\item \small Both (Native/Web) Class: If you have mapped POJO class in both Native and Web then specify full Java class path and name in refer\_to TAG, no need to define for JavaScript because Siminov will automatically assume same name for it.	
 
 						\end{enumerate}
 
@@ -1015,12 +1015,11 @@ Annotation is another way to map Java POJO class to database table.
 
 \newpage
 \section{Hybrid Descriptor (HybridDescriptor.si.xml) Configuration} 
-	Hybrid Descriptor is one which describes properties required to map Web TO Native and vice-versa. It is optional descriptor.
+	Hybrid Descriptor is one which describes properties required to map Web to Native and vice-versa. It is optional descriptor.
 
 
 \lstinputlisting[language=XML]{Resources/hybrid_descriptor.txt}
 
-\newpage
 \textbf{Example}: SiminovAdapter.si.xml File Of Siminov Hybrid Framework.
 \lstinputlisting[language=XML]{Resources/hybrid_descriptor_adapter_example.txt}
 
@@ -1030,11 +1029,11 @@ Annotation is another way to map Java POJO class to database table.
 
 \begin{enumerate}
 	
-	\item \small \textbf{Adapter}: Adapter allows Web and Native to work together that normally could not because of incompatoable Technologies. Adapter basically maps JavaScript to Native and vice-versa.
+	\item \small \textbf{Adapter TAG}: Adapter allows Web and Native to work together that is normally not possible because of incompatible Technologies. Adapter basically maps JavaScript to Native and vice-versa.
 	
 		\begin{enumerate}
 
-			\item \small \textbf{name*} : Name of Adapter. It is madatory field.
+			\item \small \textbf{name*} : Name of Adapter. It is mandatory field.
 			\item \small \textbf{description}: Description about Adapter. It is optional field.
 			\item \small \textbf{type}: Type Of Adapter. It is mandatory field.
 
@@ -1072,7 +1071,7 @@ Annotation is another way to map Java POJO class to database table.
 	
 							\item \small \textbf{name*:} Name of Parameter. It is mandatory field.
 							\item \small \textbf{description}: Description about Parameter. It is optional field.
-							\item \small \textbf{type*}: Type of Parameter. It is madatory field.			
+							\item \small \textbf{type*}: Type of Parameter. It is mandatory field.			
 		
 						\end{enumerate}	
 	
@@ -1082,7 +1081,7 @@ Annotation is another way to map Java POJO class to database table.
 						\begin{enumerate}
 
 							\item \small \textbf{type*}: Type of Returned Data. It is mandatory field.
-							\item \small \textbf{description}: Description about Return Data.
+							\item \small \textbf{description}: Description about Return Data. It is optional field.
 			
 						\end{enumerate}
 
@@ -1112,7 +1111,7 @@ Annotation is another way to map Java POJO class to database table.
 			\end{center}
 		\end{enumerate}
 
-	\item \small \textbf{Libraries}: Library Descriptor Paths Needed Under This Database Descriptor.
+	\item \small \textbf{Libraries TAG}: Library Descriptor Paths Needed Under This Database Descriptor.
 
 		\begin{enumerate}
 

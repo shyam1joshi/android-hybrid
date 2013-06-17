@@ -4,7 +4,7 @@
 
 
 \section{Data Types}
-Based on java variable type siminov decides the data type of column.
+Based on Java/JavaScript variable type Siminov decides the data type of column.
 
 
 					\begin{center}
@@ -250,7 +250,7 @@ Sqlite data types:
 
 
 
-	\subsection{Create Table}Using this API you can create table on database.
+	\subsection{Create Table}Using these APIs you can create table in database.
 
 			\begin{center}
 				\colorbox{grey}{
@@ -259,7 +259,7 @@ Sqlite data types:
 					\vspace*{0.1cm} % Space between the start of the title and the top of the grey box
 
 					\hfill \textbf{Note} \\
-					Generally database and its table creation will automatically be handled by Siminov, but u can do it manually also.
+					Generally database and its table creation will automatically be handled by Siminov, but you can do it manually also.
 
 					\vspace*{0.0cm} % Space between the end of the title and the bottom of the grey box
 					}
@@ -1007,7 +1007,7 @@ Sqlite data types:
 
 			\item \small \textbf{Minimum API - Native}
 				\par 
-				Returns the minimum based on column name provided.
+					
 					\lstinputlisting[language=Java]{Resources/minimum_native.txt}
 		
 				\textbf{IMin}:      Exposes API's to returns the minimum non-NULL value of all values in the group.
@@ -1054,7 +1054,7 @@ Sqlite data types:
 		
 			\item \small \textbf{Maximum API - Native}
 				\par 
-				Returns the minimum based on column name provided.
+				Returns the maximum based on column name provided.
 					\lstinputlisting[language=Java]{Resources/maximum_native.txt}
 		
 				\textbf{IMax}:    Exposes API's to returns the maximum value of all values in the group.
@@ -1236,32 +1236,6 @@ Sqlite data types:
 		\end{enumerate}
 
 
-
-\section{Making Transaction Thread Safe}
-By default any transaction executed on database is not thread safe, android provides API to make all transaction thread-safe by using locks around critical sections. This is pretty expensive, so if you know that your DB will nly be used by a single thread then you should not use this in your application.
-
-	\par
-	\textbf{Android API}: setLockingEnabled Enable/Disable
-		\lstinputlisting[language=Java]{Resources/andorid_transaction_set_locking_enabled_api.txt}
-
-Configuring transaction thread-safe in Siminov. To enable/disable transaction thread-safe in Siminov you have to use property is\_locking\_required defined in DatabaseDescriptor.si.xml file.
-
-		\par
-		\textbf{Example:} Siminov Template Application DatabaseDescriptor.si.xml file.
-		\begin{figure}[htbp]
-			\centering
-				\includegraphics[height=7cm]{Resources/siminov_hybrid_template_application_is_locking_enable_example.png}
-		\end{figure}
-
-
-\section{Preparing Where Clause}
-Siminov does not provide any mechanism to prepare where-clause, Providing where-clause for fetch API is easy. It take same syntax as we form where-clause for SQLite statement.
-
-\textbf{Example}: Fetch Liquor tuple where liquor type is Beer.
-	\lstinputlisting[language=Java]{Resources/preparing_where_clause.txt}
-	
-
-
 \section{Handling Database Relationships}
 
 	\subsection{One to One}
@@ -1295,5 +1269,32 @@ Siminov does not provide any mechanism to prepare where-clause, Providing where-
 	
 	\textbf{Many To Many Syntax}: 
 		\lstinputlisting[language=Java]{Resources/many_to_many_syntax.txt}
+
+
+
+
+\section{Making Transaction Thread Safe}
+By default any transaction executed on database is not thread safe, android provides API to make all transaction thread-safe by using locks around critical sections. This is pretty expensive, so if you know that your DB will nly be used by a single thread then you should not use this in your application.
+
+	\par
+	\textbf{Android API}: setLockingEnabled Enable/Disable
+		\lstinputlisting[language=Java]{Resources/andorid_transaction_set_locking_enabled_api.txt}
+
+Configuring transaction thread-safe in Siminov. To enable/disable transaction thread-safe in Siminov you have to use property is\_locking\_required defined in DatabaseDescriptor.si.xml file.
+
+		\par
+		\textbf{Example:} Siminov Template Application DatabaseDescriptor.si.xml file.
+		\begin{figure}[htbp]
+			\centering
+				\includegraphics[height=7cm]{Resources/siminov_hybrid_template_application_is_locking_enable_example.png}
+		\end{figure}
+
+
+\section{Preparing Where Clause}
+Siminov does not provide any mechanism to prepare where-clause, Providing where-clause for fetch API is easy. It take same syntax as we form where-clause for SQLite statement.
+
+\textbf{Example}: Fetch Liquor tuple where liquor type is Beer.
+	\lstinputlisting[language=Java]{Resources/preparing_where_clause.txt}
+	
 
 
