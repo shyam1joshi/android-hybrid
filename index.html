@@ -173,17 +173,45 @@
 
     <div id="docs-submenu" class="dropdown dropdown-tip" style="display: none; left: 275px; top: 1391px;">
         <ul class="dropdown-menu">
-            <li><a href="javascript:navWiki()" style="color: inherit; background: transparent;">Wiki</a></li>
-            <li><a href="javascript:navJavadocs()" style="color: inherit; background: transparent;">Java Docs</a></li>
-            <li class="dropdown-divider"></li>
-            <li><a href="javascript:dwnGettingStartedGuide()" style="color: inherit; background: transparent;">Getting Started Guide</a></li>
-            <li><a href="javascript:dwnDevGuide()" style="color: inherit; background: transparent;">Developer Guide</a></li>
+	        
+				<li>
+					<a href="#">Siminov Native<i class="icon-arrow-right"></i></a>
+					
+					<ul class="dropdown-menu sub-menu">
+				        <li><a href="javascript:navNativeWiki()" style="color: inherit; background: transparent;">Wiki</a></li>
+			            <li><a href="javascript:navNativeJavadocs()" style="color: inherit; background: transparent;">Java Docs</a></li>
+			            
+                        <li class="dropdown-divider"></li>
+			            
+			            <li><a href="javascript:dwnNativeGettingStartedGuide()" style="color: inherit; background: transparent;">Getting Started Guide</a></li>
+			            <li><a href="javascript:dwnNativeDevGuide()" style="color: inherit; background: transparent;">Developer Guide</a></li>
+					</ul>
+				</li>    
+
+				<li>
+					<a href="#">Siminov Hybrid<i class="icon-arrow-right"></i></a>
+					
+					<ul class="dropdown-menu sub-menu">
+			            <li><a href="javascript:navHybridWiki()" style="color: inherit; background: transparent;">Wiki</a></li>
+			            <li><a href="javascript:navHybridJavadocs()" style="color: inherit; background: transparent;">Java Docs</a></li>
+			            <li><a href="javascript:navHybridJavaScriptdocs()" style="color: inherit; background: transparent;">JavaScript Docs</a></li>
+
+			            <li class="dropdown-divider"></li>
+
+			            <li><a href="javascript:dwnHybridGettingStartedGuide()" style="color: inherit; background: transparent;">Getting Started Guide</a></li>
+			            <li><a href="javascript:dwnHybridDevGuide()" style="color: inherit; background: transparent;">Developer Guide</a></li>
+					</ul>
+				</li>
         </ul>
     </div>
 
     <div id="outlets-submenu" class="dropdown dropdown-tip" style="display: none; left: 275px; top: 1391px;">
         <ul class="dropdown-menu">
-            <li><a href="javascript:navAndiormSample()" style="color: inherit; background: transparent;">Android ORM Example</a></li>
+            <li><a href="javascript:navNativeSample()" style="color: inherit; background: transparent;">Native Example</a></li>
+            <li><a href="javascript:navHybridSample()" style="color: inherit; background: transparent;">Hybrid Example</a></li>
+
+            <li class="dropdown-divider"></li>
+
             <li><a href="javascript:navSQLCipherSample()" style="color: inherit; background: transparent;">SQLCipher Example</a></li>
             <li><a href="javascript:navLibrarySample()" style="color: inherit; background: transparent;">Library Example</a></li>
         </ul>

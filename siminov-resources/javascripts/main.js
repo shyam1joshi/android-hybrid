@@ -9,30 +9,66 @@ _gaq.push(['_trackPageview']);
 })();
 
 
-function navWiki() {
+function navNativeWiki() {
     window.open(
-        wiki_link,
+        native_wiki_link,
         '_blank' // <- This is what makes it open in a new window.
     );
 }
 
-function navJavadocs() {
+function navHybridWiki() {
     window.open(
-        javadocs_link,
+        hybrid_wiki_link,
         '_blank' // <- This is what makes it open in a new window.
     );
 }
 
-function dwnGettingStartedGuide() {
+function navNativeJavadocs() {
     window.open(
-        getting_started_guide_link,
+        native_javadocs_link,
         '_blank' // <- This is what makes it open in a new window.
     );
 }
 
-function dwnDevGuide() {
+function navHybridJavadocs() {
     window.open(
-        dev_guide_link,
+        hybrid_javadocs_link,
+        '_blank' // <- This is what makes it open in a new window.
+    );
+}
+
+function navHybridJavaScriptdocs() {
+    window.open(
+        hybrid_javascriptdocs_link,
+        '_blank' // <- This is what makes it open in a new window.
+    );
+}
+
+
+function dwnNativeGettingStartedGuide() {
+    window.open(
+        native_getting_started_guide_link,
+        '_blank' // <- This is what makes it open in a new window.
+    );
+}
+
+function dwnHybridGettingStartedGuide() {
+    window.open(
+        hybrid_getting_started_guide_link,
+        '_blank' // <- This is what makes it open in a new window.
+    );
+}
+
+function dwnNativeDevGuide() {
+    window.open(
+        native_dev_guide_link,
+        '_blank' // <- This is what makes it open in a new window.
+    );
+}
+
+function dwnHybridDevGuide() {
+    window.open(
+        hybrid_dev_guide_link,
         '_blank' // <- This is what makes it open in a new window.
     );
 }
@@ -81,8 +117,12 @@ function navBuilds() {
     window.location = builds_link;
 }
 
-function navAndiormSample() {
-    window.location = andiorm_sample_link;
+function navNativeSample() {
+    window.location = native_sample_link;
+}
+
+function navHybridSample() {
+    window.location = hybrid_sample_link;
 }
 
 function navSQLCipherSample() {

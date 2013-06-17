@@ -1,7 +1,14 @@
-var wiki_link = "https://github.com/Siminov/android-orm/wiki";
-var javadocs_link = "javadocs/v0.9-beta/index.html";
-var getting_started_guide_link = "docs/Getting Started Guide.pdf";
-var dev_guide_link = "docs/Developer Guide.pdf";
+var native_wiki_link = "https://github.com/Siminov/android-orm/wiki";
+var native_javadocs_link = "javadocs/v0.9-beta-native/index.html";
+var native_getting_started_guide_link = "docs/Getting Started Guide-Native.pdf";
+var native_dev_guide_link = "docs/Developer Guide-Native.pdf";
+
+var hybrid_wiki_link = "https://github.com/Siminov/android-hybrid/wiki";
+var hybrid_javadocs_link = "javadocs/v0.9-beta-hybrid/docs.java/index.html";
+var hybrid_javascriptdocs_link = "javadocs/v0.9-beta-hybrid/docs.javascript/index.html";
+var hybrid_getting_started_guide_link = "docs/Getting Started Guide-Hybrid.pdf";
+var hybrid_dev_guide_link = "docs/Developer Guide-Hybrid.pdf";
+
 
 var application_descriptor_link = "https://github.com/Siminov/android-orm/wiki/Configuring-Application-Descriptor";
 var database_descriptor_link = "https://github.com/Siminov/android-orm/wiki/Configuring-Database-Descriptor";
@@ -14,7 +21,8 @@ var andiorm_tar_zip_link = "https://github.com/Siminov/android-orm/archive/v0.9-
 
 var builds_link = "builds.html";
 
-var andiorm_sample_link = "andiorm-sample.html";
+var native_sample_link = "native-sample.html";
+var hybrid_sample_link = "hybrid-sample.html";
 var sqlcipher_sample_link = "sqlcipher-sample.html";
 var library_sample_link = "library-sample.html";
 
@@ -64,7 +72,7 @@ var library_sample_tar_zip = "https://github.com/Siminov/android-templates/archi
 
 var members_link = "https://github.com/Siminov/followers";
 var google_groups_link = "https://groups.google.com/forum/?fromgroups#!forum/siminov";
-var issue_tracker_link = "https://github.com/Siminov/android-orm/issues";
+var issue_tracker_link = "https://github.com/Siminov/android-hybrid/issues";
 var twitter_link = "https://twitter.com/SiminovSolution";
 var facebook_link = "http://www.facebook.com/pages/Siminov-Framework/547251805314931";
 var google_plus_link = "https://plus.google.com/103382306025504309831";
