@@ -1,4 +1,4 @@
-	String tableName = null;
+	var tableName;
 	try {
 		tableName = new Liquor().getTableName();
 	} catch(DatabaseException de) {

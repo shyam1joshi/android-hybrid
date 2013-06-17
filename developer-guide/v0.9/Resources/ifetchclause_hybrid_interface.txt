@@ -1,36 +1,26 @@
-function ISelect(select) {
+function ISelectClause(clause) {
 
     return {
 
-        interfaceName : "ISelect",
+        interfaceName : "ISelectClause",
 
-        distinct : select.distinct,
+        equalTo : clause.equalTo,
 
-        where : select.where,
+        notEqualTo : clause.notEqualTo,
 
-        whereClause : select.whereClause,
+        greaterThan : clause.greaterThan,
 
-        and : select.and,
+        greaterThanEqual : clause.greaterThanEqual,
 
-        or : select.or,
+        lessThan : clause.lessThan,
 
-        orderBy : select.orderBy,
+        lessThanEqual : clause.lessThanEqual,
 
-        ascendingOrderBy : select.ascendingOrderBy,
+        between : clause.between,
 
-        descendingOrderBy : select.descendingOrderBy,
+        like : clause.like,
 
-        limit : select.limit,
-
-        groupBy : select.groupBy,
-
-        having : select.having,
-
-        havingClause : select.havingClause,
-
-        columns : select.columns,
-
-        fetch : select.fetch
+        'in' : clause['in']
 
     }
 

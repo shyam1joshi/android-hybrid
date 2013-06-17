@@ -5,7 +5,7 @@
 	beer.setLink(Constants.beer_link));
 	beer.setAlcholContent(Constants.beer_alchol_content));
 
-	DatabaseDescriptor databaseDescriptor = beer.getDatabaseDescriptor();
+	var databaseDescriptor = beer.getDatabaseDescriptor();
   
 	try {
 		Database.beginTransaction(databaseDescriptor);
