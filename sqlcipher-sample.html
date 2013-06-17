@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta name="google-site-verification" content="UcOQNR4ZAkkyyYh-fxMzpTGq4QtFkAfycYJuGEurc1E" />
+	
+    <link rel="stylesheet" type="text/css" href="siminov-resources/stylesheets/stylesheet.css" media="screen" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Bootstrap Import -->
+    <link type="text/css" rel="stylesheet" href="bootstrap/css/jquery.dropdown.css" />
+    <script type="text/javascript" src="jquery/js/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/jquery.dropdown.js"></script>
+
+    <!-- Siminov Resources Import -->
+    <script type="text/javascript" src="siminov-resources/javascripts/constants.js"></script>
+    <script type="text/javascript" src="siminov-resources/javascripts/main.js"></script>
+
+    <title>Siminov Hybrid ORM - (Android + PhoneGap) Siminov Android Hybrid ORM is a open source Object/Relational Mapping (ORM) solution for Web and Native android environments</title>
+	<meta name="description" content="Siminov Hybrid ORM - (Android + PhoneGap) - Siminov Android Hybrid ORM is a open source Object/Relational Mapping (ORM) solution for Web and Native android environments" />
+
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1><a href="javascript:navHome()" style="color: inherit; background: transparent;">Siminov Hybrid ORM - (Android + PhoneGap)</a></h1>
+        <h2>A Siminov Product</h2>
+
+        <a href="https://github.com/Siminov/android-orm" class="button" target="_blank"><small>Siminov Native ORM </small>GitHub</a>
+        <a href="https://github.com/Siminov/android-hybrid" class="button" style="position: absolute; right: 0; top: 135px;" target="_blank"><small>Siminov Hybrid ORM </small>GitHub</a>
+	  </div>
+
+    </header>
+	<div class="menu">
+
+       <span style="border-left: none;">
+           <a data-dropdown="#docs-submenu"  href="#" style="color: inherit; background: transparent;">Docs </a>
+       </span>
+
+        <span>
+            <a data-dropdown="#outlets-submenu"  href="#" style="color: inherit; background: transparent;">Let's Begin</a>
+        </span>
+
+        <span>
+            <a data-dropdown="#community-submenu"  href="#" style="color: inherit; background: transparent;">Community</a>
+        </span>
+
+        <span>
+            <a href="javascript:navBuilds()" style="color: inherit; background: transparent;">Builds</a>
+        </span>
+
+		<span>
+			<a href="javascript:navIorm()" style="color: inherit; background: transparent;">iOS</a>
+		</span>
+		
+		<span style="border-right: none;">
+			<a href="javascript:navWindiorm()" style="color: inherit; background: transparent;">Windows</a>
+		</span>
+
+</div>
+
+<div id="content-wrapper">
+    <div class="inner clearfix">
+
+        <section id="main-content">
+
+            <h1>Siminov SQLCipher Example</h1>
+            This template application provides a basic idea how to configure SQCipher with Siminov ORM Framework.
+
+            <p>
+            SQLCipher is an open source extension to SQLite that provides transparent 256-bit AES encryption of database le. SQLCipher has a small footprint and great performance so it's ideal for protecting embedded application databases and is well suited for mobile development.
+            </p>
+
+            <p>
+            Siminov provide implementation for SQLCipher database encryption security. Its easy and secured to use it.
+            </p>
+
+            <p></p>
+
+            <h3>Setting Up Application</h3>
+            <ul>
+                <li>
+                    Download SQLCipher from their website for android (http://sqlcipher.net/downloads/).
+                </li>
+                <li>
+                    Configure SQLCipher in your application. Follow below steps:
+                    <ul>
+                        <li>
+                            Copy sqlcipher.jar, guava-r09.jar, commons-codec.jar in your application libs folder.
+
+                            <p> --------------------------------------------------- </p>
+                                <img src='siminov-resources/images/siminov_template_sqlcipher_application_setup_1.png' />
+                            <p> --------------------------------------------------- </p>
+                        </li>
+
+                        <li>
+                            Copy dll file in your libs folder.
+
+                            <p> --------------------------------------------------- </p>
+                                <img src='siminov-resources/images/siminov_template_sqlcipher_application_setup_2.png' />
+                            <p> --------------------------------------------------- </p>
+                        </li>
+
+                        <li>
+                            Copy icudt461.zip in your application assets folder.
+
+                            <p> --------------------------------------------------- </p>
+                                <img src='siminov-resources/images/siminov_template_sqlcipher_application_setup_3.png' />
+                            <p> --------------------------------------------------- </p>
+
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li>
+                    Download and copy <b>Siminov SQLCipher</b> jar in application libs folder.
+
+                    <p> ------------------------------------------------------------- </p>
+                        <img src='siminov-resources/images/siminov_sqlcipher_template_application_add_siminov_sqlcipher_jar.png' />
+                    <p> ------------------------------------------------------------- </p>
+                </li>
+
+                <li>
+                    To configure SQLCipher with Siminov add type property as sqlcipher in DatabaseDescriptor.si.xml.
+
+                    <p> -------------------------------------------------------------------------------------------------------------------------------------- </p>
+                        <img src='siminov-resources/images/siminov_template_sqlcipher_application_sqlcipherdatabaseimpl_class_configure.png' />
+                    <p> -------------------------------------------------------------------------------------------------------------------------------------- </p>
+
+                </li>
+
+                <li>
+                    Application Structure
+
+                    <p> --------------------------------------------------- </p>
+                        <img src='siminov-resources/images/siminov_template_sqlcipher_application_setup.png' />
+                    <p> --------------------------------------------------- </p>
+
+                </li>
+
+            </ul>
+
+
+            <h3>Application Configuration</h3>
+            <p></p>
+
+            <h5 style="margin-left: 50px;">1. Application Descriptor - ApplicationDescriptor.si.xml</h5>
+
+<pre><code>
+
+    &lt;siminov&gt;
+
+        &lt;property name=&quot;name&quot;&gt;SIMINOV SQLCIPHER TEMPLATE&lt;/property&gt;
+        &lt;property name=&quot;description&quot;&gt;Siminov SqlCipher Template Application&lt;/property&gt;
+        &lt;property name=&quot;version&quot;&gt;0.9&lt;/property&gt;
+
+        &lt;property name=&quot;load_initially&quot;&gt;true&lt;/property&gt;
+
+        &lt;!-- DATABASE-DESCRIPTORS --&gt;
+            &lt;database-descriptors&gt;
+            &lt;database-descriptor&gt;DatabaseDescriptor.si.xml&lt;/database-descriptor&gt;
+        &lt;/database-descriptors&gt;
+
+        &lt;!-- SIMINOV EVENTS --&gt;
+        &lt;event-handlers&gt;
+            &lt;event-handler&gt;siminov.orm.sqlcipher.template.events.SiminovEventHandler&lt;/event-handler&gt;
+            &lt;event-handler&gt;siminov.orm.sqlcipher.template.events.DatabaseEventHandler&lt;/event-handler&gt;
+        &lt;/event-handlers&gt;
+
+    &lt;/siminov&gt;
+
+</code></pre>
+
+
+            <p></p>
+
+            <h5 style="margin-left: 50px;">2. Database Descriptor - DatabaseDescriptor.si.xml</h5>
+
+<pre><code>
+
+    &lt;database-descriptor&gt;
+
+        &lt;property name=&quot;database_name&quot;&gt;SIMINOV-SQLCIPHER-TEMPLATE&lt;/property&gt;
+        &lt;property name=&quot;type&quot;&gt;sqlcipher&lt;/property&gt;
+        &lt;property name=&quot;description&quot;&gt;Siminov Sqlcipher Template Database Config&lt;/property&gt;
+        &lt;property name=&quot;is_locking_required&quot;&gt;true&lt;/property&gt;
+        &lt;property name=&quot;external_storage&quot;&gt;false&lt;/property&gt;
+
+        &lt;property name=&quot;password&quot;&gt;siminov&lt;/property&gt;
+
+        &lt;database-mappings&gt;
+                &lt;database-mapping path=&quot;Model-Mappings/Model.si.xml&quot; /&gt;
+            &lt;/database-mappings&gt;
+
+        &lt;/database-descriptor&gt;
+
+</code></pre>
+
+
+        </section>
+
+        <aside id="sidebar">
+            <a href="javascript:viewSQLCipherSample();" class="button" style="background: url('siminov-resources/images/download-github-button.png');">
+                <small>View project on</small>
+                GitHub
+            </a>
+
+            <a href="javascript:dwnSQLCipherSampleApk();" class="button" style="background: url('siminov-resources/images/download-apk-button.png');">
+                <small>Download 0.9 Beta</small>
+                .apk file
+            </a>
+
+            <a href="javascript:dwnSQLCipherSampleJar();" class="button" style="background: url('siminov-resources/images/download-jar-button.png');">
+                <small>Download 0.9 SQLCipher DB Impl</small>
+                .jar file
+            </a>
+
+            <a href="javascript:dwnSQLCipherSampleZip();" class="button" style="background: url('siminov-resources/images/download-zip-button.png');">
+                <small>Download 0.9 Beta</small>
+                .zip file
+            </a>
+
+            <a href="javascript:dwnSQLCipherSampleTarZip();" class="button" style="background: url('siminov-resources/images/download-tar-button.png');">
+                <small>Download 0.9 Beta</small>
+                .tar.gz file
+            </a>
+
+            <p class="repo-owner"><a href="javascript:navSiminovGithub()"></a> <a href="https://github.com/Siminov">© Siminov Software Solutions LLP</a><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspsupport@siminov.com<br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAll Rights Reserved.</p>
+        </aside>
+    </div>
+</div>
+
+<div id="docs-submenu" class="dropdown dropdown-tip" style="display: none; left: 275px; top: 1391px;">
+    <ul class="dropdown-menu">
+        <li><a href="javascript:navWiki()" style="color: inherit; background: transparent;">Wiki</a></li>
+        <li><a href="javascript:navJavadocs()" style="color: inherit; background: transparent;">Java Docs</a></li>
+        <li class="dropdown-divider"></li>
+        <li><a href="javascript:dwnGettingStartedGuide()" style="color: inherit; background: transparent;">Getting Started Guide</a></li>
+        <li><a href="javascript:dwnDevGuide()" style="color: inherit; background: transparent;">Developer Guide</a></li>
+    </ul>
+</div>
+
+<div id="outlets-submenu" class="dropdown dropdown-tip" style="display: none; left: 275px; top: 1391px;">
+    <ul class="dropdown-menu">
+        <li><a href="javascript:navAndiormSample()" style="color: inherit; background: transparent;">Android ORM Example</a></li>
+        <li><a href="javascript:navSQLCipherSample()" style="color: inherit; background: transparent;">SQLCipher Example</a></li>
+        <li><a href="javascript:navLibrarySample()" style="color: inherit; background: transparent;">Library Example</a></li>
+    </ul>
+</div>
+
+<div id="community-submenu" class="dropdown dropdown-tip" style="display: none; left: 275px; top: 1391px;">
+    <ul class="dropdown-menu">
+        <li><a href="javascript:navMembers()" style="color: inherit; background: transparent;">Members</a></li>
+        <li><a href="javascript:navGoogleGroup()" style="color: inherit; background: transparent;">Google Group</a></li>
+        <li><a href="javascript:navIssueTracker()" style="color: inherit; background: transparent;">Issue Tracker</a></li>
+
+        <li class="dropdown-divider"></li>
+
+        <li><a href="javascript:navTwitter()" style="color: inherit; background: transparent;">Twitter</a></li>
+        <li><a href="javascript:navFacebook()" style="color: inherit; background: transparent;">Facebook</a></li>
+        <li><a href="javascript:navGooglePlus()" style="color: inherit; background: transparent;">Google+</a></li>
+
+    </ul>
+</div>
+
+</body>
+</html>
