@@ -72,26 +72,132 @@
 
         <section id="main-content">
 
-            <h1>Siminov Native ORM Example</h1>
-            This template application provides a basic idea about using Siminov Native ORM Framework.
+            <h1>Siminov Hybrid ORM Example</h1>
+            This template application provides a basic idea about using Siminov Hybrid ORM Framework.
 
             <h3>Setting Up Application</h3>
             <ul>
                 <li>
-                    Download Siminov jar from <a href='builds.html'>Builds</a>
+                    Download Siminov Native jar from <a href='builds.html'>Builds</a>
                 </li>
                 <li>
-                    Add Siminov jar into your application libs folder.
-                    <p>
-                        -----------------------------------------
-                    </p>
-
-                    <img src='siminov-resources/images/siminov_template_application_add_siminov_jar.png' />
-
-                    <p>
-                        -----------------------------------------
-                    </p>
+                    Download Siminov Hybrid from <a href='builds.html'>Builds</a>
                 </li>
+                <li>
+                	Extract Siminov Build
+                	
+                	<p>
+                        --------------------------------------------------------------------------------------------------------------------------
+                	</p>
+                	
+                    <img src='siminov-resources/images/siminov_hybrid_build_extract.png' />
+
+                    <p>
+                        --------------------------------------------------------------------------------------------------------------------------
+                    </p>
+                	
+                </li>
+                <li>
+                	After Extracting Siminov Hybrid Build
+                	
+                	<p>
+                        --------------------------------------------------------------------------------------------------------------------------
+                	</p>
+                	
+                    <img src='siminov-resources/images/siminov_hybrid_build_extracted.png' />
+
+                    <p>
+                        --------------------------------------------------------------------------------------------------------------------------
+                    </p>
+                	
+                </li>
+                <li>
+                	Add both native and hybrid jar's into your application libs folder.
+                	
+                	<p>
+                        --------------------------------------------------------------------------------------------------------------------------
+                	</p>
+                	
+                    <img src='siminov-resources/images/siminov_hybrid_template_application_add_siminov_jars.png' />
+
+                    <p>
+                        --------------------------------------------------------------------------------------------------------------------------
+                    </p>
+                	
+                </li>
+                <li>
+                	Add Siminov JavaScript (Siminov.js) to your assets folder.
+                	
+                	<p>
+                        --------------------------------------------------------------------------------------------------------------------------
+                	</p>
+                	
+                    <img src='siminov-resources/images/siminov_hybrid_template_application_add_siminov_js_to_application_assets.png' />
+
+                    <p>
+                        --------------------------------------------------------------------------------------------------------------------------
+                    </p>
+                	
+                </li>
+                <li>
+                	Include Siminov JavaScript (Siminov.js) in your view.
+                	
+                	<p>
+                        --------------------------------------------------------------------------------------------------------------------------
+                	</p>
+                	
+                    <img src='siminov-resources/images/siminov_hybrid_template_application_include_siminov_js_to_application_view.png' />
+
+                    <p>
+                        --------------------------------------------------------------------------------------------------------------------------
+                    </p>
+                	
+                </li>
+                <li>
+                	Invoke Siminov Initialization on device ready event.
+                	
+                	<p>
+                        --------------------------------------------------------------------------------------------------------------------------
+                	</p>
+                	
+					<pre><code>
+document.addEventListener("deviceready", Siminov.initialize, false);
+					</code></pre>
+
+                    <p>
+                        --------------------------------------------------------------------------------------------------------------------------
+                    </p>
+                	
+                </li>
+                <li>
+                	Add Cordova Jar into your application libs folder.
+                	
+                	<p>
+                        --------------------------------------------------------------------------------------------------------------------------
+                	</p>
+                	
+                    <img src='siminov-resources/images/siminov_hybrid_template_application_add_cordova_jar.png' />
+
+                    <p>
+                        --------------------------------------------------------------------------------------------------------------------------
+                    </p>
+                	
+                </li>
+                <li>
+                	Include Coredova JS file Into Your Project
+                	
+                	<p>
+                        --------------------------------------------------------------------------------------------------------------------------
+                	</p>
+                	
+                    <img src='siminov-resources/images/siminov_hybrid_template_application_include_cordova_into_project.png' />
+
+                    <p>
+                        --------------------------------------------------------------------------------------------------------------------------
+                    </p>
+                	
+                </li>
+                
             </ul>
 
             <p></p>
@@ -104,8 +210,8 @@
 <pre><code>
     &lt;siminov&gt;
 
-        &lt;property name=&quot;name&quot;&gt;SIMINOV TEMPLATE&lt;/property&gt;
-        &lt;property name=&quot;description&quot;&gt;Siminov Template Application&lt;/property&gt;
+        &lt;property name=&quot;name&quot;&gt;SIMINOV HYBRID TEMPLATE&lt;/property&gt;
+        &lt;property name=&quot;description&quot;&gt;Siminov Hybrid Template Application&lt;/property&gt;
         &lt;property name=&quot;version&quot;&gt;0.9&lt;/property&gt;
 
         &lt;property name=&quot;load_initially&quot;&gt;false&lt;/property&gt;
@@ -118,8 +224,8 @@
 
         &lt;!-- SIMINOV EVENTS --&gt;
         &lt;event-handlers&gt;
-            &lt;event-handler&gt;siminov.orm.template.events.SiminovEventHandler&lt;/event-handler&gt;
-            &lt;event-handler&gt;siminov.orm.template.events.DatabaseEventHandler&lt;/event-handler&gt;
+            &lt;event-handler&gt;siminov.hybrid.template.events.SiminovEventHandler&lt;/event-handler&gt;
+            &lt;event-handler&gt;siminov.hybrid.template.events.DatabaseEventHandler&lt;/event-handler&gt;
         &lt;/event-handlers&gt;
 
     &lt;/siminov&gt;
@@ -132,8 +238,8 @@
 <pre><code>
     &lt;database-descriptor&gt;
 
-        &lt;property name=&quot;database_name&quot;&gt;SIMINOV-TEMPLATE&lt;/property&gt;
-        &lt;property name=&quot;description&quot;&gt;Siminov Template Database Config&lt;/property&gt;
+        &lt;property name=&quot;database_name&quot;&gt;SIMINOV-HYBRID-TEMPLATE&lt;/property&gt;
+        &lt;property name=&quot;description&quot;&gt;Siminov Hybrid Template Database Config&lt;/property&gt;
         &lt;property name=&quot;is_locking_required&quot;&gt;true&lt;/property&gt;
         &lt;property name=&quot;external_storage&quot;&gt;false&lt;/property&gt;
 
@@ -157,30 +263,30 @@
 <pre><code>
     &lt;database-mapping&gt;
 
-        &lt;table table_name=&quot;LIQUOR&quot; class_name=&quot;siminov.orm.template.model.Liquor&quot;&gt;
+        &lt;table table_name=&quot;LIQUOR&quot; class_name=&quot;Liquor&quot;&gt;
 
             &lt;column variable_name=&quot;liquorType&quot; column_name=&quot;LIQUOR_TYPE&quot;&gt;
-                &lt;property name=&quot;type&quot;&gt;java.lang.String&lt;/property&gt;
+                &lt;property name=&quot;type&quot;&gt;String&lt;/property&gt;
                 &lt;property name=&quot;primary_key&quot;&gt;true&lt;/property&gt;
                 &lt;property name=&quot;not_null&quot;&gt;true&lt;/property&gt;
                 &lt;property name=&quot;unique&quot;&gt;true&lt;/property&gt;
             &lt;/column&gt;
 
             &lt;column variable_name=&quot;description&quot; column_name=&quot;DESCRIPTION&quot;&gt;
-                &lt;property name=&quot;type&quot;&gt;java.lang.String&lt;/property&gt;
+                &lt;property name=&quot;type&quot;&gt;String&lt;/property&gt;
             &lt;/column&gt;
 
             &lt;column variable_name=&quot;history&quot; column_name=&quot;HISTORY&quot;&gt;
-                &lt;property name=&quot;type&quot;&gt;java.lang.String&lt;/property&gt;
+                &lt;property name=&quot;type&quot;&gt;String&lt;/property&gt;
             &lt;/column&gt;
 
             &lt;column variable_name=&quot;link&quot; column_name=&quot;LINK&quot;&gt;
-                &lt;property name=&quot;type&quot;&gt;java.lang.String&lt;/property&gt;
+                &lt;property name=&quot;type&quot;&gt;String&lt;/property&gt;
                 &lt;property name=&quot;default&quot;&gt;www.wikipedia.org&lt;/property&gt;
             &lt;/column&gt;
 
             &lt;column variable_name=&quot;alcholContent&quot; column_name=&quot;ALCHOL_CONTENT&quot;&gt;
-                &lt;property name=&quot;type&quot;&gt;java.lang.String&lt;/property&gt;
+                &lt;property name=&quot;type&quot;&gt;String&lt;/property&gt;
             &lt;/column&gt;
 
             &lt;index name=&quot;LIQUOR_INDEX_BASED_ON_LINK&quot; unique=&quot;true&quot;&gt;
@@ -189,7 +295,7 @@
 
             &lt;relationships&gt;
 
-                &lt;one-to-many refer=&quot;liquorBrands&quot; refer_to=&quot;siminov.orm.template.model.LiquorBrand&quot; on_update=&quot;cascade&quot; on_delete=&quot;cascade&quot;&gt;
+                &lt;one-to-many refer=&quot;liquorBrands&quot; refer_to=&quot;LiquorBrand&quot; on_update=&quot;cascade&quot; on_delete=&quot;cascade&quot;&gt;
                 &lt;property name=&quot;load&quot;&gt;true&lt;/property&gt;
                 &lt;/one-to-many&gt;
 
@@ -208,7 +314,7 @@
 
 <pre>
     <code>
-    Liquor beer = new Liquor();
+    var beer = new Liquor();
     beer.setLiquorType("Beer");
     beer.setDescription("Beer Description");
     beer.setHistory("Beer History");
@@ -230,7 +336,7 @@
 <pre>
     <code>
 
-    Liquor beer = new Liquor();
+    var beer = new Liquor();
     beer.setLiquorType("Beer");
     beer.setDescription("Beer Description");
     beer.setHistory("Beer History");
@@ -252,7 +358,7 @@
 
 <pre>
     <code>
-    Liquor beer = new Liquor();
+    var beer = new Liquor();
     beer.setLiquorType("Beer");
     beer.setDescription("Beer Description");
     beer.setHistory("Beer History");
@@ -272,7 +378,7 @@
 
 <pre>
     <code>
-    Liquor beer = new Liquor();
+    var beer = new Liquor();
     beer.setLiquorType("Beer");
     beer.setDescription("Beer Description");
     beer.setHistory("Beer History");
@@ -291,22 +397,22 @@
         </section>
 
         <aside id="sidebar">
-            <a href="javascript:viewNativeOrmSample();" class="button" style="background: url('siminov-resources/images/download-github-button.png');">
+            <a href="javascript:viewHybridOrmSample();" class="button" style="background: url('siminov-resources/images/download-github-button.png');">
                 <small>View project on</small>
                 GitHub
             </a>
 
-            <a href="javascript:dwnNativeOrmSampleApk();" class="button" style="background: url('siminov-resources/images/download-apk-button.png');">
+            <a href="javascript:dwnHybridOrmSampleApk();" class="button" style="background: url('siminov-resources/images/download-apk-button.png');">
                 <small>Download 0.9 Beta</small>
                 .apk file
             </a>
 
-            <a href="javascript:dwnNativeOrmSampleZip();" class="button" style="background: url('siminov-resources/images/download-zip-button.png');">
+            <a href="javascript:dwnHybridOrmSampleZip();" class="button" style="background: url('siminov-resources/images/download-zip-button.png');">
                 <small>Download 0.9 Beta</small>
                 .zip file
             </a>
 
-            <a href="javascript:dwnNativeOrmSampleTarZip();" class="button" style="background: url('siminov-resources/images/download-tar-button.png');">
+            <a href="javascript:dwnHybridOrmSampleTarZip();" class="button" style="background: url('siminov-resources/images/download-tar-button.png');">
                 <small>Download 0.9 Beta</small>
                 .tar.gz file
             </a>

@@ -134,21 +134,30 @@ function navLibrarySample() {
 }
 
 
-function dwnAndiormSampleJar() {
-    window.location = andiorm_sample_apk_link;
+function dwnNativeOrmSampleApk() {
+    window.location = native_orm_sample_apk_link;
 }
 
-function dwnAndiormSampleApk() {
-    window.location = andiorm_sample_apk_link;
+function dwnNativeOrmSampleZip() {
+    window.location = native_orm_sample_zip_link;
 }
 
-function dwnAndiormSampleZip() {
-    window.location = andiorm_sample_zip_link;
+function dwnNativeOrmSampleTarZip() {
+    window.location = native_orm_sample_tar_zip_link;
 }
 
-function dwnAndiormSampleTarZip() {
-    window.location = andiorm_sample_tar_zip_link;
+function dwnHybridOrmSampleApk() {
+    window.location = hybrid_orm_sample_apk_link;
 }
+
+function dwnHybridOrmSampleZip() {
+    window.location = hybrid_orm_sample_zip_link;
+}
+
+function dwnHybridOrmSampleTarZip() {
+    window.location = hybrid_orm_sample_tar_zip_link;
+}
+
 
 function navHome() {
     window.location = home_link;
@@ -312,12 +321,20 @@ function navEndTransaction() {
 
 }
 
-function viewAndiormSample() {
+function viewNativeOrmSample() {
     window.open(
-        andiorm_github_sample_link,
+        view_native_orm_github_sample_link,
         '_blank' // <- This is what makes it open in a new window.
     );
 }
+
+function viewHybridOrmSample() {
+    window.open(
+        view_hybrid_orm_github_sample_link,
+        '_blank' // <- This is what makes it open in a new window.
+    );
+}
+
 
 function viewSQLCipherSample() {
     window.open(

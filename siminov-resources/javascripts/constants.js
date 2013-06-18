@@ -10,10 +10,10 @@ var hybrid_getting_started_guide_link = "docs/Getting Started Guide-Hybrid.pdf";
 var hybrid_dev_guide_link = "docs/Developer Guide-Hybrid.pdf";
 
 
-var application_descriptor_link = "https://github.com/Siminov/android-orm/wiki/Configuring-Application-Descriptor";
-var database_descriptor_link = "https://github.com/Siminov/android-orm/wiki/Configuring-Database-Descriptor";
-var library_descriptor_link = "https://github.com/Siminov/android-orm/wiki/Configuring-Library-Descriptor";
-var database_mapping_descriptor_link = "https://github.com/Siminov/android-orm/wiki/Configuring-Database-Mapping-Descriptor";
+var application_descriptor_link = "https://github.com/Siminov/android-hybrid/wiki/Configuring-Application-Descriptor";
+var database_descriptor_link = "https://github.com/Siminov/android-hybrid/wiki/Configuring-Database-Descriptor";
+var library_descriptor_link = "https://github.com/Siminov/android-hybrid/wiki/Configuring-Library-Descriptor";
+var database_mapping_descriptor_link = "https://github.com/Siminov/android-hybrid/wiki/Configuring-Database-Mapping-Descriptor";
 
 var andiorm_jar_link = "https://github.com/Siminov/android-orm/blob/v0.9-beta/build/siminov-orm-v0.9-beta.jar?raw=true";
 var andiorm_zip_link = "https://github.com/Siminov/android-orm/archive/v0.9-beta.zip";
@@ -26,38 +26,46 @@ var hybrid_sample_link = "hybrid-sample.html";
 var sqlcipher_sample_link = "sqlcipher-sample.html";
 var library_sample_link = "library-sample.html";
 
-var andiorm_github_sample_link = "https://github.com/Siminov/android-templates/tree/master/SIMINOV-ORM-TEMPLATE";
+var view_native_orm_github_sample_link = "https://github.com/Siminov/android-templates/tree/master/SIMINOV-ORM-TEMPLATE";
+var view_hybrid_orm_github_sample_link = "https://github.com/Siminov/android-templates/tree/master/SIMINOV-HYBRID-TEMPLATE";
+
 
 var home_link = "index.html";
 
-var siminov_event_link = "https://github.com/Siminov/android-orm/wiki/ISiminov-Event";
-var database_event_link = "https://github.com/Siminov/android-orm/wiki/IDatabase-Event";
+var siminov_event_link = "https://github.com/Siminov/android-hybrid/wiki/ISiminov-Events";
+var database_event_link = "https://github.com/Siminov/android-hybrid/wiki/IDatabase-Events";
 
-var create_and_drop_database_api_link = "https://github.com/Siminov/android-orm/wiki/Create-Database";
-var create_and_drop_table_api_link = "https://github.com/Siminov/android-orm/wiki/Create-Table";
-var create_and_drop_index_api_link = "https://github.com/Siminov/android-orm/wiki/Create-Index";
-var fetch_api_link = "https://github.com/Siminov/android-orm/wiki/Select";
-var save_api_link = "https://github.com/Siminov/android-orm/wiki/Save";
-var update_api_link = "https://github.com/Siminov/android-orm/wiki/Update";
-var save_or_update_api_link = "https://github.com/Siminov/android-orm/wiki/Save-Or-Update";
-var delete_api_link = "https://github.com/Siminov/android-orm/wiki/Delete";
+var create_and_drop_database_api_link = "https://github.com/Siminov/android-hybrid/wiki/Create-Database";
+var create_and_drop_table_api_link = "https://github.com/Siminov/android-hybrid/wiki/Create-Table";
+var create_and_drop_index_api_link = "https://github.com/Siminov/android-hybrid/wiki/Create-Index";
+var fetch_api_link = "https://github.com/Siminov/android-hybrid/wiki/Select";
+var save_api_link = "https://github.com/Siminov/android-hybrid/wiki/Save";
+var update_api_link = "https://github.com/Siminov/android-hybrid/wiki/Update";
+var save_or_update_api_link = "https://github.com/Siminov/android-hybrid/wiki/Save-Or-Update";
+var delete_api_link = "https://github.com/Siminov/android-hybrid/wiki/Delete";
 
-var count_api_link = "https://github.com/Siminov/android-orm/wiki/Count";
-var average_api_link = "https://github.com/Siminov/android-orm/wiki/Average";
-var sum_api_link = "https://github.com/Siminov/android-orm/wiki/Sum";
-var total_api_link = "https://github.com/Siminov/android-orm/wiki/Total";
-var minimum_api_link = "https://github.com/Siminov/android-orm/wiki/Minimum";
-var maximum_api_link = "https://github.com/Siminov/android-orm/wiki/Maximum";
-var group_concat_link = "https://github.com/Siminov/android-orm/wiki/Group-Concat";
+var count_api_link = "https://github.com/Siminov/android-hybrid/wiki/Count";
+var average_api_link = "https://github.com/Siminov/android-hybrid/wiki/Average";
+var sum_api_link = "https://github.com/Siminov/android-hybrid/wiki/Sum";
+var total_api_link = "https://github.com/Siminov/android-hybrid/wiki/Total";
+var minimum_api_link = "https://github.com/Siminov/android-hybrid/wiki/Minimum";
+var maximum_api_link = "https://github.com/Siminov/android-hybrid/wiki/Maximum";
+var group_concat_link = "https://github.com/Siminov/android-hybrid/wiki/Group-Concat";
 
-var begin_transaction_api_link = "https://github.com/Siminov/android-orm/wiki/Begin-Transaction";
-var commit_transaction_api_link = "https://github.com/Siminov/android-orm/wiki/Commit-Transaction";
-var end_transaction_api_link = "https://github.com/Siminov/android-orm/wiki/End-Transaction";
+var begin_transaction_api_link = "https://github.com/Siminov/android-hybrid/wiki/Begin-Transaction";
+var commit_transaction_api_link = "https://github.com/Siminov/android-hybrid/wiki/Commit-Transaction";
+var end_transaction_api_link = "https://github.com/Siminov/android-hybrid/wiki/End-Transaction";
 
-var andiorm_sample_view_link =  "https://github.com/Siminov/android-templates/tree/master/SIMINOV-ORM-TEMPLATE";
-var andiorm_sample_apk_link = "https://github.com/Siminov/android-templates/blob/andiorm-template-v0.9-beta/build/SIMINOV-ORM-TEMPLATE.apk?raw=true";
-var andiorm_sample_zip_link = "https://github.com/Siminov/android-templates/archive/andiorm-template-v0.9-beta.zip";
-var andiorm_sample_tar_zip_link = "https://github.com/Siminov/android-templates/archive/andiorm-template-v0.9-beta.tar.gz";
+var native_orm_sample_view_link =  "https://github.com/Siminov/android-templates/tree/master/SIMINOV-ORM-TEMPLATE";
+var native_orm_sample_apk_link = "https://github.com/Siminov/android-templates/blob/andiorm-template-v0.9-beta/build/SIMINOV-ORM-TEMPLATE.apk?raw=true";
+var native_orm_sample_zip_link = "https://github.com/Siminov/android-templates/archive/andiorm-template-v0.9-beta.zip";
+var native_orm_sample_tar_zip_link = "https://github.com/Siminov/android-templates/archive/andiorm-template-v0.9-beta.tar.gz";
+
+var hybrid_orm_sample_view_link =  "https://github.com/Siminov/android-templates/tree/master/SIMINOV-HYBRID-TEMPLATE";
+var hybrid_orm_sample_apk_link = "https://github.com/Siminov/android-templates/blob/andiorm-template-v0.9-beta/build/SIMINOV-HYBRID-TEMPLATE.apk?raw=true";
+var hybrid_orm_sample_zip_link = "https://github.com/Siminov/android-templates/archive/andiorm-hybrid-template-v0.9-beta.zip";
+var hybrid_orm_sample_tar_zip_link = "https://github.com/Siminov/android-templates/archive/andiorm-hybrid-template-v0.9-beta.tar.gz";
+
 
 var sqlcipher_sample_view = "https://github.com/Siminov/android-templates/tree/master/SIMINOV-ORM-SQLCIPHER-TEMPLATE";
 var sqlcipher_sample_apk = "https://github.com/Siminov/android-templates/blob/andiorm-sqlcipher-template-v0.9-beta/build/SIMINOV-ORM-SQLCIPHER-TEMPLATE.apk?raw=true";
