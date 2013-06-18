@@ -1,12 +1,10 @@
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-39614877-1']);
-_gaq.push(['_trackPageview']);
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-(function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
+  ga('create', 'UA-41827235-2', 'siminov.github.io');
+  ga('send', 'pageview');
 
 
 function navNativeWiki() {
@@ -101,16 +99,28 @@ function navDatabaseMappingDescriptor() {
     );
 }
 
-function dwnAndiormJar() {
-    window.location = andiorm_jar_link;
+function dwnCurrentNativeJar() {
+    window.location = current_native_jar_link;
 }
 
-function dwnAndiormZip() {
-    window.location = andiorm_zip_link;
+function dwnCurrentNativeZip() {
+    window.location = current_native_zip_link;
 }
 
-function dwnAndiormTarZip() {
-    window.location = andiorm_tar_zip_link;
+function dwnCurrentNativeTarZip() {
+    window.location = current_native_tar_zip_link;
+}
+
+function dwnCurrentHybridBuild() {
+    window.location = current_hybrid_build_link;
+}
+
+function dwnCurrentHybridZip() {
+    window.location = current_hybrid_zip_link;
+}
+
+function dwnCurrentHybridTarZip() {
+    window.location = current_hybrid_tar_zip_link;
 }
 
 function navBuilds() {
@@ -397,11 +407,19 @@ function viewIorm() {
     );
 }
 
-function dwnAndiorm09Jar() {
-    window.location = dwn_andiorm_09_beta_jar;
+function dwnHybrid09Build() {
+	window.location = dwn_hybrid_09_beta_build;
 }
 
-function dwnAndiormLibrary09Jar() {
+function dwnNative09Jar() {
+    window.location = dwn_native_09_beta_jar;
+}
+
+function dwnNative091Jar() {
+    window.location = dwn_native_091_beta_jar;
+}
+
+function dwnLibrary09Jar() {
     window.location = dwn_andiorm_library_09_beta_jar;
 }
 

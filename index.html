@@ -33,8 +33,8 @@
         <h1>Siminov Hybrid ORM - (Android + PhoneGap)</h1>
         <h2>A Siminov Product</h2>
 
-        <a href="https://github.com/Siminov/android-orm" class="button" target="_blank"><small>Siminov Native ORM </small>GitHub</a>
-        <a href="https://github.com/Siminov/android-hybrid" class="button" style="position: absolute; right: 0; top: 135px;" target="_blank"><small>Siminov Hybrid ORM </small>GitHub</a>
+        <a href="https://github.com/Siminov/android-hybrid" class="button" target="_blank"><small>Siminov Hybrid ORM </small>GitHub</a>
+        <a href="https://github.com/Siminov/android-orm" class="button" style="position: absolute; right: 0; top: 135px;" target="_blank"><small>Siminov Native ORM </small>GitHub</a>
 	  </div>
 
     </header>
@@ -153,20 +153,20 @@
         <aside id="sidebar">
         	<div style="font-weight:bold; margin-bottom: 10px;"><center><font size="3"><u>Siminov Hybrid</u></font></center></div>
         
-            <a href="javascript:dwnAndiormJar();" class="button" style="background: url('siminov-resources/images/download-build-button.png');">
+            <a href="javascript:dwnCurrentHybridBuild();" class="button" style="background: url('siminov-resources/images/download-build-button.png');">
                 <small>Siminov Hybrid</small>
                 <small style="margin-left:15px;">0.9 Beta</small>
                 .build file
 
             </a>
 
-			<a href="javascript:dwnAndiormZip();" class="button" style="background: url('siminov-resources/images/download-zip-button.png');">
+			<a href="javascript:dwnCurrentHybridZip();" class="button" style="background: url('siminov-resources/images/download-zip-button.png');">
                 <small>Siminov Hybrid</small>
                 <small style="margin-left:15px;">0.9 Beta</small>
                 .zip file
             </a>
 
-            <a href="javascript:dwnAndiormTarZip();" class="button" style="background: url('siminov-resources/images/download-tar-button.png');">
+            <a href="javascript:dwnCurrentHybridTarZip();" class="button" style="background: url('siminov-resources/images/download-tar-button.png');">
                 <small>Siminov Hybrid</small>
                 <small style="margin-left:15px;">0.9 Beta</small>
                 .tar.gz file
@@ -174,22 +174,22 @@
 
         	<div style="font-weight:bold; margin-bottom: 10px;"><center><font size="3"><u>Siminov Native</u></font></center></div>
 
-            <a href="javascript:dwnAndiormJar();" class="button" style="background: url('siminov-resources/images/download-jar-button.png');">
+            <a href="javascript:dwnCurrentNativeJar();" class="button" style="background: url('siminov-resources/images/download-jar-button.png');">
                 <small>Siminov Native</small>
-                <small style="margin-left:15px;">0.9 Beta</small>
+                <small style="margin-left:15px;">0.9.1 Beta</small>
                 .build file
 
             </a>
 
-			<a href="javascript:dwnAndiormZip();" class="button" style="background: url('siminov-resources/images/download-zip-button.png');">
+			<a href="javascript:dwnCurrentNativeZip();" class="button" style="background: url('siminov-resources/images/download-zip-button.png');">
                 <small>Siminov Native</small>
-                <small style="margin-left:15px;">0.9 Beta</small>
+                <small style="margin-left:15px;">0.9.1 Beta</small>
                 .zip file
             </a>
 
-            <a href="javascript:dwnAndiormTarZip();" class="button" style="background: url('siminov-resources/images/download-tar-button.png');">
+            <a href="javascript:dwnCurrentNativeTarZip();" class="button" style="background: url('siminov-resources/images/download-tar-button.png');">
                 <small>Siminov Native</small>
-                <small style="margin-left:15px;">0.9 Beta</small>
+                <small style="margin-left:15px;">0.9.1 Beta</small>
                 .tar.gz file
             </a>
 
@@ -200,20 +200,6 @@
     <div id="docs-submenu" class="dropdown dropdown-tip" style="display: none; left: 275px; top: 1391px;">
         <ul class="dropdown-menu">
 	        
-				<li>
-					<a href="#">Siminov Native<i class="icon-arrow-right"></i></a>
-					
-					<ul class="dropdown-menu sub-menu">
-				        <li><a href="javascript:navNativeWiki()" style="color: inherit; background: transparent;">Wiki</a></li>
-			            <li><a href="javascript:navNativeJavadocs()" style="color: inherit; background: transparent;">Java Docs</a></li>
-			            
-                        <li class="dropdown-divider"></li>
-			            
-			            <li><a href="javascript:dwnNativeGettingStartedGuide()" style="color: inherit; background: transparent;">Getting Started Guide</a></li>
-			            <li><a href="javascript:dwnNativeDevGuide()" style="color: inherit; background: transparent;">Developer Guide</a></li>
-					</ul>
-				</li>    
-
 				<li>
 					<a href="#">Siminov Hybrid<i class="icon-arrow-right"></i></a>
 					
@@ -228,13 +214,28 @@
 			            <li><a href="javascript:dwnHybridDevGuide()" style="color: inherit; background: transparent;">Developer Guide</a></li>
 					</ul>
 				</li>
+
+				<li>
+					<a href="#">Siminov Native<i class="icon-arrow-right"></i></a>
+					
+					<ul class="dropdown-menu sub-menu">
+				        <li><a href="javascript:navNativeWiki()" style="color: inherit; background: transparent;">Wiki</a></li>
+			            <li><a href="javascript:navNativeJavadocs()" style="color: inherit; background: transparent;">Java Docs</a></li>
+			            
+                        <li class="dropdown-divider"></li>
+			            
+			            <li><a href="javascript:dwnNativeGettingStartedGuide()" style="color: inherit; background: transparent;">Getting Started Guide</a></li>
+			            <li><a href="javascript:dwnNativeDevGuide()" style="color: inherit; background: transparent;">Developer Guide</a></li>
+					</ul>
+				</li>    
+
         </ul>
     </div>
 
     <div id="outlets-submenu" class="dropdown dropdown-tip" style="display: none; left: 275px; top: 1391px;">
         <ul class="dropdown-menu">
-            <li><a href="javascript:navNativeSample()" style="color: inherit; background: transparent;">Native Example</a></li>
             <li><a href="javascript:navHybridSample()" style="color: inherit; background: transparent;">Hybrid Example</a></li>
+            <li><a href="javascript:navNativeSample()" style="color: inherit; background: transparent;">Native Example</a></li>
 
             <li class="dropdown-divider"></li>
 

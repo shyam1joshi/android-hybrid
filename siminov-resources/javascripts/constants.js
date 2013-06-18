@@ -15,9 +15,13 @@ var database_descriptor_link = "https://github.com/Siminov/android-hybrid/wiki/C
 var library_descriptor_link = "https://github.com/Siminov/android-hybrid/wiki/Configuring-Library-Descriptor";
 var database_mapping_descriptor_link = "https://github.com/Siminov/android-hybrid/wiki/Configuring-Database-Mapping-Descriptor";
 
-var andiorm_jar_link = "https://github.com/Siminov/android-orm/blob/v0.9-beta/build/siminov-orm-v0.9-beta.jar?raw=true";
-var andiorm_zip_link = "https://github.com/Siminov/android-orm/archive/v0.9-beta.zip";
-var andiorm_tar_zip_link = "https://github.com/Siminov/android-orm/archive/v0.9-beta.tar.gz";
+var current_native_jar_link = "https://github.com/Siminov/android-orm/blob/v0.9.1-beta/build/siminov-orm-v0.9.1-beta.jar?raw=true";
+var current_native_zip_link = "https://github.com/Siminov/android-orm/archive/v0.9.1-beta.zip";
+var current_native_tar_zip_link = "https://github.com/Siminov/android-orm/archive/v0.9.1-beta.tar.gz";
+
+var current_hybrid_build_link = "https://github.com/Siminov/android-hybrid/blob/v0.9-beta/build/siminov-hybrid-v0.9-beta.jar?raw=true";
+var current_hybrid_zip_link = "https://github.com/Siminov/android-hybrid/archive/v0.9-beta.zip";
+var current_hybrid_tar_zip_link = "https://github.com/Siminov/android-hybrid/archive/v0.9-beta.tar.gz";
 
 var builds_link = "builds.html";
 
@@ -88,8 +92,12 @@ var google_plus_link = "https://plus.google.com/103382306025504309831";
 var iorm_link = "https://github.com/Siminov/ios-orm.git";
 var windiorm_link = "https://github.com/Siminov/windows-orm.git";
 
-var dwn_andiorm_09_beta_jar = "https://github.com/Siminov/android-orm/blob/v0.9-beta/build/siminov-orm.jar?raw=true";
-var dwn_andiorm_library_09_beta_jar = "https://github.com/Siminov/android-templates/blob/andiorm-library-template-v0.9-beta/build/siminov-orm-library-template.jar?raw=true";
+var dwn_native_09_beta_jar = "https://github.com/Siminov/android-orm/blob/v0.9-beta/build/siminov-orm.jar?raw=true";
+var dwn_native_091_beta_jar = "https://github.com/Siminov/android-orm/blob/v0.9.1-beta/build/siminov-orm.jar?raw=true";
+var dwn_library_09_beta_jar = "https://github.com/Siminov/android-templates/blob/andiorm-library-template-v0.9-beta/build/siminov-orm-library-template.jar?raw=true";
+
+var dwn_hybrid_09_beta_build = "https://github.com/Siminov/android-hybrid/blob/v0.9-beta/build/siminov-hybrid.zip?raw=true";
+
 
 var siminov_github_link = "https://github.com/Siminov/android-orm";
 
