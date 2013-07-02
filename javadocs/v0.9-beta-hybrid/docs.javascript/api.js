@@ -4,6 +4,7 @@ YUI.add("yuidoc-meta", function(Y) {
         "Adapter",
         "ApplicationDescriptor",
         "Clause",
+        "Constants",
         "Database",
         "DatabaseDescriptor",
         "DatabaseMappingDescriptor",
@@ -11,8 +12,10 @@ YUI.add("yuidoc-meta", function(Y) {
         "DatabaseMappingDescriptor.Index",
         "DatabaseMappingDescriptor.Relationship",
         "Dictionary",
+        "EventHandler",
         "FunctionUtils",
         "HybridDescription.Adapter.Handler.Parameter",
+        "HybridDescriptor",
         "HybridDescriptor.Adapter",
         "HybridDescriptor.Adapter.Handler",
         "HybridSiminovDatas",
@@ -37,19 +40,27 @@ YUI.add("yuidoc-meta", function(Y) {
         "ITotalClause",
         "LibraryDescriptor",
         "Log",
+        "Resources",
         "SIDatasHelper",
+        "SIJsonHelper",
         "Select",
         "Siminov",
         "SiminovException",
+        "SiminovExceptionHandler",
         "StringBuilder"
     ],
     "modules": [
         "Adapter",
         "Collection",
         "Database",
-        "EventHandler",
+        "Events",
         "Exception",
-        "Impl"
+        "Impl",
+        "Log",
+        "Model",
+        "Parser",
+        "Resource",
+        "Utils"
     ],
     "allModules": [
         {
@@ -68,9 +79,9 @@ YUI.add("yuidoc-meta", function(Y) {
             "description": "Exposes classes which deal with database.\nA Siminov Database Abstraction Layer is an application programming interface which unifies the communication between a computer application and database such as SQLite.\nSiminov Database Layer reduce the amount of work by providing a consistent API to the developer and hide the database specifics behind this interface as much as possible."
         },
         {
-            "displayName": "EventHandler",
-            "name": "EventHandler",
-            "description": "Any event triggered by Siminov is first handled by this function later it will deliver to appropriate Event APIs."
+            "displayName": "Events",
+            "name": "Events",
+            "description": "It contain all Events triggered by Siminov Framework."
         },
         {
             "displayName": "Exception",
@@ -81,6 +92,31 @@ YUI.add("yuidoc-meta", function(Y) {
             "displayName": "Impl",
             "name": "Impl",
             "description": "Impl contain all interfaces required by database layer to deal with database."
+        },
+        {
+            "displayName": "Log",
+            "name": "Log",
+            "description": "It provide Siminov Log features."
+        },
+        {
+            "displayName": "Model",
+            "name": "Model",
+            "description": "It contain all Models as per required by Siminov Framework."
+        },
+        {
+            "displayName": "Parser",
+            "name": "Parser",
+            "description": "It contain all parser classes required by  Siminov Framework."
+        },
+        {
+            "displayName": "Resource",
+            "name": "Resource",
+            "description": "It contain all class related to Siminov Framework resource."
+        },
+        {
+            "displayName": "Utils",
+            "name": "Utils",
+            "description": "It provide Util class needed by Siminov Framework."
         }
     ]
 } };

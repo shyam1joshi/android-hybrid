@@ -29,7 +29,7 @@
             </li>
         </div>
         <form class="navbar-form pull-right" style="line-height: 40px; height: 40px;">
-            <input style="margin-top: 0;" type="text" class="search-query" placeholder="Search for classes/modules..." data-obj='["classes/Adapter", "classes/ApplicationDescriptor", "classes/Clause", "classes/Database", "classes/DatabaseDescriptor", "classes/DatabaseMappingDescriptor", "classes/DatabaseMappingDescriptor.Column", "classes/DatabaseMappingDescriptor.Index", "classes/DatabaseMappingDescriptor.Relationship", "classes/Dictionary", "classes/FunctionUtils", "classes/HybridDescription.Adapter.Handler.Parameter", "classes/HybridDescriptor.Adapter", "classes/HybridDescriptor.Adapter.Handler", "classes/HybridSiminovDatas", "classes/HybridSiminovDatas.HybridSiminovData", "classes/IAverage", "classes/IAverageClause", "classes/ICount", "classes/ICountClause", "classes/IDelete", "classes/IDeleteClause", "classes/IGroupConcat", "classes/IGroupConcatClause", "classes/IMax", "classes/IMaxClause", "classes/IMin", "classes/IMinClause", "classes/ISelect", "classes/ISelectClause", "classes/ISum", "classes/ISumClause", "classes/ITotal", "classes/ITotalClause", "classes/LibraryDescriptor", "classes/Log", "classes/Select", "classes/SIDatasHelper", "classes/Siminov", "classes/SiminovException", "classes/StringBuilder", "modules/Adapter", "modules/Collection", "modules/Database", "modules/EventHandler", "modules/Exception", "modules/Impl"]'>
+            <input style="margin-top: 0;" type="text" class="search-query" placeholder="Search for classes/modules..." data-obj='["classes/Adapter", "classes/ApplicationDescriptor", "classes/Clause", "classes/Constants", "classes/Database", "classes/DatabaseDescriptor", "classes/DatabaseMappingDescriptor", "classes/DatabaseMappingDescriptor.Column", "classes/DatabaseMappingDescriptor.Index", "classes/DatabaseMappingDescriptor.Relationship", "classes/Dictionary", "classes/EventHandler", "classes/FunctionUtils", "classes/HybridDescription.Adapter.Handler.Parameter", "classes/HybridDescriptor", "classes/HybridDescriptor.Adapter", "classes/HybridDescriptor.Adapter.Handler", "classes/HybridSiminovDatas", "classes/HybridSiminovDatas.HybridSiminovData", "classes/IAverage", "classes/IAverageClause", "classes/ICount", "classes/ICountClause", "classes/IDelete", "classes/IDeleteClause", "classes/IGroupConcat", "classes/IGroupConcatClause", "classes/IMax", "classes/IMaxClause", "classes/IMin", "classes/IMinClause", "classes/ISelect", "classes/ISelectClause", "classes/ISum", "classes/ISumClause", "classes/ITotal", "classes/ITotalClause", "classes/LibraryDescriptor", "classes/Log", "classes/Resources", "classes/Select", "classes/SIDatasHelper", "classes/SIJsonHelper", "classes/Siminov", "classes/SiminovException", "classes/SiminovExceptionHandler", "classes/StringBuilder", "modules/Adapter", "modules/Collection", "modules/Database", "modules/Events", "modules/Exception", "modules/Impl", "modules/Log", "modules/Model", "modules/Parser", "modules/Resource", "modules/Utils"]'>
         </form>
     </div>
 </div>
@@ -58,6 +58,8 @@
                     
                         <li><a href="../classes/Clause.html">Clause</a></li>
                     
+                        <li><a href="../classes/Constants.html">Constants</a></li>
+                    
                         <li><a href="../classes/Database.html">Database</a></li>
                     
                         <li><a href="../classes/DatabaseDescriptor.html">DatabaseDescriptor</a></li>
@@ -72,9 +74,13 @@
                     
                         <li><a href="../classes/Dictionary.html">Dictionary</a></li>
                     
+                        <li><a href="../classes/EventHandler.html">EventHandler</a></li>
+                    
                         <li><a href="../classes/FunctionUtils.html">FunctionUtils</a></li>
                     
                         <li><a href="../classes/HybridDescription.Adapter.Handler.Parameter.html">HybridDescription.Adapter.Handler.Parameter</a></li>
+                    
+                        <li><a href="../classes/HybridDescriptor.html">HybridDescriptor</a></li>
                     
                         <li><a href="../classes/HybridDescriptor.Adapter.html">HybridDescriptor.Adapter</a></li>
                     
@@ -124,13 +130,19 @@
                     
                         <li><a href="../classes/Log.html">Log</a></li>
                     
+                        <li><a href="../classes/Resources.html">Resources</a></li>
+                    
                         <li><a href="../classes/Select.html">Select</a></li>
                     
                         <li><a href="../classes/SIDatasHelper.html">SIDatasHelper</a></li>
                     
+                        <li><a href="../classes/SIJsonHelper.html">SIJsonHelper</a></li>
+                    
                         <li><a href="../classes/Siminov.html">Siminov</a></li>
                     
                         <li><a href="../classes/SiminovException.html">SiminovException</a></li>
+                    
+                        <li><a href="../classes/SiminovExceptionHandler.html">SiminovExceptionHandler</a></li>
                     
                         <li><a href="../classes/StringBuilder.html">StringBuilder</a></li>
                     
@@ -146,11 +158,21 @@
                     
                         <li><a href="../modules/Database.html">Database</a></li>
                     
-                        <li><a href="../modules/EventHandler.html">EventHandler</a></li>
+                        <li><a href="../modules/Events.html">Events</a></li>
                     
                         <li><a href="../modules/Exception.html">Exception</a></li>
                     
                         <li><a href="../modules/Impl.html">Impl</a></li>
+                    
+                        <li><a href="../modules/Log.html">Log</a></li>
+                    
+                        <li><a href="../modules/Model.html">Model</a></li>
+                    
+                        <li><a href="../modules/Parser.html">Parser</a></li>
+                    
+                        <li><a href="../modules/Resource.html">Resource</a></li>
+                    
+                        <li><a href="../modules/Utils.html">Utils</a></li>
                     
                 </ul>
             </div>
@@ -210,6 +232,14 @@
  * limitations under the License.
  **/
 
+
+/**
+	It contain all Models as per required by Siminov Framework.
+
+	@module Model
+*/
+
+
 /**
  	Exposes methods to GET and SET Application Descriptor information as per define in ApplicationDescriptor.si.xml file by application.
 		
@@ -235,7 +265,8 @@
 				
 		&lt;/siminov&gt;
 
-	
+
+	@module Model	
 	@class ApplicationDescriptor
 	@constructor
 

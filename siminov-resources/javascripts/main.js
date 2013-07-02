@@ -21,52 +21,52 @@ function navHybridWiki() {
     );
 }
 
-function navNativeJavadocs() {
+function navNativeJavadocs091() {
     window.open(
-        native_javadocs_link,
+        native_javadocs_link_091,
         '_blank' // <- This is what makes it open in a new window.
     );
 }
 
-function navHybridJavadocs() {
+function navHybridJavadocs09() {
     window.open(
-        hybrid_javadocs_link,
+        hybrid_javadocs_link_09,
         '_blank' // <- This is what makes it open in a new window.
     );
 }
 
-function navHybridJavaScriptdocs() {
+function navHybridJavaScriptdocs09() {
     window.open(
-        hybrid_javascriptdocs_link,
+        hybrid_javascriptdocs_link_09,
         '_blank' // <- This is what makes it open in a new window.
     );
 }
 
 
-function dwnNativeGettingStartedGuide() {
+function dwnNativeGettingStartedGuide091() {
     window.open(
-        native_getting_started_guide_link,
+        native_getting_started_guide_link_091,
         '_blank' // <- This is what makes it open in a new window.
     );
 }
 
-function dwnHybridGettingStartedGuide() {
+function dwnHybridGettingStartedGuide09() {
     window.open(
-        hybrid_getting_started_guide_link,
+        hybrid_getting_started_guide_link_09,
         '_blank' // <- This is what makes it open in a new window.
     );
 }
 
-function dwnNativeDevGuide() {
+function dwnNativeDevGuide091() {
     window.open(
-        native_dev_guide_link,
+        native_dev_guide_link_091,
         '_blank' // <- This is what makes it open in a new window.
     );
 }
 
-function dwnHybridDevGuide() {
+function dwnHybridDevGuide09() {
     window.open(
-        hybrid_dev_guide_link,
+        hybrid_dev_guide_link_09,
         '_blank' // <- This is what makes it open in a new window.
     );
 }
@@ -111,16 +111,16 @@ function dwnCurrentNativeTarZip() {
     window.location = current_native_tar_zip_link;
 }
 
-function dwnCurrentHybridBuild() {
-    window.location = current_hybrid_build_link;
+function dwnHybridBuild09() {
+    window.location = hybrid_build_link_09;
 }
 
-function dwnCurrentHybridZip() {
-    window.location = current_hybrid_zip_link;
+function dwnHybridZip09() {
+    window.location = hybrid_zip_link_09;
 }
 
-function dwnCurrentHybridTarZip() {
-    window.location = current_hybrid_tar_zip_link;
+function dwnHybridTarZip09() {
+    window.location = hybrid_tar_zip_link_09;
 }
 
 function navBuilds() {
@@ -144,28 +144,28 @@ function navLibrarySample() {
 }
 
 
-function dwnNativeOrmSampleApk() {
-    window.location = native_orm_sample_apk_link;
+function dwnNativeOrmSampleApk091() {
+    window.location = native_orm_sample_apk_link_091;
 }
 
-function dwnNativeOrmSampleZip() {
-    window.location = native_orm_sample_zip_link;
+function dwnNativeOrmSampleZip091() {
+    window.location = native_orm_sample_zip_link_091;
 }
 
-function dwnNativeOrmSampleTarZip() {
-    window.location = native_orm_sample_tar_zip_link;
+function dwnNativeOrmSampleTarZip091() {
+    window.location = native_orm_sample_tar_zip_link_091;
 }
 
-function dwnHybridOrmSampleApk() {
-    window.location = hybrid_orm_sample_apk_link;
+function dwnHybridOrmSampleApk09() {
+    window.location = hybrid_orm_sample_apk_link_09;
 }
 
-function dwnHybridOrmSampleZip() {
-    window.location = hybrid_orm_sample_zip_link;
+function dwnHybridOrmSampleZip09() {
+    window.location = hybrid_orm_sample_zip_link_09;
 }
 
-function dwnHybridOrmSampleTarZip() {
-    window.location = hybrid_orm_sample_tar_zip_link;
+function dwnHybridOrmSampleTarZip09() {
+    window.location = hybrid_orm_sample_tar_zip_link_09;
 }
 
 
@@ -353,20 +353,20 @@ function viewSQLCipherSample() {
     );
 }
 
-function dwnSQLCipherSampleApk() {
-    window.location = sqlcipher_sample_apk;
+function dwnSQLCipherSampleApk091() {
+    window.location = sqlcipher_sample_apk_091;
 }
 
-function dwnSQLCipherSampleJar() {
-    window.location = sqlcipher_sample_jar;
+function dwnSQLCipherSampleJar091() {
+    window.location = sqlcipher_sample_jar_091;
 }
 
-function dwnSQLCipherSampleZip() {
-    window.location = sqlcipher_sample_zip;
+function dwnSQLCipherSampleZip091() {
+    window.location = sqlcipher_sample_zip_091;
 }
 
-function dwnSQLCipherSampleTarZip() {
-    window.location = sqlcipher_sample_tar;
+function dwnSQLCipherSampleTarZip091() {
+    window.location = sqlcipher_sample_tar_091;
 }
 
 function navMembers() {
@@ -407,20 +407,20 @@ function viewIorm() {
     );
 }
 
-function dwnHybrid09Build() {
-	window.location = dwn_hybrid_09_beta_build;
+function dwnHybridBuild09() {
+	window.location = dwn_hybrid_beta_build_09;
 }
 
-function dwnNative09Jar() {
-    window.location = dwn_native_09_beta_jar;
+function dwnNativeJar09() {
+    window.location = dwn_native_beta_jar_09;
 }
 
-function dwnNative091Jar() {
-    window.location = dwn_native_091_beta_jar;
+function dwnNativeJar091() {
+    window.location = dwn_native_beta_jar_091;
 }
 
-function dwnLibrary09Jar() {
-    window.location = dwn_andiorm_library_09_beta_jar;
+function dwnLibraryJar09() {
+    window.location = dwn_andiorm_library_beta_jar_09;
 }
 
 function navSiminovGithub() {

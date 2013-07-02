@@ -1,13 +1,13 @@
 var native_wiki_link = "https://github.com/Siminov/android-orm/wiki";
-var native_javadocs_link = "javadocs/v0.9-beta-native/index.html";
-var native_getting_started_guide_link = "docs/Getting Started Guide-Native.pdf";
-var native_dev_guide_link = "docs/Developer Guide-Native.pdf";
+var native_javadocs_link_091 = "javadocs/v0.9.1-beta-native/index.html";
+var native_getting_started_guide_link_091 = "docs/Getting Started Guide Native-0.9.1-Beta.pdf";
+var native_dev_guide_link_091 = "docs/Developer Guide Native-0.9.1-Beta.pdf";
 
 var hybrid_wiki_link = "https://github.com/Siminov/android-hybrid/wiki";
-var hybrid_javadocs_link = "javadocs/v0.9-beta-hybrid/docs.java/index.html";
-var hybrid_javascriptdocs_link = "javadocs/v0.9-beta-hybrid/docs.javascript/index.html";
-var hybrid_getting_started_guide_link = "docs/Getting Started Guide-Hybrid.pdf";
-var hybrid_dev_guide_link = "docs/Developer Guide-Hybrid.pdf";
+var hybrid_javadocs_link_09 = "javadocs/v0.9-beta-hybrid/docs.java/index.html";
+var hybrid_javascriptdocs_link_09 = "javadocs/v0.9-beta-hybrid/docs.javascript/index.html";
+var hybrid_getting_started_guide_link_09 = "docs/Getting Started Guide Hybrid-0.9-Beta.pdf";
+var hybrid_dev_guide_link_09 = "docs/Developer Guide Hybrid-0.9-Beta.pdf";
 
 
 var application_descriptor_link = "https://github.com/Siminov/android-hybrid/wiki/Configuring-Application-Descriptor";
@@ -19,9 +19,9 @@ var current_native_jar_link = "https://github.com/Siminov/android-orm/blob/v0.9.
 var current_native_zip_link = "https://github.com/Siminov/android-orm/archive/v0.9.1-beta.zip";
 var current_native_tar_zip_link = "https://github.com/Siminov/android-orm/archive/v0.9.1-beta.tar.gz";
 
-var current_hybrid_build_link = "https://github.com/Siminov/android-hybrid/blob/v0.9-beta/build/siminov-hybrid-v0.9-beta.jar?raw=true";
-var current_hybrid_zip_link = "https://github.com/Siminov/android-hybrid/archive/v0.9-beta.zip";
-var current_hybrid_tar_zip_link = "https://github.com/Siminov/android-hybrid/archive/v0.9-beta.tar.gz";
+var hybrid_build_link_09 = "https://github.com/Siminov/android-hybrid/raw/v0.9-beta/build/siminov-hybrid-v0.9-beta.rar";
+var hybrid_zip_link_09 = "https://github.com/Siminov/android-hybrid/archive/v0.9-beta.zip";
+var hybrid_tar_zip_link_09 = "https://github.com/Siminov/android-hybrid/archive/v0.9-beta.tar.gz";
 
 var builds_link = "builds.html";
 
@@ -31,7 +31,7 @@ var sqlcipher_sample_link = "sqlcipher-sample.html";
 var library_sample_link = "library-sample.html";
 
 var view_native_orm_github_sample_link = "https://github.com/Siminov/android-templates/tree/master/SIMINOV-ORM-TEMPLATE";
-var view_hybrid_orm_github_sample_link = "https://github.com/Siminov/android-templates/tree/master/SIMINOV-HYBRID-TEMPLATE";
+var view_hybrid_orm_github_sample_link = "https://github.com/Siminov/android-templates/tree/master/SIMINOV-HYBRID-PHONEGAP-TEMPLATE";
 
 
 var home_link = "index.html";
@@ -61,21 +61,21 @@ var commit_transaction_api_link = "https://github.com/Siminov/android-hybrid/wik
 var end_transaction_api_link = "https://github.com/Siminov/android-hybrid/wiki/End-Transaction";
 
 var native_orm_sample_view_link =  "https://github.com/Siminov/android-templates/tree/master/SIMINOV-ORM-TEMPLATE";
-var native_orm_sample_apk_link = "https://github.com/Siminov/android-templates/blob/andiorm-template-v0.9-beta/build/SIMINOV-ORM-TEMPLATE.apk?raw=true";
-var native_orm_sample_zip_link = "https://github.com/Siminov/android-templates/archive/andiorm-template-v0.9-beta.zip";
-var native_orm_sample_tar_zip_link = "https://github.com/Siminov/android-templates/archive/andiorm-template-v0.9-beta.tar.gz";
+var native_orm_sample_apk_link_091 = "https://github.com/Siminov/android-templates/raw/android-hybrid-phonegap-template-v0.9-beta/build/SIMINOV-HYBRID-PHONEGAP-TEMPLATE-V0.9-BETA.apk";
+var native_orm_sample_zip_link_091 = "https://github.com/Siminov/android-templates/archive/android-hybrid-phonegap-template-v0.9-beta.zip";
+var native_orm_sample_tar_zip_link_091 = "https://github.com/Siminov/android-templates/archive/android-hybrid-phonegap-template-v0.9-beta.tar.gz";
 
 var hybrid_orm_sample_view_link =  "https://github.com/Siminov/android-templates/tree/master/SIMINOV-HYBRID-TEMPLATE";
-var hybrid_orm_sample_apk_link = "https://github.com/Siminov/android-templates/blob/andiorm-template-v0.9-beta/build/SIMINOV-HYBRID-TEMPLATE.apk?raw=true";
-var hybrid_orm_sample_zip_link = "https://github.com/Siminov/android-templates/archive/andiorm-hybrid-template-v0.9-beta.zip";
-var hybrid_orm_sample_tar_zip_link = "https://github.com/Siminov/android-templates/archive/andiorm-hybrid-template-v0.9-beta.tar.gz";
+var hybrid_orm_sample_apk_link_09 = "https://github.com/Siminov/android-templates/raw/android-hybrid-phonegap-template-v0.9-beta/build/SIMINOV-HYBRID-PHONEGAP-TEMPLATE-V0.9-BETA.apk";
+var hybrid_orm_sample_zip_link_09 = "https://github.com/Siminov/android-templates/archive/android-hybrid-phonegap-template-v0.9-beta.zip";
+var hybrid_orm_sample_tar_zip_link_09 = "https://github.com/Siminov/android-templates/archive/android-hybrid-phonegap-template-v0.9-beta.tar.gz";
 
 
 var sqlcipher_sample_view = "https://github.com/Siminov/android-templates/tree/master/SIMINOV-ORM-SQLCIPHER-TEMPLATE";
-var sqlcipher_sample_apk = "https://github.com/Siminov/android-templates/blob/andiorm-sqlcipher-template-v0.9-beta/build/SIMINOV-ORM-SQLCIPHER-TEMPLATE.apk?raw=true";
-var sqlcipher_sample_zip = "https://github.com/Siminov/android-templates/archive/andiorm-sqlcipher-template-v0.9-beta.zip";
-var sqlcipher_sample_tar = "https://github.com/Siminov/android-templates/archive/andiorm-sqlcipher-template-v0.9-beta.tar.gz";
-var sqlcipher_sample_jar = "https://github.com/Siminov/android-orm/blob/db-impl/SIMINOV-ORM-DB-SQLCIPHER-IMPL/build/siminov-orm-db-sqlcipher-impl.jar?raw=true";
+var sqlcipher_sample_apk_091 = "https://github.com/Siminov/android-templates/raw/android-orm-sqlcipher-template-v0.9.1-beta/build/SIMINOV-ORM-SQLCIPHER-TEMPLATE-V0.9.1-BETA.apk";
+var sqlcipher_sample_zip_091 = "https://github.com/Siminov/android-templates/archive/android-orm-sqlcipher-template-v0.9.1-beta.zip";
+var sqlcipher_sample_tar_091 = "https://github.com/Siminov/android-templates/archive/android-orm-sqlcipher-template-v0.9.1-beta.tar.gz";
+var sqlcipher_sample_jar_091 = "https://github.com/Siminov/android-orm/raw/db-impl/SIMINOV-ORM-DB-SQLCIPHER-IMPL/build/siminov-orm-db-sqlcipher-impl-v0.9.1-beta.jar";
 
 var library_sample_view = "https://github.com/Siminov/android-templates/tree/master/SIMINOV-ORM-LIBRARY-TEMPLATE";
 var library_sample_jar = "https://github.com/Siminov/android-templates/blob/andiorm-library-template-v0.9-beta/build/siminov-orm-library-template.jar?raw=true";
@@ -92,14 +92,17 @@ var google_plus_link = "https://plus.google.com/103382306025504309831";
 var iorm_link = "https://github.com/Siminov/ios-orm.git";
 var windiorm_link = "https://github.com/Siminov/windows-orm.git";
 
-var dwn_native_09_beta_jar = "https://github.com/Siminov/android-orm/blob/v0.9-beta/build/siminov-orm.jar?raw=true";
-var dwn_native_091_beta_jar = "https://github.com/Siminov/android-orm/blob/v0.9.1-beta/build/siminov-orm.jar?raw=true";
+var dwn_native_beta_jar_09 = "https://github.com/Siminov/android-orm/raw/v0.9-beta/build/siminov-orm-v0.9-beta.jar";
+var dwn_native_beta_jar_091 = "https://github.com/Siminov/android-orm/raw/v0.9.1-beta/build/siminov-orm-v0.9.1-beta.jar";
 var dwn_library_09_beta_jar = "https://github.com/Siminov/android-templates/blob/andiorm-library-template-v0.9-beta/build/siminov-orm-library-template.jar?raw=true";
 
-var dwn_hybrid_09_beta_build = "https://github.com/Siminov/android-hybrid/blob/v0.9-beta/build/siminov-hybrid.zip?raw=true";
+var dwn_hybrid_beta_build_09 = "https://github.com/Siminov/android-hybrid/raw/v0.9-beta/build/siminov-hybrid-v0.9-beta.rar";
 
 
 var siminov_github_link = "https://github.com/Siminov/android-orm";
 
 var iorm_page_link = "iorm.html";
 var windiorm_page_link = "windiorm.html";
+
+
+var dwn_andiorm_library_beta_jar_09 = "https://github.com/Siminov/android-templates/raw/andiorm-library-template-v0.9-beta/build/siminov-orm-library-template.jar";
