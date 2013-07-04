@@ -9,12 +9,26 @@ public class Siminov extends DroidGap {
 		initializeSiminov();
 
 		super.loadUrl("file:///android_asset/www/home.html");
-
+		
 	}
 
 
 	private void initializeSiminov() {
-		siminov.hybrid.Siminov.initialize(getApplicationContext(), this.appView);
+
+		IInitializer initializer = siminov.hybrid.Siminov.initialize();
+		
+		initializer.addParameter(getApplicationContext());
+		initializer.addParameter(super.appView);
+		initializer.addParameter((Activity) this);
+		
+		initializer.start();
+		
 	}
 
+	public void onDestroy() {
+		super.onDestroy();
+		
+		System.exit(RESULT_OK);
+	}
+	
 }
