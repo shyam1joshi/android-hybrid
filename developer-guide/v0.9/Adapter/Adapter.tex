@@ -1,0 +1,121 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\chapter {\Large{Siminov Adapter}}
+
+Hybrid Applications biggest challange is to communicate between different technologies. 
+
+To overcome communication gap, Siminov has provided a layer know as Siminov Adapter Layer which is included in Siminov Hybrid Framework. It helps to remove communication barriers by providing a unique communication channel which talks to different technologies. Using this you can write any language code which communicate to different languages.
+
+Siminov Adapter Layer depends on communication channel provided by native platform, it does not depend on 3rd party framework such as Phonegap Plugins to communicate between different technologies. Using this you can later use Siminov Hybrid Framework with other Open Source Project also like Appcelerator Titanium, etc.
+
+
+\section{Using Siminov Adapter}
+It provides easy configuration to use Siminov Adapter Layer. Siminov Hybrid Framework have provided Hybrid Descriptor where you can define your adapter configuration.
+
+Hybrid Descriptor is one which describes properties required to map Web to Native and vice-versa. It is optional descriptor.
+
+\lstinputlisting[language=XML]{Resources/hybrid_descriptor.txt}
+
+\textbf{Example}: SiminovAdapter.si.xml File Of Siminov Hybrid Framework.
+\lstinputlisting[language=XML]{Resources/hybrid_descriptor_adapter_example.txt}
+
+
+
+\textbf{Hybrid Descriptor Elements}: 
+
+\begin{enumerate}
+	
+	\item \small \textbf{Adapter TAG}: Adapter allows Web and Native to work together that is normally not possible because of incompatible Technologies. Adapter basically maps JavaScript to Native and vice-versa.
+	
+		\begin{enumerate}
+
+			\item \small \textbf{name*} : Name of Adapter. It is mandatory field.
+			\item \small \textbf{description}: Description about Adapter. It is optional field.
+			\item \small \textbf{type}: Type Of Adapter. It is mandatory field.
+
+				\begin{enumerate}
+
+					\item \small \textbf{WEB-TO-NATIVE}: It says this adapter maps JavaScript functions to Native functions.
+		
+					\item \small \textbf{NATIVE-TO-WEB}: It says this adapter maps Native functions to JavaScript functions.
+					
+				\end{enumerate}
+
+
+			\item \small \textbf{map\_to}: Name of Class (Web/Native) mapped to this adapter. It is not mandatory field.
+
+			\item \small \textbf{cache}: true/false: It says that adapter mapped to Class needs to be cached or not. It is optional field. Default is false.
+
+
+				\item \small \textbf{Handler}: Handler is one which handle request from WEB-TO-NATIVE or NATIVE-TO-WEB.
+
+				\begin{enumerate}
+
+					\item \small \textbf{name*}: Name of Handler. It is mandatory field.
+					\item \small \textbf{description}: Description about Handler. It is optional field.
+					\item\small \textbf{map\_to*}: Name of Handler function which handles request from WEB-TO-NATIVE or NATIVE-TO-WEB.
+
+				\end{enumerate}
+
+				
+				\begin{enumerate}
+
+					\item \small \textbf{Parameter}: Parameters are bacially arguments passed to handler.
+
+
+						\begin{enumerate}
+	
+							\item \small \textbf{name*:} Name of Parameter. It is mandatory field.
+							\item \small \textbf{description}: Description about Parameter. It is optional field.
+							\item \small \textbf{type*}: Type of Parameter. It is mandatory field.			
+		
+						\end{enumerate}	
+	
+				
+					\item \small \textbf{Return}: Return defines about data returned from handler.
+
+						\begin{enumerate}
+
+							\item \small \textbf{type*}: Type of Returned Data. It is mandatory field.
+							\item \small \textbf{description}: Description about Return Data. It is optional field.
+			
+						\end{enumerate}
+
+				\end{enumerate}
+
+
+			\begin{center}
+				\colorbox{grey}{
+					\parbox[t]{.8\linewidth}{
+						\fontsize{11pt}{11pt}\selectfont % The first argument for fontsize is the font size of the text and the second is the line spacing - you may need to play with these for your particular title
+						\vspace*{0.1cm} % Space between the start of the title and the top of the grey box
+		
+						\hfill \textbf{Note}: Adapter can be define in HybridDescriptor.si.xml file or can be defined in seprate xml file.\\
+
+						\hfill 	
+						\begin{enumerate}
+			
+							\item \small If you define Adapter in HybridDescriptor.si.xml file then define it in adapters TAG.
+							\item \small If you Adapter in seprate xml file then specify Adapter file path in HybridDescriptor.si.xml file.
+
+						\end{enumerate}
+
+					\vspace*{0.0cm} % Space between the end of the title and the bottom of the grey box
+				}
+			}
+
+			\end{center}
+		\end{enumerate}
+
+	\item \small \textbf{Libraries TAG}: Library Descriptor Paths Needed Under This Database Descriptor.
+
+		\begin{enumerate}
+
+			\item \small Provide full package name under which LibraryDescriptor.si.xml file is placed.
+
+		\end{enumerate}
+
+
+\end{enumerate}
+
+
