@@ -5,7 +5,11 @@ public class HomeActivity extends Activity {
 	}
 
 	private void initializeSiminov() {
-		siminov.orm.Siminov.initialize(getApplicationContext());
+
+	IInitializer initializer = siminov.orm.Siminov.initialize();
+		initializer.addParameter(getApplicationContext());
+		
+		initializer.start();
 	}
 
 }

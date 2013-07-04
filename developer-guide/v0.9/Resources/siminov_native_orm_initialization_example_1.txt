@@ -7,7 +7,11 @@ public class ApplicationSiminov extends Application {
 	}
 	
 	private void initializeSiminov() {
-		siminov.orm.Siminov.initialize(this);
+		
+		IInitializer initializer = siminov.orm.Siminov.initialize();
+		initializer.addParameter(this);
+		
+		initializer.start();
 	}
 	
 }
