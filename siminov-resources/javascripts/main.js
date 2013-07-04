@@ -3,7 +3,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-41827235-2', 'siminov.github.io');
+  ga('create', 'UA-42233565-1', 'siminov.github.io');
   ga('send', 'pageview');
 
 
