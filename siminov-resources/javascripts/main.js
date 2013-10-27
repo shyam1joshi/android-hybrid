@@ -29,6 +29,13 @@ function navNativeJavadocs091() {
     );
 }
 
+function navNativeJavadocs092() {
+    window.open(
+        native_javadocs_link_092,
+        '_blank' // <- This is what makes it open in a new window.
+    );
+}
+
 function navHybridJavadocs09() {
     window.open(
         hybrid_javadocs_link_09,
@@ -51,6 +58,13 @@ function dwnNativeGettingStartedGuide091() {
     );
 }
 
+function dwnNativeGettingStartedGuide092() {
+    window.open(
+        native_getting_started_guide_link_092,
+        '_blank' // <- This is what makes it open in a new window.
+    );
+}
+
 function dwnHybridGettingStartedGuide09() {
     window.open(
         hybrid_getting_started_guide_link_09,
@@ -61,6 +75,13 @@ function dwnHybridGettingStartedGuide09() {
 function dwnNativeDevGuide091() {
     window.open(
         native_dev_guide_link_091,
+        '_blank' // <- This is what makes it open in a new window.
+    );
+}
+
+function dwnNativeDevGuide092() {
+    window.open(
+        native_dev_guide_link_092,
         '_blank' // <- This is what makes it open in a new window.
     );
 }
@@ -149,12 +170,24 @@ function dwnNativeOrmSampleApk091() {
     window.location = native_orm_sample_apk_link_091;
 }
 
+function dwnNativeOrmSampleApk092() {
+    window.location = native_orm_sample_apk_link_092;
+}
+
 function dwnNativeOrmSampleZip091() {
     window.location = native_orm_sample_zip_link_091;
 }
 
+function dwnNativeOrmSampleZip092() {
+    window.location = native_orm_sample_zip_link_092;
+}
+
 function dwnNativeOrmSampleTarZip091() {
     window.location = native_orm_sample_tar_zip_link_091;
+}
+
+function dwnNativeOrmSampleTarZip092() {
+    window.location = native_orm_sample_tar_zip_link_092;
 }
 
 function dwnHybridOrmSampleApk09() {
@@ -418,6 +451,10 @@ function dwnNativeJar09() {
 
 function dwnNativeJar091() {
     window.location = dwn_native_beta_jar_091;
+}
+
+function dwnNativeJar092() {
+    window.location = dwn_native_beta_jar_092;
 }
 
 function dwnLibraryJar09() {

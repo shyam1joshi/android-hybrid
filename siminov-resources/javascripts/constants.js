@@ -1,7 +1,10 @@
 var native_wiki_link = "https://github.com/Siminov/android-orm/wiki";
 var native_javadocs_link_091 = "javadocs/v0.9.1-beta-native/index.html";
+var native_javadocs_link_092 = "javadocs/v0.9.2-beta-native/index.html";
 var native_getting_started_guide_link_091 = "docs/Getting Started Guide Native-0.9.1-Beta.pdf";
+var native_getting_started_guide_link_092 = "docs/Getting Started Guide Native-0.9.2-Beta.pdf";
 var native_dev_guide_link_091 = "docs/Developer Guide Native-0.9.1-Beta.pdf";
+var native_dev_guide_link_092 = "docs/Developer Guide Native-0.9.2-Beta.pdf";
 
 var hybrid_wiki_link = "https://github.com/Siminov/android-hybrid/wiki";
 var hybrid_javadocs_link_09 = "javadocs/v0.9-beta-hybrid/docs.java/index.html";
@@ -15,9 +18,9 @@ var database_descriptor_link = "https://github.com/Siminov/android-hybrid/wiki/C
 var library_descriptor_link = "https://github.com/Siminov/android-hybrid/wiki/Configuring-Library-Descriptor";
 var database_mapping_descriptor_link = "https://github.com/Siminov/android-hybrid/wiki/Configuring-Database-Mapping-Descriptor";
 
-var current_native_jar_link = "https://github.com/Siminov/android-orm/blob/v0.9.1-beta/build/siminov-orm-v0.9.1-beta.jar?raw=true";
-var current_native_zip_link = "https://github.com/Siminov/android-orm/archive/v0.9.1-beta.zip";
-var current_native_tar_zip_link = "https://github.com/Siminov/android-orm/archive/v0.9.1-beta.tar.gz";
+var current_native_jar_link = "https://github.com/Siminov/android-orm/blob/v0.9.2-beta/build/siminov-orm-v0.9.2-beta.jar?raw=true";
+var current_native_zip_link = "https://github.com/Siminov/android-orm/archive/v0.9.2-beta.zip";
+var current_native_tar_zip_link = "https://github.com/Siminov/android-orm/archive/v0.9.2-beta.tar.gz";
 
 var hybrid_build_link_09 = "https://github.com/Siminov/android-hybrid/raw/v0.9-beta/build/siminov-hybrid-v0.9-beta.rar";
 var hybrid_zip_link_09 = "https://github.com/Siminov/android-hybrid/archive/v0.9-beta.zip";
@@ -65,6 +68,10 @@ var native_orm_sample_apk_link_091 = "https://github.com/Siminov/android-templat
 var native_orm_sample_zip_link_091 = "https://github.com/Siminov/android-templates/archive/android-hybrid-phonegap-template-v0.9-beta.zip";
 var native_orm_sample_tar_zip_link_091 = "https://github.com/Siminov/android-templates/archive/android-hybrid-phonegap-template-v0.9-beta.tar.gz";
 
+var native_orm_sample_apk_link_092 = "https://github.com/Siminov/android-templates/raw/android-orm-template-v0.9.2-beta/build/SIMINOV-ORM-TEMPLATE-V0.9.2-BETA.apk";
+var native_orm_sample_zip_link_092 = "https://github.com/Siminov/android-templates/archive/android-orm-template-v0.9.2-beta.zip";
+var native_orm_sample_tar_zip_link_092 = "https://github.com/Siminov/android-templates/archive/android-orm-template-v0.9.2-beta.tar.gz";
+
 var hybrid_orm_sample_view_link =  "https://github.com/Siminov/android-templates/tree/master/SIMINOV-HYBRID-TEMPLATE";
 var hybrid_orm_sample_apk_link_09 = "https://github.com/Siminov/android-templates/raw/android-hybrid-phonegap-template-v0.9-beta/build/SIMINOV-HYBRID-PHONEGAP-TEMPLATE-V0.9-BETA.apk";
 var hybrid_orm_sample_zip_link_09 = "https://github.com/Siminov/android-templates/archive/android-hybrid-phonegap-template-v0.9-beta.zip";
@@ -94,6 +101,7 @@ var windiorm_link = "https://github.com/Siminov/windows-orm.git";
 
 var dwn_native_beta_jar_09 = "https://github.com/Siminov/android-orm/raw/v0.9-beta/build/siminov-orm-v0.9-beta.jar";
 var dwn_native_beta_jar_091 = "https://github.com/Siminov/android-orm/raw/v0.9.1-beta/build/siminov-orm-v0.9.1-beta.jar";
+var dwn_native_beta_jar_092 = "https://github.com/Siminov/android-orm/raw/v0.9.2-beta/build/siminov-orm-v0.9.2-beta.jar";
 var dwn_library_09_beta_jar = "https://github.com/Siminov/android-templates/blob/andiorm-library-template-v0.9-beta/build/siminov-orm-library-template.jar?raw=true";
 
 var dwn_hybrid_beta_build_09 = "https://github.com/Siminov/android-hybrid/raw/v0.9-beta/build/siminov-hybrid-v0.9-beta.rar";
