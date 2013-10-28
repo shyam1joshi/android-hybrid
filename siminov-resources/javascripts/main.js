@@ -137,12 +137,24 @@ function dwnHybridBuild09() {
     window.location = hybrid_build_link_09;
 }
 
+function dwnHybridBuild092() {
+    window.location = hybrid_build_link_092;
+}
+
 function dwnHybridZip09() {
     window.location = hybrid_zip_link_09;
 }
 
+function dwnHybridZip092() {
+    window.location = hybrid_zip_link_092;
+}
+
 function dwnHybridTarZip09() {
     window.location = hybrid_tar_zip_link_09;
+}
+
+function dwnHybridTarZip092() {
+    window.location = hybrid_tar_zip_link_092;
 }
 
 function navBuilds() {
@@ -202,6 +214,17 @@ function dwnHybridOrmSampleTarZip09() {
     window.location = hybrid_orm_sample_tar_zip_link_09;
 }
 
+function dwnHybridOrmSampleApk092() {
+    window.location = hybrid_orm_sample_apk_link_092;
+}
+
+function dwnHybridOrmSampleZip092() {
+    window.location = hybrid_orm_sample_zip_link_092;
+}
+
+function dwnHybridOrmSampleTarZip092() {
+    window.location = hybrid_orm_sample_tar_zip_link_092;
+}
 
 function navHome() {
     window.location = home_link;

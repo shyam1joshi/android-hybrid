@@ -26,6 +26,10 @@ var hybrid_build_link_09 = "https://github.com/Siminov/android-hybrid/raw/v0.9-b
 var hybrid_zip_link_09 = "https://github.com/Siminov/android-hybrid/archive/v0.9-beta.zip";
 var hybrid_tar_zip_link_09 = "https://github.com/Siminov/android-hybrid/archive/v0.9-beta.tar.gz";
 
+var hybrid_build_link_092 = "https://github.com/Siminov/android-hybrid/raw/v0.9.2-beta/build/siminov-hybrid-v0.9.2-beta.rar";
+var hybrid_zip_link_092 = "https://github.com/Siminov/android-hybrid/archive/v0.9.2-beta.zip";
+var hybrid_tar_zip_link_092 = "https://github.com/Siminov/android-hybrid/archive/v0.9.2-beta.tar.gz";
+
 var builds_link = "builds.html";
 
 var native_sample_link = "native-sample.html";
@@ -77,6 +81,9 @@ var hybrid_orm_sample_apk_link_09 = "https://github.com/Siminov/android-template
 var hybrid_orm_sample_zip_link_09 = "https://github.com/Siminov/android-templates/archive/android-hybrid-phonegap-template-v0.9-beta.zip";
 var hybrid_orm_sample_tar_zip_link_09 = "https://github.com/Siminov/android-templates/archive/android-hybrid-phonegap-template-v0.9-beta.tar.gz";
 
+var hybrid_orm_sample_apk_link_092 = "https://github.com/Siminov/android-templates/raw/android-hybrid-phonegap-template-v0.9.2-beta/build/SIMINOV-HYBRID-PHONEGAP-TEMPLATE-V0.9.2-BETA.apk";
+var hybrid_orm_sample_zip_link_092 = "https://github.com/Siminov/android-templates/archive/android-hybrid-phonegap-template-v0.9.2-beta.zip";
+var hybrid_orm_sample_tar_zip_link_092 = "https://github.com/Siminov/android-templates/archive/android-hybrid-phonegap-template-v0.9.2-beta.tar.gz";
 
 var sqlcipher_sample_view = "https://github.com/Siminov/android-templates/tree/master/SIMINOV-ORM-SQLCIPHER-TEMPLATE";
 var sqlcipher_sample_apk_091 = "https://github.com/Siminov/android-templates/raw/android-orm-sqlcipher-template-v0.9.1-beta/build/SIMINOV-ORM-SQLCIPHER-TEMPLATE-V0.9.1-BETA.apk";
